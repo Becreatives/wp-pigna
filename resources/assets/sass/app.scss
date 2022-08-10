@@ -1,0 +1,92 @@
+// Settings & Variables
+// ==============================================================
+// Basic application includes. Here we should import Foundation
+// settings, our own variables, mixins and functions.
+@import "settings";
+@import "variables";
+@import "typography";
+
+// Components
+// =================================================
+// Now you can include all of theme specific components bellow.
+@import "components/header";
+@import "components/footer";
+@import "components/monocromo";
+@import "components/bellacopia";
+@import "components/company";
+@import "components/sostenibility";
+@import "components/bts";
+@import "components/flowers";
+@import "components/pdi";
+@import "components/ferragni";
+@import "components/contacts";
+@import "components/popup";
+@import "components/documents";
+@import "components/barrow";
+@import "resources/assets/sass/components/overlay-menu";
+@import "pages/pageCompany";
+@import "pages/pageSustenability";
+body {
+  overflow-x: hidden;
+  //overflow-y: hidden;
+  font-family: $font-family;
+
+}
+.actionbox {
+  max-width: $boxSlide-width;
+}
+p {
+  margin-bottom: 0;
+}
+.orbit-next, .orbit-previous {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.5;
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  &:hover {
+    background-color: transparent;
+    opacity: 1;
+  }
+  &:focus {
+    background-color: transparent;
+  }
+}
+.orbit-slide {
+  visibility: hidden;
+  &.is-active {
+    visibility: visible;
+  }
+}
+.orbit-container {
+  @include breakpoint(medium down) {
+    height: 800px !important;
+    .cell {
+      padding: 0 2.5rem !important;
+      height: 100%;
+    }
+  }
+  figure {
+
+    @include breakpoint(medium down) {
+      p {
+        font-size: 16px !important;
+        max-width: 100% !important;
+        min-height: auto !important;
+      }
+      h1 {
+        height: auto !important;
+        margin-bottom: 10px !important;
+      }
+      a.btn {
+        font-size: 13pt !important;
+        max-width: 220px !important;
+      }
+
+    }
+
+  }
+}

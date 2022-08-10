@@ -1,0 +1,196 @@
+.bts {
+  position: relative;
+  .orbit-next,.orbit-previous {
+    svg {
+      path {
+        fill: #000 !important;
+      }
+    }
+  }
+  .orbit-bullets {
+
+    button {
+      &:last-child {
+        margin-right: 0;
+      }
+      margin-right: 15px;
+      background-color: transparent !important;
+      border: 2px solid #000;
+      &.is-active {
+        background-color: #000 !important;
+      }
+    }
+  }
+  figure.text {
+    color: $white;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    h1 {
+      font-family: "Noto Serif";
+      font-weight: bold;
+      font-size: 48pt;
+      line-height: 48pt;
+    }
+
+    p {
+      font-size: 14pt;
+      line-height: 16.8pt;
+      max-width: 600px;
+    }
+  }
+
+  .cell {
+    padding: 0 $marginLeft;
+  }
+
+
+  .orbit-container {
+    height: $sectionHeight;
+
+    .orbit-slide,
+    .orbit-figure {
+      height: 100%;
+    }
+
+    figure {
+      color: $white;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center right;
+      @include breakpoint(small only) {
+        &.align-middle {
+          padding: 2rem 0 0;
+          -ms-flex-align: start;
+          align-items: flex-start;
+        }
+      }
+      .btn {
+        margin: 25px auto;
+        display: block;
+        text-align: center;
+        max-width: 200px;
+        padding: 10px;
+        background-color: #BB366D;
+        text-transform: uppercase;
+        color: #FFF;
+        border-radius: 250px;
+        font-weight: 700;
+        font-size: 18pt;
+        transition: all 0.2s ease-in-out;;
+        &:hover {
+          opacity: 0.7;
+        }
+        &.--slide-2 {
+          background-color: #F9B96C;
+        }
+        &.--slide-3 {
+          background-color: #BD1C20;
+        }
+      }
+
+      h1 {
+        height: 80px;
+        text-align: center;
+        font-weight: bold;
+        color: #BB366D;
+        font-size: 40pt;
+        line-height: 50pt;
+        margin-bottom:25px;
+        max-width: 650px;
+        font-family: 'Almarai',sans-serif !important;
+        @include breakpoint(small only){
+          font-size: 30pt;
+          line-height: 30pt;
+        }
+        &.--yellow {
+          color: #F9B96C;
+        }
+        &.--dark {
+          color: #000;
+        }
+      }
+
+      p {
+        min-height: 100px;
+        text-align: center;
+        font-family: "Almarai",sans-serif;
+        color: #000;
+        font-size: 16pt;
+        line-height: 18pt;
+        max-width: 650px;
+        &.--light {
+          color: #fff;
+        }
+
+      }
+
+      &.slider-1 {
+        background-image: url("../images/bts-1.png");
+        @include breakpoint(small only) {
+          background-image: url("../images/B2S-1-mobile.png");
+        }
+      }
+      &.slider-2 {
+        background-image: url("../images/bts-2.png");
+        @include breakpoint(small only) {
+          background-image: url("../images/B2S-2-mobile.png");
+        }
+      }
+      &.slider-3 {
+        background-image: url("../images/bts-3.png");
+        @include breakpoint(small only) {
+          background-image: url("../images/B2S-3-mobile.png");
+        }
+      }
+      &.slider-4 {
+        background-image: url("../images/monocromo-4.png");
+      }
+    }
+
+    .cell {
+      padding: 0 $marginLeft;
+    }
+  }
+
+  .orbit-bullets {
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 1rem 0;
+    width: 100%;
+
+    button {
+      background-color: $grey;
+      cursor: pointer;
+      width: 10px;
+      height: 10px;
+
+      &.is-active {
+        background-color: $white;
+      }
+    }
+  }
+
+  .social {
+    position: absolute;
+    bottom: $marginTop;
+    left: $marginLeft;
+
+    h4 {
+      font-family: 'Barlow';
+      font-size: 16pt;
+      margin-bottom: 0;
+    }
+
+    a {
+      color: $white;
+      font-size: 14pt;
+      &:first-of-type {
+        margin-right: .2rem;
+      }
+    }
+  }
+}

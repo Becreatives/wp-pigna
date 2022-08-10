@@ -1,0 +1,266 @@
+.company {
+  position: relative;
+
+  .orbit-next, .orbit-previous {
+    svg {
+      path {
+        fill: #000;
+      }
+    }
+  }
+
+  figure.text {
+    color: $white;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    h1 {
+      font-family: "Noto Serif";
+      font-weight: bold;
+      font-size: 48pt;
+      line-height: 48pt;
+    }
+
+    p {
+      font-size: 14pt;
+      line-height: 16.8pt;
+      max-width: $boxSlide-width;
+    }
+  }
+
+  .orbit-bullets {
+    button {
+      &:last-child {
+        margin-right: 0;
+      }
+
+      margin-right: 15px;
+      background-color: transparent !important;
+      border: 2px solid #921e30;
+
+      &.is-active {
+        background-color: #921e30 !important;
+      }
+    }
+  }
+
+  .cell {
+    padding: 0 $marginLeft;
+  }
+
+  .orbit-container {
+    height: $sectionHeight;
+
+    @include breakpoint(small only) {
+      height: 1000px;
+    }
+
+    .orbit-slide,
+    .orbit-figure {
+      height: 100%;
+    }
+
+    .orbit-figure.align-middle {
+      @include breakpoint(medium down) {
+        padding: 2rem 0 0;
+        align-items: flex-start;
+      }
+    }
+
+    figure {
+      color: $black;
+      @include breakpoint(small only) {
+        &.align-middle {
+          padding: 2rem 0 0;
+          -ms-flex-align: start;
+          align-items: flex-start;
+        }
+      }
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: left center;
+
+      h1 {
+        font-family: "Almarai", sans-serif !important;
+        text-align: center;
+        font-weight: bold;
+        color: $darkRed;
+        font-size: 50pt;
+        line-height: 50pt;
+        margin-bottom: 25px;
+        max-width: $boxSlide-width;
+        min-height: 80px;
+        @include breakpoint(small only) {
+          font-size: 30pt;
+          line-height: 30pt;
+        }
+      }
+
+      p {
+        //min-height: 250px;
+        text-align: center;
+        font-family: "Almarai", sans-serif;
+        color: #000;
+        font-size: 16pt;
+        line-height: 18pt;
+        max-width: $boxSlide-width;
+        @include breakpoint(medium down) {
+          font-size: 14px;
+        }
+      }
+
+      a {
+        color: $black;
+        text-decoration: underline;
+      }
+
+      #fattobene {
+        display: block;
+        width: 300px;
+        margin-bottom: 1rem;
+      }
+
+      &.slider-0 {
+        background-image: url("../images/Pigna_Azienda_1.jpg");
+
+        @include breakpoint(medium down) {
+          background-image: url("../images/Pigna_Azienda_1_Mobile-.jpg");
+          background-position: center center;
+        }
+      }
+
+      &.slider-1 {
+        background-image: url("../images/azienda-1.png");
+
+        @include breakpoint(medium down) {
+          background-image: url("../images/aziendamb-1.png");
+          background-position: center center;
+        }
+      }
+
+      &.slider-2 {
+        background-image: url("../images/Pigna_Azienda_2.jpg");
+
+        @include breakpoint(medium down) {
+          background-image: url("../images/Pigna_Azienda_2_Mobile-.jpg");
+          background-position: center center;
+        }
+      }
+
+      &.slider-3 {
+        background-image: url("../images/azienda-3.png");
+
+        @include breakpoint(small only) {
+          background-image: url("../images/aziendamb-3.png");
+          background-position: center center;
+        }
+      }
+
+      &.slider-4 {
+        background-image: url("../images/Pigna_Azienda_3.jpg");
+
+        @include breakpoint(medium down) {
+          background-image: url("../images/Pigna_Azienda_3_Mobile-.jpg");
+          background-position: center center;
+        }
+      }
+
+      &.slider-5 {
+        background-image: url("../images/azienda-3.png");
+
+        @include breakpoint(small only) {
+          background-image: url("../images/aziendamb-3.png");
+          background-position: center center;
+        }
+      }
+
+      &.slider-6 {
+        h1 {
+          font-size: 36pt;
+          line-height: 38pt;
+        }
+
+        .btn {
+          margin-left: 0;
+        }
+
+        h1, p {
+          text-align: left !important;
+        }
+
+        background-image: url("../images/azienda-4.png");
+
+        @include breakpoint(small only) {
+          background-image: url("../images/Pigna_Fondo_marchio_Storico_mobile.jpg");
+          background-position: center center;
+        }
+      }
+    }
+
+    .cell {
+      padding: 0 $marginLeft;
+    }
+
+    .btn {
+      margin: 25px auto;
+      display: block;
+      text-align: center;
+      max-width: 280px;
+      padding: 10px;
+      background-color: $darkRed;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 250px;
+      font-weight: 700;
+      font-size: 18pt;
+      text-decoration: none;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
+  .orbit-bullets {
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 1rem 0;
+    width: 100%;
+
+    button {
+      background-color: #797a7d;
+      cursor: pointer;
+      width: 10px;
+      height: 10px;
+
+      &.is-active {
+        background-color: $white;
+      }
+    }
+  }
+
+  .social {
+    position: absolute;
+    bottom: $marginTop;
+    left: $marginLeft;
+
+    h4 {
+      font-family: "Barlow";
+      font-size: 16pt;
+      margin-bottom: 0;
+
+      @include breakpoint(small only) {
+        font-size: 11pt;
+      }
+    }
+
+    a {
+      color: $white;
+      font-size: 14pt;
+
+      &:first-of-type {
+        margin-right: 0.2rem;
+      }
+    }
+  }
+}

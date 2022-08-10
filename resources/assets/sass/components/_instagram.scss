@@ -1,0 +1,31 @@
+.instagram {
+  font-size: 109pt;
+
+  @include breakpoint(small only){
+    font-size: 50pt;
+  }
+
+  a {
+    color: $white;
+  }
+
+  .insta-link {
+    height: 100%;
+  }
+
+  .insta {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .insta-1 {
+    background-image: url("../images/insta-1.png");
+  }
+  .insta-2 {
+    background-image: url("../images/insta-2.png");
+  }
+  .insta-3 {
+    background-image: url("../images/insta-3.png");
+  }
+}

@@ -1,0 +1,187 @@
+
+#page-sustainability {
+  overflow: hidden;
+  padding-bottom: 4rem;
+}
+#page-sustainability .sustainability-section {
+  position: relative;
+}
+#page-sustainability .sustainability-section h2 {
+  font-size: 3em;
+}
+#page-sustainability .sustainability-section p {
+  font-size: 1.3em;
+}
+#page-sustainability .sustainability-section .grid-container {
+  position: relative;
+}
+#page-sustainability .sustainability-section .\--text-red {
+  color: #a21c3f;
+}
+#page-sustainability .sustainability-section .\--text-blue {
+  color: #0b7bbf;
+}
+#page-sustainability .sustainability-section .\--font-bold {
+  font-weight: bold;
+}
+#page-sustainability .sustainability-section .pt-180px {
+  padding-top: 180px;
+}
+@media print, screen and (max-width: 39.99875em) {
+  #page-sustainability .sustainability-section .pt-180px {
+    padding-top: 40px;
+  }
+}
+#page-sustainability .sustainability-section .py-180px {
+  padding: 180px 0;
+}
+@media print, screen and (max-width: 39.99875em) {
+  #page-sustainability .sustainability-section .py-180px {
+    padding: 30px 0 40px;
+  }
+}
+@media print, screen and (max-width: 39.99875em) {
+  #page-sustainability .sustainability-section .py-90px {
+    padding: 40px;
+  }
+}
+#page-sustainability .sustainability-section .w-full {
+  width: 100%;
+}
+#page-sustainability .sustainability-section #sostenibilita-icon-1 {
+  position: absolute;
+  width: 1100px;
+  top: -200px;
+  left: -200px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+@media print, screen and (max-width: 39.99875em) {
+  #page-sustainability .sustainability-section #sostenibilita-icon-1 {
+    left: 0;
+    margin-top: -10rem;
+    max-width: 22rem;
+    -o-object-fit: initial;
+    object-fit: initial;
+    position: relative;
+    top: 0;
+  }
+}
+#page-sustainability .sustainability-section #sostenibilita-icon-2 {
+  position: absolute;
+  width: 1100px;
+  top: -350px;
+  right: -600px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+@media print, screen and (max-width: 39.99875em) {
+  #page-sustainability .sustainability-section #sostenibilita-icon-2 {
+    right: -20%;
+    top: 100%;
+    width: 210px;
+  }
+}
+#page-sustainability .sustainability-section #sostenibilita-icon-3 {
+  position: absolute;
+  width: 1000px;
+  top: 0;
+  left: -200px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  z-index: -1;
+}
+@media print, screen and (max-width: 39.99875em) {
+  #page-sustainability
+  .sustainability-section
+  #sostenibilita-icon-3
+  + .align-right {
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+@media print, screen and (max-width: 39.99875em) {
+  #page-sustainability
+  .sustainability-section
+  #sostenibilita-icon-3
+  .sustainability-report-wrapper {
+    text-align: center !important;
+  }
+  #page-sustainability
+  .sustainability-section
+  #sostenibilita-icon-3
+  .sustainability-report-wrapper
+  img {
+    max-width: 18rem;
+  }
+}
+@media print, screen and (max-width: 39.99875em) {
+  #page-sustainability .sustainability-section #sostenibilita-icon-3 {
+    left: -92px;
+    top: 136px;
+    width: 238px;
+  }
+}
+#page-sustainability .sustainability-section #sostenibilita-report-cover {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+#page-sustainability .sustainability-section .grid-x {
+  z-index: 3;
+}
+#page-sustainability .sustainability-section .btn-report {
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding: 10px 35px;
+  cursor: pointer;
+  background-color: #1b9780;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 250px;
+  font-weight: 700;
+  font-size: 14pt;
+  margin-top: 30px;
+}
+@media print, screen and (max-width: 39.99875em) {
+  #page-sustainability .sustainability-section .btn-report {
+    padding: 10px 20px;
+  }
+}
+#page-sustainability .mt-90px {
+  margin-top: 90px;
+}
+@media print, screen and (max-width: 39.99875em) {
+  #page-sustainability .mt-90px {
+    margin-top: 0;
+  }
+}
+#page-sustainability .video-wrapper {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+#page-sustainability .video-wrapper .vjs-big-play-button {
+  opacity: 0;
+}
+#page-sustainability .video-wrapper .video-play-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#page-sustainability .video-wrapper .video-play-wrapper .video-play {
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding: 10px 35px;
+  cursor: pointer;
+  background-color: #a21c3f;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 250px;
+  font-weight: 700;
+  font-size: 14pt;
+}

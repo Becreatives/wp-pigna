@@ -1,0 +1,114 @@
+.contacts {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #5a5a5a;
+
+  @include breakpoint(medium only) {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+  }
+
+  @include breakpoint(small only) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .logo {
+    margin-bottom: 1rem;
+  }
+  div.wpforms-container-full .wpforms-form input[type="checkbox"],
+  div.wpforms-container-full .wpforms-form input[type="radio"] {
+    background-color: transparent !important;
+    border: 1px solid #b1b1af !important;
+  }
+  .wpforms-field-checkbox {
+    li {
+      label {
+        font-size: 14px !important;
+        color: #b1b1af;
+      }
+    }
+  }
+  .map {
+    @include breakpoint(small only) {
+      order: 2;
+      margin: 0;
+      width: 100%;
+    }
+    position: relative;
+    .pin {
+      position: absolute;
+      top: 180px;
+      left: 308px;
+      z-index: 1;
+      width: 120px;
+    }
+    .mappa {
+      width: 100%;
+    }
+    @include breakpoint(medium down) {
+      iframe {
+        width: 100%;
+      }
+    }
+  }
+  form {
+    font-family: "Almarai", sans-serif !important;
+    margin: 20px 0;
+  }
+
+  .form {
+    @include breakpoint(small only) {
+      order: 1;
+      padding: $marginLeft;
+    }
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+  .wpforms-field-large {
+    margin-bottom: 15px !important;
+    background-color: transparent !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+    border: 1px solid #b1b1af !important;
+    font-size: 14px !important;
+    padding: 10px 15px !important;
+  }
+
+  div.wpforms-container-full .wpforms-form .wpforms-field-description {
+    font-family: "Barlow";
+    font-size: 8pt;
+    margin-top: 1rem;
+  }
+
+  div.wpforms-container-full .wpforms-form textarea.wpforms-field-large {
+    height: 106px;
+  }
+
+  div.wpforms-container-full .wpforms-form button[type="submit"] {
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    line-height: 30px;
+    width: 200px;
+    float: right;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #b1b1af;
+    margin-top: 40px;
+    @include breakpoint(small only) {
+      float:none;
+      margin: 25px auto 0 auto;
+      display:flex; align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    &:hover {
+      background-color: $black;
+      color: $white;
+      border: 2px solid $black;
+    }
+  }
+}

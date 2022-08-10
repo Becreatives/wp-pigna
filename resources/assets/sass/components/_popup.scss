@@ -1,0 +1,27 @@
+.popup {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.9);
+
+  .plyr {
+    display: none;
+    width: 80vh;
+    height: 80vh;
+    margin: auto;
+  }
+
+  #closePopup {
+    position: absolute;
+    top: $marginTop;
+    color: white;
+    left: $marginLeft;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+}
