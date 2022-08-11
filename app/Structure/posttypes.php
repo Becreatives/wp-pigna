@@ -22,7 +22,7 @@ use function Pigna\Theme\App\config;
  */
 function register_book_post_type()
 {
-    register_post_type('book', [
+    /*register_post_type('book', [
         'description' => __('Collection of books.', config('textdomain')),
         'public' => true,
         'supports' => ['title', 'editor', 'excerpt', 'thumbnail'],
@@ -43,5 +43,7 @@ function register_book_post_type()
             'not_found_in_trash' => __('No books found in Trash.', config('textdomain')),
         ],
     ]);
+    */
+
 }
 //add_action('init', 'Pigna\Theme\App\Structure\register_book_post_type');

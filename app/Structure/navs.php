@@ -21,8 +21,12 @@ use function Pigna\Theme\App\config;
  */
 function register_navigation_areas()
 {
+
     register_nav_menus([
+        'primary_top' => __('Primary TOP', config('textdomain')),
         'primary' => __('Primary', config('textdomain')),
+        'mobile' => __('Mobile', config('textdomain')),
     ]);
+
 }
 add_action('after_setup_theme', 'Pigna\Theme\App\Structure\register_navigation_areas');

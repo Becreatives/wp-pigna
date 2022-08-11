@@ -1,13 +1,12 @@
-<header class="header">
-    <h2><?= $title ?></h2>
-    <p><?= $lead ?></p>
-
-    <?php
-        /**
-         * Functions hooked into `theme/header/end` action.
-         *
-         * @hooked Pigna\Theme\App\Structure\render_documentation_button - 10
-         */
-        do_action('theme/header/end')
-    ?>
-</header>
+<?php
+$image = wp_get_attachment_url(get_post_thumbnail_id(get_the_ID()), 'full');
+if ($image) : ?>
+    <header class="header-page">
+        <img src="<?= $image; ?>"/>
+        <div class="grid-container">
+            <div class="content">
+                <?= htmlspecialchars_decode(get_the_content()); ?>
+            </div>
+        </div>
+    </header>
+<?php endif; ?>

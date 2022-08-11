@@ -1,0 +1,91 @@
+.product-slider {
+  .orbit-next,.orbit-previous {
+    svg {
+      path {
+        fill: #000 !important;
+      }
+    }
+  }
+  .orbit-bullets {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    button {
+      cursor: pointer;
+      width: 10px;
+      height: 10px;
+      &:last-child {
+        margin-right: 0;
+      }
+      margin-right: 5px;
+      background-color: transparent !important;
+      border: 2px solid #000;
+      &.is-active {
+        background-color: #000 !important;
+      }
+    }
+  }
+}
+.productList {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .orbit-container {
+    @include breakpoint(small only) {
+      height: 350px !important;
+    }
+  }
+  .--card {
+    margin: 15px auto;
+    figure {
+      padding: 20px 30px;
+      height: 450px;
+      width: 100%;
+      @include breakpoint(small only) {
+        height: 100%;
+      }
+      img {
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+        margin: auto;
+        display: block;
+      }
+    }
+    .content {
+      text-align: center;
+      margin: 25px 0 0 0;
+      padding: 0 50px;
+      .abstract {
+
+        min-height: 150px;
+        @include breakpoint(small only) {
+          margin: 20px 0;
+          min-height: auto;
+        }
+      }
+      h5 {
+        font-weight: 500;
+      }
+      .btn {
+        display: block;
+        margin: 10px auto 0 auto;
+        max-width: 150px;
+        border: 1px solid #000;
+        color: #000;
+        font-size:16px;
+        padding: 10px 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 5px;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+          background: #000;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+

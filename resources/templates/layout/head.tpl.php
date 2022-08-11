@@ -33,7 +33,6 @@ $news_link = defined('ICL_LANGUAGE_CODE') && ICL_LANGUAGE_CODE == 'en' ? apply_f
 
 <body <?php body_class(); ?>>
 <main id="app" class="app">
-    <? do_action('theme/index/navigation'); ?>
     <div class="nav-header">
         <div class='nav-top'>
             <div class='grid-container'>
@@ -48,64 +47,51 @@ $news_link = defined('ICL_LANGUAGE_CODE') && ICL_LANGUAGE_CODE == 'en' ? apply_f
                 </div>
             -->
                     <div class="cell large-6 medium-7  small-8 align-middle" id="menu">
-                        <ul class="top-menu">
-                            <li class="item-menu"><a href="<?php echo $company_link; ?>"
-                                   data-smooth-scroll><?php _e('Azienda', $textdomain); ?></a>
-                            </li>
-                            <li class="item-menu">
-                                <span style="padding: .3rem 0.4rem; color: #fff; text-align: center"> | </span>
-                            </li>
-
-                            <li class="item-menu"><a href="<?php echo $sustainability_link; ?>"
-                                   data-smooth-scroll><?php _e('Sostenibilità', $textdomain); ?></a></li>
-
-                            <li class="item-menu">
-                                <span style="padding: .3rem 0.4rem; color: #fff; text-align: center"> | </span>
-                            </li>
-
-                            <li class="item-menu"><a href="<?php echo get_site_url(); ?>#contacts"
-                                   data-smooth-scroll><?php _e('Contatti', $textdomain); ?></a></li>
-                            <li class="lang-switcher">
-
-                                <?php
-                                $langs = icl_get_languages('skip_missing=0&orderby=id&order=asc');
-                                $first = true;
-                                echo '<span style="padding: .3rem 0.4rem"> | </span>';
-                                foreach ($langs as $lang) { ?>
-                                    <a href="<?= $lang['url'] ?>">
-                                        <?php
-                                        if ($lang['code'] === 'it') {
-                                            echo 'ITA';
-                                        } else {
-                                            echo 'ENG';
-                                        }
-                                        ?></a>
+                        <div style="display:flex; align-items:center; margin-left: auto">
+                            <?php wp_nav_menu(array('theme_location' => 'primary_top', 'container' => 'ul',
+                                'menu_class'=> 'top-menu top',  'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>')); ?>
+                            <ul class="top-menu">
+                                <li class="lang-switcher">
                                     <?php
-                                    if ($first) {
-                                        echo '<span style="padding: .3rem 0.4rem"> | </span>';
-                                        $first = false;
-                                    }
+                                    $langs = icl_get_languages('skip_missing=0&orderby=id&order=asc');
+                                    $first = true;
+                                    echo '<span style="padding: .3rem 0.4rem"> | </span>';
+                                    foreach ($langs as $lang) { ?>
+                                        <a href="<?= $lang['url'] ?>">
+                                            <?php
+                                            if ($lang['code'] === 'it') {
+                                                echo 'ITA';
+                                            } else {
+                                                echo 'ENG';
+                                            }
+                                            ?></a>
+                                        <?php
+                                        if ($first) {
+                                            echo '<span style="padding: .3rem 0.4rem"> | </span>';
+                                            $first = false;
+                                        }
+                                        ?>
+                                    <?php }
+                                    echo '<span style="padding: .3rem 0.4rem"> | </span>';
                                     ?>
-                                <?php }
-                                echo '<span style="padding: .3rem 0.4rem"> | </span>';
-                                ?>
-                            </li>
-                            <li class="social">
-                                <a target="_blank" href="https://www.instagram.com/pigna/"><i
-                                            class="fab fa-instagram"></i></a>
-                            </li>
-                            <li class="social">
-                                <a target="_blank" href="https://facebook.com/PignaOfficial/"><i
-                                            class="fab fa-facebook"></i></a>
-                            </li>
-                            <li class="ov-menu">
-                                <div class="btn-menu">
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                </div>
-                            </li>
-                        </ul>
+                                </li>
+                                <li class="social">
+                                    <a target="_blank" href="https://www.instagram.com/pigna/"><i
+                                                class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="social">
+                                    <a target="_blank" href="https://facebook.com/PignaOfficial/"><i
+                                                class="fab fa-facebook"></i></a>
+                                </li>
+                                <li class="ov-menu">
+                                    <div class="btn-menu">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
 
                     </div>
                 </div>
@@ -115,52 +101,8 @@ $news_link = defined('ICL_LANGUAGE_CODE') && ICL_LANGUAGE_CODE == 'en' ? apply_f
         <div class="bottom-bar">
             <div class='wrapper'>
                 <div class='grid-container'>
-                    <ul class="">
-                        <li><a href="<?php echo get_site_url(); ?>#ferragni"
-                               data-smooth-scroll><?php _e('Chiara Ferragni', $textdomain); ?></a></li>
-                        <li><a href="<?php echo get_site_url(); ?>#barrow"
-                               data-smooth-scroll><?php _e('Barrow', $textdomain); ?></a></li>
-                        <li><a href="<?php echo get_site_url(); ?>#monocromo"
-                               data-smooth-scroll><?php _e('Monocromo', $textdomain); ?></a></li>
-                        <li><a href="<?php echo get_site_url(); ?>#bts"
-                               data-smooth-scroll><?php _e('Back to School', $textdomain); ?></a></li>
+                    <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
 
-                        <li><a href="<?php echo get_site_url(); ?>#flowers"
-                               data-smooth-scroll><?php _e('Flowers', $textdomain); ?></a></li>
-                        <li><a href="<?php echo get_site_url(); ?>#pdi" data-smooth-scroll>P<span
-                                        style="margin-right: 2px; margin-left:-1px;"><i>di</i></span>Pigna</a></li>
-                        <!--<li><a href="<?php echo $news_link; ?>" data-smooth-scroll><?php _e('Rassegna stampa', $textdomain); ?></a></li>-->
-
-                        <!--
-                    <li class="social">
-                        <a target="_blank" href="https://facebook.com/PignaOfficial/"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li class="social">
-                        <a target="_blank" href="https://www.instagram.com/pigna/"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="lang-switcher">
-                        <?php
-                        $langs = icl_get_languages('skip_missing=0&orderby=id&order=asc');
-                        $first = true;
-                        foreach ($langs as $lang) { ?>
-                            <a href="<?= $lang['url'] ?>">
-                                <?php
-                            if ($lang['code'] === 'it') {
-                                echo 'ITA';
-                            } else {
-                                echo 'ENG';
-                            }
-                            ?></a>
-                            <?php
-                            if ($first) {
-                                echo '<span style="padding: .3rem 0"> | </span>';
-                                $first = false;
-                            }
-                            ?>
-                        <?php } ?>
-                    </li>
-                        -->
-                    </ul>
                 </div>
             </div>
         </div>
