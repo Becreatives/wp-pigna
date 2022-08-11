@@ -108,27 +108,7 @@ $news_link = defined('ICL_LANGUAGE_CODE') && ICL_LANGUAGE_CODE == 'en' ? apply_f
         </div>
     </div>
     <div class="overlay-menu">
-        <ul class="">
-            <li><a href="<?php echo $company_link; ?>" data-smooth-scroll><?php _e('Azienda', $textdomain); ?></a></li>
-            <li><a href="<?php echo $sustainability_link; ?>"
-                   data-smooth-scroll><?php _e('Sostenibilità', $textdomain); ?></a></li>
-            <li><a href="<?php echo get_site_url(); ?>#ferragni"
-                   data-smooth-scroll><?php _e('Chiara Ferragni', $textdomain); ?></a></li>
-            <li><a href="<?php echo get_site_url(); ?>#barrow"
-                   data-smooth-scroll><?php _e('Barrow', $textdomain); ?></a></li>
-            <li><a href="<?php echo get_site_url(); ?>#monocromo"
-                   data-smooth-scroll><?php _e('Monocromo', $textdomain); ?></a></li>
-            <li><a href="<?php echo get_site_url(); ?>#bts"
-                   data-smooth-scroll><?php _e('Back to School', $textdomain); ?></a></li>
+        <?php wp_nav_menu(array('theme_location' => 'mobile')); ?>
 
-            <li><a href="<?php echo get_site_url(); ?>#flowers"
-                   data-smooth-scroll><?php _e('Flowers', $textdomain); ?></a></li>
-            <li><a href="<?php echo get_site_url(); ?>#pdi" data-smooth-scroll>P<span
-                            style="margin-right: 3px; margin-left:-2px;"><i>di</i></span>Pigna</a></li>
-            <!--<li><a href="<?php echo $news_link; ?>" data-smooth-scroll><?php _e('Rassegna stampa', $textdomain); ?></a>-->
-            </li>
-            <li><a href="<?php echo get_site_url(); ?>#contacts"
-                   data-smooth-scroll><?php _e('Contatti', $textdomain); ?></a></li>
-        </ul>
         <div id="close-menu"><i class="fa fa-times"></i></div>
     </div>
