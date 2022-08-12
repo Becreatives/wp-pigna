@@ -1,6 +1,8 @@
 .product-slider {
   .orbit-next,.orbit-previous {
     svg {
+      width: 30px !important;
+      height:30px !important;
       path {
         fill: #000 !important;
       }
@@ -14,25 +16,29 @@
     margin: auto;
     button {
       cursor: pointer;
-      width: 10px;
-      height: 10px;
+      width: 8px;
+      height: 8px;
       &:last-child {
         margin-right: 0;
       }
       margin-right: 5px;
       background-color: transparent !important;
-      border: 2px solid #000;
+      border: 2px solid $dark-gray;
       &.is-active {
-        background-color: #000 !important;
+        background-color: $dark-gray !important;
       }
     }
   }
+
 }
 .productList {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  .grid-x {
+
+  }
+  margin-top: 25px;
+  margin-bottom: 25px;
   .orbit-container {
-    @include breakpoint(small only) {
+    @include breakpoint(medium down) {
       height: 350px !important;
     }
   }
@@ -42,7 +48,7 @@
       padding: 20px 30px;
       height: 450px;
       width: 100%;
-      @include breakpoint(small only) {
+      @include breakpoint(medium down) {
         height: 100%;
       }
       img {
@@ -51,31 +57,50 @@
         object-position: center;
         margin: auto;
         display: block;
+
       }
     }
     .content {
-      text-align: center;
       margin: 25px 0 0 0;
       padding: 0 50px;
+      ul {
+        margin-left: 0;
+        padding-left: 0;
+        list-style-type: none;
+        li {
+          margin: 10px 0;
+
+        }
+      }
       .abstract {
 
-        min-height: 150px;
-        @include breakpoint(small only) {
+          font-size: 11pt;
+
+        min-height: 350px;
+        @include breakpoint(medium down) {
           margin: 20px 0;
           min-height: auto;
         }
       }
-      h5 {
+      h4 {
         font-weight: 500;
+        min-height: 110px;
+        @include breakpoint(medium down) {
+          min-height: 0;
+        }
       }
       .btn {
         display: block;
         margin: 10px auto 0 auto;
-        max-width: 150px;
+        max-width: 200px;
+        @include breakpoint(medium down) {
+          max-width: 100%;
+        }
         border: 1px solid #000;
         color: #000;
         font-size:16px;
         padding: 10px 25px;
+        text-align: center;
         font-weight: 700;
         text-transform: uppercase;
         border-radius: 5px;

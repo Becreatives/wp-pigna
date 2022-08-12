@@ -38,7 +38,8 @@
                                 <div class='actionbox'>
 
 
-                                <a href="https://www.amazon.it/stores/page/CF84E655-219C-419B-BA7E-C401D6336066?ingress=2&visitId=4c6a7cc1-99dc-47f2-90fd-873e0958507b&ref_=ast_bln" target='_blank' class='btn --slide-2'><?php _e('SHOP NOW', $textdomain); ?></a>
+                                <a href="https://www.amazon.it/stores/page/CF84E655-219C-419B-BA7E-C401D6336066?ingress=2&visitId=4c6a7cc1-99dc-47f2-90fd-873e0958507b&ref_=ast_bln" target='_blank' class='btn --slide-2'>
+                                    <?php _e('SHOP NOW', $textdomain); ?></a>
 
                                 </div>
                             </div>

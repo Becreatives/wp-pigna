@@ -1,13 +1,13 @@
 <?php
 $productList = get_field('productList');
 ?>
-<div class="grid-container productList">
+<div class="grid-container productList full">
     <div class="grid-x">
         <?php
         foreach($productList as $key => $product) :
             $gallery = $product['gallery'];
             ?>
-            <div class="cell large-6 small-12  align-middle">
+            <div class="cell large-3 medium-6 small-12  align-middle">
                 <div class="--card">
                     <div class="slider-product">
                         <div id="product-slider-<?=$key;?>" class="orbit product-slider product-slider-<?=$key;?>" role="region"
@@ -35,12 +35,12 @@ $productList = get_field('productList');
                         </div>
                     </div>
                     <div class="content">
-                        <h5><?= $product['title']; ?></h5>
+                        <h4><?= $product['title']; ?></h4>
                         <div class="abstract">
                             <?= htmlspecialchars_decode($product['content']);?>
                         </div>
                         <a href="<?= $product['url'];?>" target="_blank" class="btn">
-                            <?= _e('Acquista',$textdomain);?>
+                            <?= _e('Acquista ora',$textdomain);?>
                         </a>
                     </div>
                 </div>

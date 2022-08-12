@@ -2,9 +2,8 @@
 
 <?php
 /**
- * Functions hooked into `theme/homepage/content` action.
  *
- * @hooked Pigna\Theme\Homepage\render_home - 10
+ * @hooked Pigna\Theme\Product\render_product - 10
  */
 do_action('theme/product/content');
 ?>

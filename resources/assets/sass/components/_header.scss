@@ -138,7 +138,7 @@
     .ov-menu {
       display: none;
       @include breakpoint(medium down) {
-        display: block;
+        display: block !important;
       }
     }
 
@@ -319,18 +319,144 @@
   }
 }
 header.header-page {
-  height: 550px;
+  height: calc(100vh - 184px);
+  @include breakpoint(medium down) {
+    height: calc(100vh - 65px);
+  }
+  min-height: 500px;
   position: relative;
+  #page-slider {
+
+    .orbit-slide {
+      height: 100%;
+      .align-middle {
+        @include breakpoint(medium down) {
+          align-items: flex-start !important;
+        }
+      }
+    }
+    figure {
+      width: 100%;
+      height:100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center right;
+      font-family: "Almarai", sans-serif;
+    }
+    .orbit-container {
+      height: calc(100vh - 184px) !important;
+      min-height: 500px;
+      @include breakpoint(medium down) {
+        height: calc(100vh - 65px) !important;
+      }
+      .grid-container {
+        position: relative;
+        z-index:10;
+
+      }
+      .btn {
+        margin: 15px 0 0 0;
+        display: block;
+        text-align: center;
+        max-width: 200px;
+        padding: 10px;
+
+        text-transform: uppercase;
+        color: #FFF;
+        border-radius: 250px;
+        font-weight: 700;
+        font-size: 12pt;
+        transition: all 0.2s ease-in-out;;
+        &:hover {
+          opacity: 0.7;
+        }
+        @include breakpoint(medium down) {
+          margin: 15px auto;
+          font-size: 10pt !important;
+
+        }
+
+      }
+      .bg-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        z-index: 0;
+      }
+      .title-logo {
+        max-width: 50%;
+        @include breakpoint(medium down) {
+          display: block;
+          margin: auto;
+          max-width: 70%;
+        }
+      }
+      .__content {
+        margin: 30px 0;
+        @include breakpoint(medium down) {
+          text-align: center;
+        }
+
+      }
+      .__content p {
+        font-family: "Almarai", sans-serif;
+        font-size: 16pt;
+        line-height: 18pt;
+        @include breakpoint(medium down) {
+          font-size: 14pt;
+          line-height: 16pt;
+        }
+      }
+    }
+    .orbit-next,.orbit-previous {
+
+      z-index:10;
+      svg {
+        path {
+          fill: #000 !important;
+        }
+      }
+    }
+    .orbit-bullets {
+      position: absolute;
+      bottom: 0;
+      margin: 0 0 1rem 0;
+      width: 100%;
+      z-index:10;
+      button {
+        &:last-child {
+          margin-right: 0;
+        }
+        margin-right: 15px;
+        background-color: transparent !important;
+        border: 2px solid #000;
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+        &.is-active {
+          background-color: #000 !important;
+        }
+      }
+    }
+  }
+
   img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    z-index: 0;
+
+    &.desktop {
+      @include breakpoint(small only) {
+        display: none;
+      }
+    }
+    &.mobile {
+      @include breakpoint(medium up) {
+        display: none;
+      }
+    }
   }
   .grid-container {
     display: flex;
@@ -341,5 +467,26 @@ header.header-page {
     position: relative;
     z-index: 10;
     text-align: left;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+    @include breakpoint(medium down) {
+      font-size: 30px;
+    }
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 30px;
+    @include breakpoint(medium down) {
+      font-size: 26px;
+    }
+  }
+  h3 {
+    font-weight: bold;
+    font-size: 22px;
+    @include breakpoint(medium down) {
+      font-size: 18px;
+    }
   }
 }

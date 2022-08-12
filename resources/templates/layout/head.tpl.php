@@ -41,11 +41,6 @@ $news_link = defined('ICL_LANGUAGE_CODE') && ICL_LANGUAGE_CODE == 'en' ? apply_f
                         <a href="<?= home_url(); ?>"><img class='logo'
                                                           src="<?= get_stylesheet_directory_uri() ?>/public/images/logo_pigna.svg"></a>
                     </div>
-                    <!--
-                <div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
-                    <button class="menu-icon" type="button" data-toggle="menu"></button>
-                </div>
-            -->
                     <div class="cell large-6 medium-7  small-8 align-middle" id="menu">
                         <div style="display:flex; align-items:center; margin-left: auto">
                             <?php wp_nav_menu(array('theme_location' => 'primary_top', 'container' => 'ul',
@@ -95,15 +90,11 @@ $news_link = defined('ICL_LANGUAGE_CODE') && ICL_LANGUAGE_CODE == 'en' ? apply_f
 
                     </div>
                 </div>
-
             </div>
         </div>
         <div class="bottom-bar">
             <div class='wrapper'>
-                <div class='grid-container'>
-                    <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
-
-                </div>
+                <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
             </div>
         </div>
     </div>
