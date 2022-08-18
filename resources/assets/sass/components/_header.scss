@@ -346,15 +346,17 @@ header.header-page {
     .orbit-container {
       height: calc(100vh - 184px) !important;
       min-height: 500px;
-      width: 100%;
       @include breakpoint(medium down) {
         height: calc(100vh - 65px) !important;
-        align-items: flex-start;
+
       }
       .grid-container {
         position: relative;
         z-index:10;
-
+        width: 100%;
+        @include breakpoint(medium down) {
+          align-items: flex-start;
+        }
       }
       .btn {
         margin: 15px 0 0 0;
