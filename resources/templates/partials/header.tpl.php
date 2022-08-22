@@ -17,15 +17,15 @@ $slides = get_field('slides');
                     $content = $slide['content'];
                     $contentColor = $slide['contentColor'];
                     $buttons = $slide['buttons'];
+                    $gallery = $slide['gallery'];
                     ?>
                     <li class="orbit-slide">
-                        <figure class="orbit-figure grid-x align-middle">
+                        <figure class="orbit-figure">
                             <img src="<?= $image['url']; ?>" class='desktop bg-image'>
                             <img src="<?= $imageMB['url']; ?>" class='mobile bg-image'>
                             <div class="grid-container">
-                                <div class="grid-x grid-x align-middle">
-                                    <div class='cell large-1 medium-1'></div>
-                                    <div class="cell small-12 medium-12 large-5">
+                                <div class="grid-x align-middle" style="width: 100%">
+                                    <div class="cell small-12 medium-6 large-5">
                                         <div class="__wrapper">
                                             <?php if (!$imageTitle) : ?><h1
                                                 style="color: #<?= $color ? $color : '000000'; ?>"><?= htmlspecialchars_decode($title) ?></h1><?php endif; ?>
@@ -35,6 +35,13 @@ $slides = get_field('slides');
                                                 <div class="__content"
                                                      style=" color: #<?= $contentColor ? $contentColor : '000000'; ?>">
                                                     <?= htmlspecialchars_decode($content); ?>
+                                                    <?php if($gallery) : ?>
+                                                    <ul class="list-gallery">
+                                                        <?php foreach($gallery as $image) : ?>
+                                                            <li> <img width='150' src="<?= $image['url'] ?>" class='mx-auto'></li>
+                                                        <?php endforeach; ?>
+                                                    </ul>
+                                                    <?php endif; ?>
                                                 </div>
                                             <?php endif; ?>
                                             <div class='actionbox'>
@@ -47,9 +54,6 @@ $slides = get_field('slides');
 
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="cell hide-for-small-only medium-6 large-5">
-
                                     </div>
                                 </div>
                             </div>
