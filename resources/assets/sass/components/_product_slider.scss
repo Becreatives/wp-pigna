@@ -83,7 +83,8 @@
 
       .abstract {
         font-size: 11pt;
-        min-height: 350px;
+        min-height: 250px;
+        height: fit-content;
         @include breakpoint(medium down) {
           margin: 20px 0;
           min-height: auto;

@@ -393,7 +393,7 @@ header.header-page {
         z-index: 0;
       }
       .title-logo {
-        max-width: 50%;
+        max-width: 80%;
         @include breakpoint(medium down) {
           display: block;
           margin: auto;
