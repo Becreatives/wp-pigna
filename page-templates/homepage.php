@@ -32,8 +32,8 @@ function render_home()
 
     //template('partials/bellacopia', ['textdomain' => $textdomain]);
     template('partials/ferragni', ['textdomain' => $textdomain]);
-    template('partials/company', ['textdomain' => $textdomain]);
-    template('partials/sostenibilita', ['textdomain' => $textdomain]);
+    //template('partials/company', ['textdomain' => $textdomain]);
+    //template('partials/sostenibilita', ['textdomain' => $textdomain]);
     template('partials/barrow', ['textdomain' => $textdomain]);
     template('partials/monocromo', ['textdomain' => $textdomain]);
     template('partials/bts', ['textdomain' => $textdomain]);
