@@ -12,7 +12,7 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1><?php _e('Original', $textdomain); ?></h1>
                                 <p>
-                                    <?php _e('Imparare,  sognare,  raccontare,  crescere,  divertirsi,  esprimersi.  L’importante  è  farlo  a  colori,  in compagnia delle collezioni Monocromo di Pigna.', $textdomain); ?>
+                                    <?php _e('Learn, dream, tell, grow, have fun, express yourself. The important thing is to do it in color, in the company of the Monocromo collections by Pigna.', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
                                     <a href="https://www.amazon.it/stores/page/4557691E-EA7E-4652-9CCC-08017E9B31FF?ingress=2&visitId=4c6a7cc1-99dc-47f2-90fd-873e0958507b&ref_=ast_bln" target='_blank' class='btn' style="font-size:18px"><?php _e('SHOP NOW', $textdomain); ?></a>
@@ -37,7 +37,7 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1><?php _e('Pastel', $textdomain); ?></h1>
                                 <p>
-                                    <?php _e('Un tocco elegante e romantico, ma sempre di carattere.<br>Sfoglia tutte le sfumature più delicate nella tavolozza di colori Monocromo Pastel.', $textdomain); ?>
+                                    <?php _e('An elegant and romantic touch, yet full of character. Browse all the more delicate shades in the Monocromo Pastel color palette.', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
                                     <a href="https://www.amazon.it/stores/page/4557691E-EA7E-4652-9CCC-08017E9B31FF?ingress=2&visitId=4c6a7cc1-99dc-47f2-90fd-873e0958507b&ref_=ast_bln" target='_blank' class='btn --slide-2' style="font-size:18px"><?php _e('SHOP NOW', $textdomain); ?></a>
@@ -58,7 +58,7 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1><?php _e('Green', $textdomain); ?></h1>
                                 <p>
-                                    <?php _e('Scopri tutti i colori della sostenibilità e racconta un futuro variopinto con le collezioni Monocromo Green di Pigna in carta 100% riciclata', $textdomain); ?>
+                                    <?php _e('Discover all the colors of sustainability and tell a colorful future with the Monocromo Green collections by Pigna in 100% recycled paper.', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
                                 <a href="https://www.amazon.it/stores/page/4557691E-EA7E-4652-9CCC-08017E9B31FF?ingress=2&visitId=4c6a7cc1-99dc-47f2-90fd-873e0958507b&ref_=ast_bln" target='_blank' class='btn --slide-2' style="font-size:18px"><?php _e('SHOP NOW', $textdomain); ?></a>
@@ -80,7 +80,7 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1><?php _e('Astucci', $textdomain); ?></h1>
                                 <p>
-                                    <?php _e('Idee non ancora realizzate, emozioni da esprimere, sogni pronti a diventare realtà.<br>Negli astucci Monocromo c’è spazio per tutto!', $textdomain); ?>
+                                    <?php _e('Ideas waiting to take shape, emotions to express, dreams ready to become true.<br>In the Monocromo cases there is room for everything!', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
                                 <a href="https://www.amazon.it/stores/page/2DB0A548-5CF3-4BC2-BE91-ECE526AD2F52?ingress=2&visitId=4c6a7cc1-99dc-47f2-90fd-873e0958507b&ref_=ast_bln" target='_blank' class='btn --slide-4' style="font-size:18px"><?php _e('SHOP NOW', $textdomain); ?></a>

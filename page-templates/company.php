@@ -27,7 +27,7 @@ use function Pigna\Theme\App\config;
 function render_company()
 {
     $textdomain = config('textdomain');
-    template('partials/content-company', ['textdomain' => $textdomain]);
+    template('partials/pages/company/content-company', ['textdomain' => $textdomain]);
     template('partials/contacts', ['textdomain' => $textdomain]);
 }
 add_action('theme/homepage/content', 'Pigna\Theme\Company\render_company');

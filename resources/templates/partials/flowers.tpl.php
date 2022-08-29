@@ -10,7 +10,7 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1><?php _e('Flowers', $textdomain); ?></h1>
                                 <p>
-                                    <?php _e('Romantiche e intramontabili, le collezioni Pigna Flowers sembrano variopinti bouquet che sbocciano ogni stagione, pagina dopo pagina', $textdomain); ?>
+                                    <?php _e('Romantic and timeless, the Pigna Flowers collections look like colorful bouquets that bloom every season, page after page.', $textdomain); ?>
                                 </p>
                                 <ul>
                                     <li>   <img width='150' src="<?= get_stylesheet_directory_uri() ?>/public/images/flower-C.png"' class='mx-auto'></li>
@@ -40,7 +40,7 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1 class=''><?php _e('Romantico', $textdomain); ?></h1>
                                 <p class=''>
-                                    <?php _e('Quello di Pigna Flowers è un mondo pieno di vita che fiorisce in ogni angolo. Un vero omaggio alla maestra di creatività più famosa: Madre Natura', $textdomain); ?>
+                                    <?php _e('Pigna Flowers is a world full of life that blooms in every corner. A genuine tribute to the greatest teacher of creativity: Mother Nature.', $textdomain); ?>
                                 </p>
                                 <ul>
                                     <li>   <img width='150' src="<?= get_stylesheet_directory_uri() ?>/public/images/Q-Fiori-1.png"' class='mx-auto'></li>
@@ -68,7 +68,7 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1 class=''><?php _e('Intramontabile', $textdomain); ?></h1>
                                 <p class=''>
-                                    <?php _e('Tra colori autentici e accurati dettagli ispirati alle più fantasiose composizioni naturali, le raffinate collezioni Pigna Flowers non smettono mai di fiorire', $textdomain); ?>
+                                    <?php _e('Between authentic colors and accurate details inspired by the most imaginative natural compositions, the refined Pigna Flowers collections never stop blooming', $textdomain); ?>
                                 </p>
                                 <ul>
                                     <li>   <img width='150' src="<?= get_stylesheet_directory_uri() ?>/public/images/Q-Fiore-1.png"' class='mx-auto'></li>

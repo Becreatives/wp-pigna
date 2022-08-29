@@ -3,7 +3,7 @@
     <div class="company-section">
         <div class="company-heading">
             <div class="grid-container">
-                <h1><?php _e( 'Pigna', $textdomain ); ?><br /> <?php _e( 'in 10 tappe', $textdomain ); ?></h1>
+                <h1><?php the_content() ?></h1>
             </div>
         </div>
     </div>

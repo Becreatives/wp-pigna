@@ -13,7 +13,7 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1><?php _e('Barrow', $textdomain); ?></h1>
                                 <p>
-                                    <?php _e('Il mondo Barrow incontra Pigna per una nuova collezione davvero imperdibile.', $textdomain); ?>
+                                    <?php _e('The Barrow world meets Pigna for a truly unmissable new collection.', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
                                     <a href="https://www.amazon.it/stores/page/701ABEEB-090A-483F-9263-31A81E827419?ingress=0&visitId=76528668-3ec3-4a69-95d9-d6d58e925ada&lp_slot=auto-sparkle-hsa-tetris&store_ref=SB_A01081933CLS802J4SB4B&ref_=sbx_be_s_sparkle_mcd_logo"
@@ -37,7 +37,7 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1><?php _e('Barrow', $textdomain); ?></h1>
                                 <p>
-                                    <?php _e('Il mondo Barrow incontra Pigna per una nuova collezione davvero imperdibile.', $textdomain); ?>
+                                    <?php _e('The Barrow world meets Pigna for a truly unmissable new collection.', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
                                     <a href="https://www.amazon.it/stores/page/701ABEEB-090A-483F-9263-31A81E827419?ingress=0&visitId=76528668-3ec3-4a69-95d9-d6d58e925ada&lp_slot=auto-sparkle-hsa-tetris&store_ref=SB_A01081933CLS802J4SB4B&ref_=sbx_be_s_sparkle_mcd_logo"

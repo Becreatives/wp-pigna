@@ -13,7 +13,7 @@ data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOu
                             <div class="cell small-12 medium-12 large-5">
                                 <h1 ><?php _e('Olimpia Zagnoli ', $textdomain); ?></h1>
                                 <p >
-                                    <?php _e("L'illustratice Olimpia Zagnoli interpreta lo stile italiano con forme morbide e colori camaleontici, disegnando due personaggi di fantasia, curiosi e irresistibili...", $textdomain); ?>
+                                    <?php _e("The illustrator Olimpia Zagnoli interprets the Italian style with soft shapes and chameleon-like colors, drawing two fancy, curious and irresistible characters…", $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
                                 <a href="https://www.amazon.it/stores/page/C6F4222C-35C4-4F22-8C78-51734C4F67D4?ingress=0&visitId=8998f207-f105-45b7-96d3-da84d4c4755a" target='_blank' class='btn --slide-0' style="font-size:18px"><?php _e('SHOP NOW', $textdomain); ?></a>
@@ -37,7 +37,7 @@ data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOu
                             <div class="cell small-12 medium-12 large-5">
                                 <h1><?php _e('Gio Ponti', $textdomain); ?></h1>
                                 <p>
-                                    <?php _e('Ipnotica fantasia e rigore matematico. Una collezione dedicata al grande architetto della bellezza che ha portato il decoro della casa ideale italiana in tutto il mondo.', $textdomain); ?>
+                                    <?php _e('Hypnotic fantasy and mathematical rigor. A collection dedicated to the great architect of beauty who brought the decoration of the ideal Italian home all over the world.', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
                                 <a href="https://www.amazon.it/stores/page/55B1404F-31B3-451E-B3B1-3C0FD09078DF?ingress=0&visitId=9a6f8661-bee3-4b19-b4cf-12b0b87ee455" target='_blank' class='btn' style="font-size:18px"><?php _e('SHOP NOW', $textdomain); ?></a>
@@ -61,7 +61,7 @@ data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOu
                             <div class="cell small-12 medium-12 large-5">
                                 <h1 class='--dark'><?php _e('Bella Copia', $textdomain); ?></h1>
                                 <p class=''>
-                                    <?php _e('Tra righe e colori, un inno alla Dolce Vita più rilassata, giocosa e gioiosa che dal 1952 racconta l’inimitabile idea del fatto bene in Italia', $textdomain); ?>
+                                    <?php _e('Between lines and colors, a hymn to the more relaxed, playful, and joyful Dolce Vita that since 1952 tells the inimitable idea of the well-made in Italy.', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
 
@@ -84,7 +84,7 @@ data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOu
                             <div class="cell small-12 medium-12 large-5">
                                 <h1 class='--dark'><?php _e('Enzo Mari', $textdomain); ?></h1>
                                 <p>
-                                    <?php _e('Alla ricerca delle forme pure della natura attraverso l’approccio essenziale e democratico di uno dei più grandi artisti e designer italiani.', $textdomain); ?>
+                                    <?php _e('In search of the pure forms of nature through the essential and democratic approach of one of the greatest Italian artists and designers.', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
                                 <a href="https://www.amazon.it/stores/page/05E08BC3-2727-474E-90D3-4B091995C562?ingress=0&visitId=9a6f8661-bee3-4b19-b4cf-12b0b87ee455" target='_blank' class='btn --slide-3' style="font-size:18px"><?php _e('SHOP NOW', $textdomain); ?></a>
@@ -106,7 +106,7 @@ data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOu
                             <div class="cell small-12 medium-12 large-5">
                                 <h1 class='--dark'><?php _e('Lettera 22'); ?></h1>
                                 <p>
-                                    <?php _e("Molto più di una semplice macchina da scrivere. Un omaggio all'icona moderna con cui Olivetti ha permesso a milioni di persone di lavorare e scrivere con un vero ufficio portatile.", $textdomain); ?>
+                                    <?php _e("Much more than just a typewriter. A tribute to the modern icon with which Olivetti has allowed millions of people to work and write with a real portable office.", $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
                                 <a href="https://www.amazon.it/stores/page/AC3033A6-BD59-452C-83F1-0F01AB1791B0?ingress=0&visitId=9a6f8661-bee3-4b19-b4cf-12b0b87ee455" target='_blank' class='btn --slide-4' style="font-size:18px"><?php _e('SHOP NOW', $textdomain); ?></a>
@@ -128,7 +128,7 @@ data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOu
                             <div class="cell small-12 medium-12 large-5 -ml-lt-lg-3 -ml-lt-md-0">
                                 <h1 class='--dark'><?php _e('Nero Oriente'); ?></h1>
                                 <p>
-                                    <?php _e('Torna il taccuino che dal 1948 viene usato da intere generazioni. Un ponte tra mondi, una pietra miliare nella nostra tradizione, oggi rivisto con un tocco di ironia.', $textdomain); ?>
+                                    <?php _e('The notebook that has been used for generations since 1948 is back. A bridge between worlds, a milestone in our tradition, now revised with a touch of irony.', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
                                 <a href="https://www.amazon.it/stores/page/A7E703AC-163E-4B93-95B9-187005832901?ingress=0&visitId=9a6f8661-bee3-4b19-b4cf-12b0b87ee455" target='_blank' class='btn --slide-3' style="font-size:18px"><?php _e('SHOP NOW', $textdomain); ?></a>

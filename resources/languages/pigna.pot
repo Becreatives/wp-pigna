@@ -1,0 +1,214 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pigna/theme\n"
+"POT-Creation-Date: 2017-05-23 09:51+0200\n"
+"PO-Revision-Date: 2017-04-11 11:48+0200\n"
+"Last-Translator: \n"
+"Language-Team: Becreatives\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+
+#. theme
+msgid "DISCOVER MORE"
+msgstr "SCOPRI DI PIU"
+
+#. theme
+msgid "SHOP NOW"
+msgstr "SHOP NOW"
+
+#. contact-form
+msgid "I have read the information provided pursuant to art. 13 of the Reg. (EU 2016/679)"
+msgstr "Ho preso visione dell’informativa resa ai sensi dell’art. 13 del Reg. (UE 2016/679)"
+
+#. theme
+msgid "Barrow"
+msgstr "Barrow"
+
+msgid "The illustrator Olimpia Zagnoli interprets the Italian style with soft shapes and chameleon-like colors, drawing two fancy, curious and irresistible characters…"
+msgstr ""
+
+msgid "Hypnotic fantasy and mathematical rigor. A collection dedicated to the great architect of beauty who brought the decoration of the ideal Italian home all over the world."
+msgstr ""
+
+msgid "In search of the pure forms of nature through the essential and democratic approach of one of the greatest Italian artists and designers."
+msgstr ""
+
+msgid "Between lines and colors, a hymn to the more relaxed, playful, and joyful Dolce Vita that since 1952 tells the inimitable idea of the well-made in Italy."
+msgstr ""
+
+msgid "Much more than just a typewriter. A tribute to the modern icon with which Olivetti has allowed millions of people to work and write with a real portable office."
+msgstr ""
+
+msgid "The notebook that has been used for generations since 1948 is back. A bridge between worlds, a milestone in our tradition, now revised with a touch of irony."
+msgstr ""
+
+msgid "Flowers"
+msgstr ""
+
+msgid "Romantic and timeless, the Pigna Flowers collections look like colorful bouquets that bloom every season, page after page."
+msgstr ""
+
+msgid "Romantic"
+msgstr ""
+
+msgid "Pigna Flowers is a world full of life that blooms in every corner. A genuine tribute to the greatest teacher of creativity: Mother Nature."
+msgstr ""
+
+msgid "Timeless"
+msgstr ""
+
+msgid "Between authentic colors and accurate details inspired by the most imaginative natural compositions, the refined Pigna Flowers collections never stop blooming"
+msgstr ""
+
+
+msgid "Find out more"
+msgstr ""
+
+
+msgid "Sustainability"
+msgstr ""
+
+msgid "Made in Italy, Historical Heritage, Sustainability and Design. These are the cornerstones on which Pigna builds its business evolution, understanding sustainability as a way of doing business every day: a path in continuous evolution, which requires intense and daily work."
+msgstr ""
+
+msgid "Pigna operates within internationally recognized guidelines such as the United Nations Global Compact, adhering to the 2030 Agenda and the Sustainable Development Goals. Today the company's commitment to sustainability focuses on achieving 6 of the 17 Sustainable Development Goals."
+msgstr ""
+
+msgid "The first Pigna Sustainability Report aims to tell in a complete and transparent way what sustainability means for the company. A snapshot of the actions, results, approaches, and strategies with which Pigna wants to create lasting, widespread, and consistent value with the needs of all stakeholders and with ecological balances."
+msgstr ""
+
+msgid "The Barrow world meets Pigna for a truly unmissable new collection."
+msgstr ""
+
+msgid "Original"
+msgstr ""
+
+msgid "Green"
+msgstr ""
+
+msgid "Learn, dream, tell, grow, have fun, express yourself. The important thing is to do it in color, in the company of the Monocromo collections by Pigna."
+msgstr ""
+
+msgid "Pastel"
+msgstr ""
+
+msgid "An elegant and romantic touch, yet full of character. Browse all the more delicate shades in the Monocromo Pastel color palette."
+msgstr ""
+
+msgid "Discover all the colors of sustainability and tell a colorful future with the Monocromo Green collections by Pigna in 100% recycled paper."
+msgstr ""
+
+msgid "Cases"
+msgstr ""
+
+msgid "Ideas waiting to take shape, emotions to express, dreams ready to become true.<br>In the Monocromo cases there is room for everything!"
+msgstr ""
+
+msgid "Back 2 School"
+msgstr ""
+
+msgid "Pigna Classic"
+msgstr ""
+
+
+msgid "It's time to redefine the style with which to be online and spread the positive virus of \"I choose words with care\" with the Parole O_Stili collection in collaboration with Pigna"
+msgstr ""
+
+msgid "Space for back to school and back to work that interpret the most current inspirations and trends, in the company of the Pigna Classic collections."
+msgstr ""
+
+msgid "Pigna Classic is the new Pigna Classic! Several collections in continuous evolution, designed for those who learn, grow, dream, and for those who have never quit doing it."
+msgstr ""
+
+msgid "<b>Cartiere Paolo Pigna S.p.A.</b> with sole shareholder Direction and coordination <b>Gruppo Buffetti S.p.A</b><br><b>Registered Office:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - <b>Operational Headquarters</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo) Italy  - <b>VAT 00216380162</b>"
+msgstr ""
+
+msgid "Company policies"
+msgstr "Politiche Aziendali"
+
+msgid "Company certifications"
+msgstr "Certificazioni Aziendali"
+
+msgid "Privacy Policy"
+msgstr ""
+
+msgid "Cookie Policy"
+msgstr ""
+
+msgid "Corporate Governance"
+msgstr ""
+
+msgid "Watch the video"
+msgstr "Guarda il video"
+
+
+msgid "Download report"
+msgstr ""
+
+msgid "The application effort"
+msgstr ""
+
+msgid "Pigna operates within internationally recognized guidelines such as the United Nations Global Compact, adhering to the 2030 Agenda and the Sustainable Development Goals. Today the company's commitment to sustainability focuses on achieving 6 of the 17 Sustainable Development Goals."
+msgstr ""
+
+msgid "The first Pigna Sustainability Report aims to tell in a complete and transparent way what sustainability means for the company. A snapshot of the actions, results, approaches, and strategies with which Pigna wants to create lasting, widespread, and consistent value with the needs of all stakeholders and with ecological balances."
+msgstr ""
+
+msgid "View Doc"
+msgstr ""
+
+msgid "Pigna Whistleblowing Procedure"
+msgstr ""
+
+msgid "PEFC ® certification"
+msgstr ""
+
+msgid "FSC® certification"
+msgstr ""
+
+msgid "ISO 9001 Quality Certification"
+msgstr ""
+
+msgid "ISO 14001 Environment Certification"
+msgstr ""
+
+msgid "ISO 45001 Safety certification"
+msgstr ""
+
+msgid "Pigna Code of Ethics"
+msgstr ""
+
+msgid "Pigna Model 231 – general part"
+msgstr ""
+
+msgid "Pigna Whistleblowing Procedure"
+msgstr ""
+
+msgid "Environmental policy"
+msgstr ""
+
+msgid "PEFC Policy"
+msgstr ""
+
+msgid "FSC® Policy"
+msgstr ""
+
+msgid "Basic Labor Requirements Policy"
+msgstr ""
+
+msgid "Quality policy"
+msgstr ""
+

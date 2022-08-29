@@ -10,7 +10,7 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1><?php _e('Pigna Classic', $textdomain); ?></h1>
                                 <p>
-                                    <?php _e('Spazio ai back to school e back to work che interpretano le inspirazioni e le tendenze più attuali, in compagnia delle collezioni Pigna Classic.', $textdomain); ?>
+                                    <?php _e('Space for back to school and back to work that interpret the most current inspirations and trends, in the company of the Pigna Classic collections.', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
                                 <a href="https://www.amazon.it/stores/page/CF84E655-219C-419B-BA7E-C401D6336066?ingress=2&visitId=4c6a7cc1-99dc-47f2-90fd-873e0958507b&ref_=ast_bln" target='_blank' class='btn'><?php _e('SHOP NOW', $textdomain); ?></a>
@@ -33,7 +33,7 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1 class='--yellow'><?php _e('Back 2 School', $textdomain); ?></h1>
                                 <p class='--light'>
-                                    <?php _e('Pigna Classic is the new Pigna Classic! Tante collezioni in continua evoluzione, pensate per chi impara, cresce, sogna e per chi non ha mai smesso di farlo', $textdomain); ?>
+                                    <?php _e('Pigna Classic is the new Pigna Classic! Several collections in continuous evolution, designed for those who learn, grow, dream, and for those who have never quit doing it.', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
 
@@ -57,7 +57,7 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1 class='--dark'><?php _e('Parole o Stili', $textdomain); ?></h1>
                                 <p>
-                                <?php _e('È ora di ridefinire lo stile con cui stare in rete e diffondere il virus positivo dello “scelgo le parole con cura” con la collezione Parole O_Stili in collaborazione con Pigna.', $textdomain); ?>
+                                <?php _e('It\'s time to redefine the style with which to be online and spread the positive virus of "I choose words with care" with the Parole O_Stili collection in collaboration with Pigna', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
                                 <a href="https://www.amazon.it/stores/page/D5BB69F6-C964-4D63-B317-A701E3E4122F?ingress=2&visitId=4c6a7cc1-99dc-47f2-90fd-873e0958507b&ref_=ast_bln" target='_blank' class='btn --slide-3'><?php _e('SHOP NOW', $textdomain); ?></a>

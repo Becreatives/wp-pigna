@@ -1,5 +1,8 @@
 <footer class="footer">
     <div class='grid-container'>
+        <?php $language = function_exists('pll_current_language') ? pll_current_language() : ICL_LANGUAGE_CODE;
+        $language = '';
+        ?>
         <div class='footer-top'>
             <ul>
 
@@ -10,32 +13,32 @@
                     <a target="_blank" href="https://facebook.com/PignaOfficial/"><i class="fab fa-facebook"></i><br/>pignaofficial</a>
                 </li>
                 <li>
-                    <a style="margin-right: 10Fx;" href="/pigna/politiche-aziendali/">
+                    <a style="margin-right: 10px;" href="/<?= $language; ?>/pigna/politiche-aziendali/">
                         <img width="20"
-                             src="<?= get_stylesheet_directory_uri() ?>/public/images/pdf.svg"><br><?php _e('Politiche Aziendali', $textdomain); ?>
+                             src="<?= get_stylesheet_directory_uri() ?>/public/images/pdf.svg"><br><?php _e('Company policies', $textdomain); ?>
                     </a>
                 </li>
                 <li>
-                    <a style="margin-right: 10Fx;" href="/pigna/certificazioni-aziendali/">
+                    <a style="margin-right: 10px;" href="/<?= $language; ?>/pigna/certificazioni-aziendali/">
                         <img width="20"
-                             src="<?= get_stylesheet_directory_uri() ?>/public/images/pdf.svg"><br><?php _e('Certificazioni Aziendali', $textdomain); ?>
+                             src="<?= get_stylesheet_directory_uri() ?>/public/images/pdf.svg"><br><?php _e('Company certifications', $textdomain); ?>
                     </a>
                 </li>
                 <li>
-                    <a style="margin-right: 10Fx;" href="/pigna/corporate-governance/">
+                    <a style="margin-right: 10px;" href="/<?= $language; ?>/pigna/corporate-governance/">
                         <img width="20"
-                             src="<?= get_stylesheet_directory_uri() ?>/public/images/pdf.svg"><br><?php _e('Corporate Governace', $textdomain); ?>
+                             src="<?= get_stylesheet_directory_uri() ?>/public/images/pdf.svg"><br><?php _e('Corporate Governance', $textdomain); ?>
                     </a>
                 </li>
                 <li>
-                    <a style="margin-right: 10Fx;" href="https://www.iubenda.com/privacy-policy/76124719"
+                    <a style="margin-right: 10px;" href="https://www.iubenda.com/privacy-policy/76124719"
                        target="_blank">
                         <img width="20"
-                             src="<?= get_stylesheet_directory_uri() ?>/public/images/pdf.svg"><br><?php _e('Informativa Privacy', $textdomain); ?>
+                             src="<?= get_stylesheet_directory_uri() ?>/public/images/pdf.svg"><br><?php _e('Privacy Policy', $textdomain); ?>
                     </a>
                 </li>
                 <li>
-                    <a style="margin-right: 10Fx;" href="https://www.iubenda.com/privacy-policy/76124719/cookie-policy"
+                    <a style="margin-right: 10px;" href="https://www.iubenda.com/privacy-policy/76124719/cookie-policy"
                        target="_blank">
                         <img width="20"
                              src="<?= get_stylesheet_directory_uri() ?>/public/images/pdf.svg"><br><?php _e('Cookie Policy', $textdomain); ?>
@@ -56,8 +59,7 @@
                 </div>
                 <div class='cell large-10 small-12 align-middle'>
                     <p>
-                        <?php _e('<b>Cartiere Paolo Pigna S.p.A.</b> con socio unico, Direzione e coordinamento <b>Gruppo Buffetti S.p.A<br>
-sede legale</b> Via D. Pesenti 1 - 24022 Alzano Lombardo   •   <b>sede operativa</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo) Italia   •   <b>P.IVA 00216380162</b>', $textdomain); ?>
+                        <?php _e('<b>Cartiere Paolo Pigna S.p.A.</b> with sole shareholder Direction and coordination <b>Gruppo Buffetti S.p.A</b><br><b>Registered Office:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - <b>Operational Headquarters</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo) Italy  - <b>VAT 00216380162</b>', $textdomain); ?>
                     </p>
                 </div>
             </div>

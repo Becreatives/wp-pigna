@@ -41,7 +41,18 @@
 
         margin-right: 0;
         padding: 0 5px;
-
+        &.lang-item {
+          a {
+            font-size: 14px;
+            font-weight: 700;
+          }
+          &.current-lang {
+            a {
+              border-bottom: 1px solid #fff;
+              font-weight: 700;
+            }
+          }
+        }
         &.lang-switcher {
 
           span {

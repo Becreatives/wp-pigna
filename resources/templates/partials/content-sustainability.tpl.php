@@ -1,6 +1,7 @@
 <?php
-    $sustainability_cover = defined( 'ICL_LANGUAGE_CODE' ) && ICL_LANGUAGE_CODE == 'en' ? 'sustainability_cover.jpg' : '2021 Rapporto sostenibiltà Pigna_Copertina_ITA (1) (1).jpg';
-    $doc_filename = defined( 'ICL_LANGUAGE_CODE' ) && ICL_LANGUAGE_CODE == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PIGNA_report21_ITA-schermo.pdf';
+    $language = function_exists('pll_current_language') ? pll_current_language()  : ICL_LANGUAGE_CODE;
+    $sustainability_cover = $language == 'en' ? 'sustainability_cover.jpg' : '2021 Rapporto sostenibiltà Pigna_Copertina_ITA (1) (1).jpg';
+    $doc_filename = $language  == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PIGNA_report21_ITA-schermo.pdf';
 ?>
 <div id="page-sustainability">
     <div class="sustainability-section">
@@ -9,9 +10,9 @@
                  src="<?= get_stylesheet_directory_uri() ?>/public/images/sostenibilita-icon-1a.png"/>
             <div class="grid-x align-right py-180px">
                 <div class="cell small-12 medium-5 medium-text-right text-center">
-                    <h2 class="--text-red --font-bold"><?php _e('Sostenibilità', $textdomain); ?></h2>
+                    <h2 class="--text-red --font-bold"><?php _e('Sustainability', $textdomain); ?></h2>
                     <p>
-                        <?php _e('Il primo Rapporto di Sostenibilità di Pigna mira a raccontare in maniera completa e trasparente cosa significa sostenibilità per l\'azienda. Una fotografia istantanea di azioni, risultati, approcci e strategie con cui Pigna vuole creare valore durevole, diffuso e coerente con le necessità di tutti gli stakeholder e con gli equilibri ecologici.', $textdomain); ?>
+                        <?php _e('The first Pigna Sustainability Report aims to tell in a complete and transparent way what sustainability means for the company. A snapshot of the actions, results, approaches, and strategies with which Pigna wants to create lasting, widespread, and consistent value with the needs of all stakeholders and with ecological balances.', $textdomain); ?>
                     </p>
                 </div>
             </div>
@@ -31,7 +32,7 @@
                             type="video/webm"/>
                 </video>
                 <div class="video-play-wrapper grid-x align-center">
-                    <button class="video-play"><?php _e('Guarda il video', $textdomain); ?></button>
+                    <button class="video-play"><?php _e('Watch the video', $textdomain); ?></button>
                 </div>
             </div>
         </div>
@@ -43,9 +44,9 @@
                  src="<?= get_stylesheet_directory_uri() ?>/public/images/sostenibilita-icon-2a.png"/>
             <div class="grid-x align-left pt-180px">
                 <div class="cell small-12 medium-5 medium-text-left text-center">
-                    <h2 class="--text-blue --font-bold"><?php _e('L\'impegno', $textdomain); ?></h2>
+                    <h2 class="--text-blue --font-bold"><?php _e('The application effort', $textdomain); ?></h2>
                     <p>
-                        <?php _e('Pigna opera all\'interno delle linee guida internazionalmente riconosciute come il Global Compact delle Nazioni Unite, aderendo all’Agenda 2030 e agli Obiettivi di Sviluppo Sostenibile. Oggi l\'impegno dell\'azienda per la sostenibilità si focalizza sul raggiungimento di 6 dei 17 Obiettivi di Sviluppo Sostenibile.', $textdomain); ?>
+                        <?php _e('Pigna operates within internationally recognized guidelines such as the United Nations Global Compact, adhering to the 2030 Agenda and the Sustainable Development Goals. Today the company\'s commitment to sustainability focuses on achieving 6 of the 17 Sustainable Development Goals.', $textdomain); ?>
                     </p>
                 </div>
             </div>
@@ -62,7 +63,7 @@
                          id="sostenibilita-report-cover"/>
                     <div class="grid-x align-center">
                         <a class="btn-report"
-                           href="<?= get_stylesheet_directory_uri() ?>/resources/assets/pdf/<?php echo $doc_filename; ?>"><?php _e('Scarica il report', $textdomain); ?>
+                           href="<?= get_stylesheet_directory_uri() ?>/resources/assets/pdf/<?php echo $doc_filename; ?>"><?php _e('Download report', $textdomain); ?>
                         </a>
                     </div>
                 </div>
