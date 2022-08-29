@@ -46,6 +46,7 @@ $news_link = defined('ICL_LANGUAGE_CODE') && ICL_LANGUAGE_CODE == 'en' ? apply_f
                             <?php wp_nav_menu(array('theme_location' => 'primary_top', 'container' => 'ul',
                                 'menu_class'=> 'top-menu top',  'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>')); ?>
                             <ul class="top-menu">
+                                <?php if(function_exists('icl_get_languages')) : ?>
                                 <li class="lang-switcher">
                                     <?php
                                     $langs = icl_get_languages('skip_missing=0&orderby=id&order=asc');
@@ -70,6 +71,7 @@ $news_link = defined('ICL_LANGUAGE_CODE') && ICL_LANGUAGE_CODE == 'en' ? apply_f
                                     echo '<span style="padding: .3rem 0.4rem"> | </span>';
                                     ?>
                                 </li>
+                                <?php endif; ?>
                                 <li class="social">
                                     <a target="_blank" href="https://www.instagram.com/pigna/"><i
                                                 class="fab fa-instagram"></i></a>
