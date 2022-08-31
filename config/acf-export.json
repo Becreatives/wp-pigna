@@ -16,11 +16,11 @@
                     "class": "",
                     "id": ""
                 },
-                "collapsed": "",
+                "collapsed": "field_62f3d10ac8cb8",
                 "min": 0,
                 "max": 0,
-                "layout": "block",
-                "button_label": "",
+                "layout": "table",
+                "button_label": "Aggiungi prodotto",
                 "sub_fields": [
                     {
                         "key": "field_62f3d10ac8cb8",
@@ -57,14 +57,15 @@
                         "default_value": "",
                         "tabs": "all",
                         "toolbar": "full",
-                        "media_upload": 1,
-                        "delay": 0
+                        "media_upload": 0,
+                        "delay": 1,
+                        "translations": "translate"
                     },
                     {
                         "key": "field_62f3d121c8cba",
                         "label": "URL",
                         "name": "url",
-                        "type": "url",
+                        "type": "text",
                         "instructions": "",
                         "required": 0,
                         "conditional_logic": 0,
@@ -74,15 +75,37 @@
                             "id": ""
                         },
                         "default_value": "",
-                        "placeholder": ""
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
                     },
                     {
-                        "key": "field_62f3d128c8cbb",
-                        "label": "Galleria Immagini Prodotto",
+                        "key": "field_63074867a2e77",
+                        "label": "Label Bottone",
+                        "name": "label",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Acquista ora",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_630cdedc07b50",
+                        "label": "Galleria Immagini",
                         "name": "gallery",
                         "type": "gallery",
                         "instructions": "",
-                        "required": 0,
+                        "required": 1,
                         "conditional_logic": 0,
                         "wrapper": {
                             "width": "",
@@ -93,7 +116,7 @@
                         "preview_size": "medium",
                         "insert": "append",
                         "library": "all",
-                        "min": "",
+                        "min": 1,
                         "max": "",
                         "min_width": "",
                         "min_height": "",
@@ -101,7 +124,8 @@
                         "max_width": "",
                         "max_height": "",
                         "max_size": "",
-                        "mime_types": ""
+                        "mime_types": "png,jpg,jpeg",
+                        "translations": "sync"
                     }
                 ]
             }
@@ -122,7 +146,8 @@
         "instruction_placement": "label",
         "hide_on_screen": "",
         "active": true,
-        "description": ""
+        "description": "",
+        "show_in_rest": 1
     },
     {
         "key": "group_62f6758244bbe",
@@ -435,6 +460,7 @@
         "instruction_placement": "label",
         "hide_on_screen": "",
         "active": true,
-        "description": ""
+        "description": "",
+        "show_in_rest": false
     }
 ]
