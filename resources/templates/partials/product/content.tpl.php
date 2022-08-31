@@ -1,6 +1,9 @@
 <?php
+global $post;
 $productList = get_field('productList');
-$args = array('post_type' => 'product', 'posts_per_page' => -1, 'post_status' => 'publish');
+$args = array('post_type' => 'product', 'posts_per_page' => -1, 'post_status' => 'publish',
+    'meta_key'		=> 'referencePage',
+    'meta_value'	=> $post->ID);
 $products = get_posts($args);
 ?>
 <div class="grid-container productList full">
