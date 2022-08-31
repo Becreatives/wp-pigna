@@ -56,7 +56,7 @@ $products = get_posts($args);
                         </div>
                     </div>
                     <div class="content">
-                        <h4><?= $product['title']; ?></h4>
+                        <h4><?= htmlspecialchars_decode($product['title']); ?></h4>
                         <div class="abstract">
                             <?= htmlspecialchars_decode($product['content']); ?>
                         </div>
@@ -72,7 +72,7 @@ $products = get_posts($args);
         endforeach;
         foreach ($products as $key => $product) :
             $gallery = get_field('gallery', $product->ID);
-            $title = $product->post_title;
+            $title = htmlspecialchars_decode($product->post_title);
             $content = get_field('content', $product->ID);
             $url = get_field('url', $product->ID);
             $label = get_field('label', $product->ID);
