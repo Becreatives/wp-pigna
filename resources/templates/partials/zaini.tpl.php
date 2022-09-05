@@ -13,7 +13,9 @@
                                 <p>
                                     <?php _e('From school to free time, what matters is to give a unique nuance to your daily adventures in the company of Monochrome backpacks', $textdomain); ?>
                                 </p>
-
+                                <div class='actionbox'>
+                                    <a href="zaini" target='_blank' class='btn' style="font-size:18px"><?php _e('SHOP NOW', $textdomain); ?></a>
+                                </div>
                             </div>
                             <div class="cell hide-for-small-only medium-6 large-5">
 

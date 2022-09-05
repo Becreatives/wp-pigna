@@ -41,6 +41,7 @@ function render_home()
     template('partials/zaini', ['textdomain' => $textdomain]);
     template('partials/bts', ['textdomain' => $textdomain]);
     template('partials/flowers', ['textdomain' => $textdomain]);
+    template('partials/scrittura', ['textdomain' => $textdomain]);
     template('partials/pdi', ['textdomain' => $textdomain]);
     template('partials/contacts', ['textdomain' => $textdomain]);
     //template('partials/event-popup', ['textdomain' => $textdomain]);

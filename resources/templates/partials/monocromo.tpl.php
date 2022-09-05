@@ -10,7 +10,7 @@
                         <div class="grid-x grid-x align-middle">
                             <div class='cell large-1 medium-1'></div>
                             <div class="cell small-12 medium-12 large-5">
-                                <h1><?php _e('Quaderni', $textdomain); ?></h1>
+                                <h1><?php _e('Copybooks', $textdomain); ?></h1>
                                 <p>
                                     <?php _e('Learn, dream, tell, grow, have fun, express yourself. The important thing is to do it in color, in the company of the Monocromo collections by Pigna.', $textdomain); ?>
                                 </p>

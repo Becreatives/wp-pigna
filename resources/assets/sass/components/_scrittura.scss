@@ -1,4 +1,4 @@
-.monocromo {
+.scrittura {
   position: relative;
   .orbit-next,.orbit-previous {
     svg {
@@ -124,39 +124,15 @@
         max-width: 650px;
 
       }
-      &.slider-new-monocromo {
-        background-image: url("../images/monocromo-diari-newnew.jpeg");
-        @include breakpoint(small only) {
-          background-image: url("../images/monocromo-diari-mb.jpg");
-          background-position: top !important;
-          background-size:contain;
-          background-color: #005170;
-        }
-      }
       &.slider-1 {
-        background-image: url("../images/monocromo-1.png");
+        background-image: url("../images/scrittura.jpeg");
+
         @include breakpoint(small only) {
-          background-image: url("../images/Monocromo-1-mobile.png");
+          background-image: url("../images/scrittura-mb.jpeg");
+
         }
       }
-      &.slider-2 {
-        background-image: url("../images/monocromo-2.png");
-        @include breakpoint(small only) {
-          background-image: url("../images/Monocromo-2-mobile.png");
-        }
-      }
-      &.slider-3 {
-        background-image: url("../images/monocromo-3.png");
-        @include breakpoint(small only) {
-          background-image: url("../images/Monocromo-3-mobile.png");
-        }
-      }
-      &.slider-4 {
-        background-image: url("../images/monocromo-4.png");
-        @include breakpoint(small only) {
-          background-image: url("../images/Monocromo-4-mobile.png");
-        }
-      }
+
     }
 
     .cell {

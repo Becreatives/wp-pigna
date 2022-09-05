@@ -122,8 +122,9 @@ msgstr ""
 
 msgid "Pigna Classic"
 msgstr ""
-
-msgid "Quaderni"
+msgid "friend of colors"
+msgstr ""
+msgid "Copybooks"
 msgstr ""
 msgid "From school to free time, what matters is to give a unique nuance to your daily adventures in the company of Monochrome backpacks"
 msgstr ""
