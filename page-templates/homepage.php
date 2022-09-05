@@ -36,6 +36,9 @@ function render_home()
     //template('partials/sostenibilita', ['textdomain' => $textdomain]);
     template('partials/barrow', ['textdomain' => $textdomain]);
     template('partials/monocromo', ['textdomain' => $textdomain]);
+    template('partials/monocromo-second', ['textdomain' => $textdomain]);
+    template('partials/astucci', ['textdomain' => $textdomain]);
+    template('partials/zaini', ['textdomain' => $textdomain]);
     template('partials/bts', ['textdomain' => $textdomain]);
     template('partials/flowers', ['textdomain' => $textdomain]);
     template('partials/pdi', ['textdomain' => $textdomain]);

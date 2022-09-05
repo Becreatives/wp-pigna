@@ -32,3 +32,4 @@ if ($ok) {
     // they must be under the same dir path.
     (new Tonik\Gin\Foundation\Autoloader($theme->get('config')))->register();
 }
+

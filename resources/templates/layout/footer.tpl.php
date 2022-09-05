@@ -59,7 +59,7 @@
                 </div>
                 <div class='cell large-10 small-12 align-middle'>
                     <p>
-                        <?php _e('<b>Cartiere Paolo Pigna S.p.A.</b> with sole shareholder Direction and coordination <b>Gruppo Buffetti S.p.A</b><br><b>Registered Office:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - <b>Operational Headquarters</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo) Italy  - <b>VAT 00216380162</b>', $textdomain); ?>
+                        <?php _e('All rights reserved ©2022 <b>Cartiere Paolo Pigna S.p.A.</b> with sole shareholder Direction and coordination <b>Gruppo Buffetti S.p.A</b><br><b>Registered Office:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - <b>Operational Headquarters</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo) Italy  - <b>VAT 00216380162</b>', $textdomain); ?>
                     </p>
                 </div>
             </div>
