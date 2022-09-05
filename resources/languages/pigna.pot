@@ -62,7 +62,7 @@ msgid "Romantic and timeless, the Pigna Flowers collections look like colorful b
 msgstr ""
 
 msgid "Romantic"
-msgstr ""
+msgstr "Romantico"
 
 msgid "Pigna Flowers is a world full of life that blooms in every corner. A genuine tribute to the greatest teacher of creativity: Mother Nature."
 msgstr ""
@@ -112,7 +112,7 @@ msgid "Discover all the colors of sustainability and tell a colorful future with
 msgstr ""
 
 msgid "Cases"
-msgstr ""
+msgstr "Astucci"
 
 msgid "Ideas waiting to take shape, emotions to express, dreams ready to become true.<br>In the Monocromo cases there is room for everything!"
 msgstr ""
@@ -122,10 +122,13 @@ msgstr ""
 
 msgid "Pigna Classic"
 msgstr ""
+
 msgid "friend of colors"
-msgstr ""
+msgstr "amici del colore"
+
 msgid "Copybooks"
-msgstr ""
+msgstr "Quaderni"
+
 msgid "From school to free time, what matters is to give a unique nuance to your daily adventures in the company of Monochrome backpacks"
 msgstr ""
 
@@ -139,7 +142,7 @@ msgid "Pigna Classic is the new Pigna Classic! Several collections in continuous
 msgstr ""
 
 msgid " All rights reserved ©2022 <b>Cartiere Paolo Pigna S.p.A.</b> with sole shareholder Direction and coordination <b>Gruppo Buffetti S.p.A</b><br><b>Registered Office:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - <b>Operational Headquarters</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo) Italy  - <b>VAT 00216380162</b>"
-msgstr ""
+msgstr "Tutti i diritti riservati ©2022 <b>Cartiere Paolo Pigna S.p.A.</b> come socio unico, Direzione e coordinamento <b>Gruppo Buffetti S.p.A</b><br><b>sede legale:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - <b>sede operativa</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo) Italia  - <b>P.IVA 00216380162</b>"
 
 msgid "Company policies"
 msgstr "Politiche Aziendali"
@@ -217,3 +220,14 @@ msgstr ""
 msgid "Quality policy"
 msgstr ""
 
+msgid "Monocromo Diaries"
+msgstr "Monocromo diari"
+
+msgid "Discover the new Monocromo #Mood diary 12 months fixed date. Each day different and full of surprises."
+msgstr "Scopri il nuovo diario Monocromo #Mood 12 mesi data fissa. Ogni giorno diverso e pieno di sorprese."
+
+msgid "Colored Writing"
+msgstr "Scrittura colorata"
+
+msgid "Discover all the Colored Writing products"
+msgstr "Scopri tutti i prodotti di Scrittura Colorata"

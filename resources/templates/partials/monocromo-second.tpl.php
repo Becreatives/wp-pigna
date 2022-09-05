@@ -10,6 +10,10 @@
                         <div class="grid-x grid-x align-middle">
                             <div class='cell large-1 medium-1'></div>
                             <div class="cell small-12 medium-12 large-5">
+                            <h1><?php _e('Monocromo Diaries', $textdomain); ?></h1>
+                                <p>
+                                    <?php _e('Discover the new Monocromo #Mood diary 12 months fixed date. Each day different and full of surprises.', $textdomain); ?>
+                                </p>
                                 <div class='actionbox'>
                                     <a href="https://www.amazon.it/stores/page/D1A4574E-19F8-4F96-A9F4-2E553CD5F3BF?ingress=2&visitId=82977509-f870-4e7e-839f-1ffabd7aa2ed&ref_=ast_bln" target='_blank' class='btn --slide-4' style="font-size:18px"><?php _e('SHOP NOW', $textdomain); ?></a>
                                 </div>

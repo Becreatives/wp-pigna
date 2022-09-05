@@ -9,6 +9,10 @@
                         <div class="grid-x grid-x align-middle">
                             <div class='cell large-1 medium-1'></div>
                             <div class="cell small-12 medium-12 large-5">
+                            <h1><?php _e('Colored Writing', $textdomain); ?></h1>
+                                <p>
+                                    <?php _e('Discover all the Colored Writing products', $textdomain); ?>
+                                </p>
                                 <div class='actionbox'>
                                     <a href="scrittura-colorata" target='_blank' class='btn' style="font-size:18px"><?php _e('SHOP NOW', $textdomain); ?></a>
                                 </div>
