@@ -1,7 +1,8 @@
 <footer class="footer">
     <div class='grid-container'>
-        <?php $language = function_exists('pll_current_language') ? pll_current_language() : ICL_LANGUAGE_CODE;
-        $language = '';
+        <?php 
+        $language = function_exists('pll_current_language') ? pll_current_language() : ICL_LANGUAGE_CODE;
+        $language = $language === 'it' ? '' : "/".$language;
         ?>
         <div class='footer-top'>
             <ul>
@@ -13,19 +14,19 @@
                     <a target="_blank" href="https://facebook.com/PignaOfficial/"><i class="fab fa-facebook"></i><br/>pignaofficial</a>
                 </li>
                 <li>
-                    <a style="margin-right: 10px;" href="/<?= $language; ?>/pigna/politiche-aziendali/">
+                    <a style="margin-right: 10px;" href="<?= $language; ?>/politiche-aziendali/">
                         <img width="20"
                              src="<?= get_stylesheet_directory_uri() ?>/public/images/pdf.svg"><br><?php _e('Company policies', $textdomain); ?>
                     </a>
                 </li>
                 <li>
-                    <a style="margin-right: 10px;" href="/<?= $language; ?>/pigna/certificazioni-aziendali/">
+                    <a style="margin-right: 10px;" href="<?= $language; ?>/certificazioni-aziendali/">
                         <img width="20"
                              src="<?= get_stylesheet_directory_uri() ?>/public/images/pdf.svg"><br><?php _e('Company certifications', $textdomain); ?>
                     </a>
                 </li>
                 <li>
-                    <a style="margin-right: 10px;" href="/<?= $language; ?>/pigna/corporate-governance/">
+                    <a style="margin-right: 10px;" href="<?= $language; ?>/corporate-governance/">
                         <img width="20"
                              src="<?= get_stylesheet_directory_uri() ?>/public/images/pdf.svg"><br><?php _e('Corporate Governance', $textdomain); ?>
                     </a>

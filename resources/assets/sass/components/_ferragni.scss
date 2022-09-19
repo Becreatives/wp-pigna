@@ -136,15 +136,27 @@
 
       &.slider-1 {
         background-image: url("../images/ferragni-1.jpg");
+        @include breakpoint(small only) {
+          background-image: url("../images/ferragni_mb_1.jpg");
+        }
       }
       &.slider-2 {
         background-image: url("../images/ferragni-2.jpg");
+        @include breakpoint(small only) {
+          background-image: url("../images/ferragni_mb_2.jpg");
+        }
       }
       &.slider-3 {
         background-image: url("../images/ferragni-3.jpg");
+        @include breakpoint(small only) {
+          background-image: url("../images/ferragni_mb_3.jpg");
+        }
       }
       &.slider-4 {
         background-image: url("../images/ferragni-4.jpg");
+        @include breakpoint(small only) {
+          background-image: url("../images/ferragni_mb_4.jpg");
+        }
       }
       @include breakpoint(small only) {
         &.align-middle {

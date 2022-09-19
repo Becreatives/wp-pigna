@@ -35,7 +35,7 @@
                         <div class="grid-x grid-x align-middle">
                             <div class='cell large-1 medium-1'></div>
                             <div class="cell small-12 medium-12 large-5">
-                                <h1><?php _e('Pastel', $textdomain); ?></h1>
+                                <h1><?php _e('Copybooks', $textdomain); ?></h1>
                                 <p>
                                     <?php _e('An elegant and romantic touch, yet full of character. Browse all the more delicate shades in the Monocromo Pastel color palette.', $textdomain); ?>
                                 </p>
@@ -56,7 +56,7 @@
                         <div class="grid-x grid-x align-middle">
                             <div class='cell large-1 medium-1'></div>
                             <div class="cell small-12 medium-12 large-5">
-                                <h1><?php _e('Green', $textdomain); ?></h1>
+                                <h1><?php _e('Copybooks', $textdomain); ?></h1>
                                 <p>
                                     <?php _e('Discover all the colors of sustainability and tell a colorful future with the Monocromo Green collections by Pigna in 100% recycled paper.', $textdomain); ?>
                                 </p>
