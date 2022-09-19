@@ -94,3 +94,32 @@ p {
 
   }
 }
+
+#fedezModal {
+  padding: 0;
+  top: 0 !important;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+  
+  @media screen and (max-width: 39.9988em) {
+    min-height: 0;
+    height: auto;
+    width: 90%;
+    left: 5%;
+    margin: 0;
+  }
+
+  @include breakpoint(xs) {
+    width: 98%;
+    left: 1%;
+  }
+}
+
+.reveal-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -44,6 +44,7 @@ function render_home()
     template('partials/scrittura', ['textdomain' => $textdomain]);
     template('partials/pdi', ['textdomain' => $textdomain]);
     template('partials/contacts', ['textdomain' => $textdomain]);
+    template('partials/fedez', ['textdomain' => $textdomain]);
     //template('partials/event-popup', ['textdomain' => $textdomain]);
 }
 add_action('theme/homepage/content', 'Pigna\Theme\Homepage\render_home');
