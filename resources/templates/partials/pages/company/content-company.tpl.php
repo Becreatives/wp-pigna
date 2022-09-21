@@ -105,7 +105,7 @@
                             <div class="company-history-item-year">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/history-8.png" alt="" />
                             </div>
-                            <p><?php _e( 'Il Gruppo Buffetti entra nella compagine sociale dell\'azienda al 40& e viene nominato Presidente del CdA e Amministratore delegato Massimo Fagioli (proveniente dal Gruppo De Agostini).', $textdomain ); ?></p>
+                            <p><?php _e( 'Il Gruppo Buffetti entra nella compagine sociale dell\'azienda al 40% e viene nominato Presidente del CdA e Amministratore delegato Massimo Fagioli (proveniente dal Gruppo De Agostini).', $textdomain ); ?></p>
                         </div>
                     </div>
                     <div class="cell small-6 large-6 medium-6"></div>
@@ -130,7 +130,7 @@
                             <div class="company-history-item-year">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/history-10.png" alt="" />
                             </div>
-                            <p><?php _e( 'Per la prima volta nella sua storia, Cartiere Paolo Pigna, con la sua sede ad Alzano Lombardo, uno dei comuni italiani più colpiti e simbolo dell\'emergenza, è costretta a chiudere per 40 giorni il suo stabilimento per rispondere all\'emergenza da Covid-19. L\'azienda ha riaperto recuperando in pochissimo tempo la produzione arretrata chiudendo l\'anno peggiore dell\'economia italiana con la performance migliore del proprio settore di riferimento. Viene lanciato il nuovo brand "P di Pigna".', $textdomain ); ?></p>
+                            <p><?php _e( 'Per la prima volta nella sua storia, Cartiere Paolo Pigna, con la sua sede ad Alzano Lombardo, uno dei comuni italiani più colpiti e simbolo dell\'emergenza, è costretta a chiudere per 40 giorni il suo stabilimento per rispondere all\'emergenza da Covid-19. L\'azienda ha riaperto recuperando in pochissimo tempo la produzione arretrata chiudendo l\'anno peggiore dell\'economia italiana con la performance migliore del proprio settore di riferimento. Viene lanciato il nuovo brand "P <i>di</i> Pigna".', $textdomain ); ?></p>
                         </div>
                     </div>
                     <div class="cell small-6 large-6 medium-6"></div>

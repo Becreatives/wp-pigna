@@ -144,8 +144,8 @@ msgstr ""
 msgid "Pigna Classic is the new Pigna Classic! Several collections in continuous evolution, designed for those who learn, grow, dream, and for those who have never quit doing it."
 msgstr ""
 
-msgid "All rights reserved ©2022 <b>Cartiere Paolo Pigna S.p.A.</b> with sole shareholder Direction and coordination <b>Gruppo Buffetti S.p.A</b><br><b>Registered Office:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - <b>Operational Headquarters</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo) Italy  - <b>VAT 00216380162</b>"
-msgstr "Tutti i diritti riservati ©2022 <b>Cartiere Paolo Pigna S.p.A.</b> come socio unico, Direzione e coordinamento <b>Gruppo Buffetti S.p.A</b><br><b>sede legale:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - <b>sede operativa</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo) Italia  - <b>P.IVA 00216380162</b>"
+msgid "All rights reserved ©2022 <b>Cartiere Paolo Pigna S.p.A.</b> with sole shareholder Direction and coordination <b>Gruppo Buffetti S.p.A.</b><br><b>Registered Office:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - <b>Operational Headquarters</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo) Italy  - <b>VAT 00216380162</b>"
+msgstr "Tutti i diritti riservati ©2022 <b>Cartiere Paolo Pigna S.p.A.</b> come socio unico, Direzione e coordinamento <b>Gruppo Buffetti S.p.A.</b><br><b>sede legale:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - <b>sede operativa</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo) Italia  - <b>P.IVA 00216380162</b>"
 
 msgid "Company policies"
 msgstr "Politiche Aziendali"
