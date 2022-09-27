@@ -18,7 +18,7 @@
                             <div class="company-history-item-year">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/history-1.png" alt="" />
                             </div>
-                            <p><?php _e( 'L\'azienda inizia ad allargare il proprio business ad altre categorie nel mondo della scuola oltre i quaderni come diari, astucci e cartelle.', $textdomain ); ?></p>
+                            <p><?php _e( 'The company begins to expand its business to other categories in the school sector, so not only notebooks but also diaries, pencil cases and folders.', 'pigna' ); ?></p>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                             <div class="company-history-item-year">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/history-2.png" alt="" />
                             </div>
-                            <p><?php _e( 'Creazione del raccoglitore ad anelli a marchio Quablock che presto diventa un successo a livello nazionale.', $textdomain ); ?></p>
+                            <p><?php _e( 'Creation of the Quablock branded ring binder, which soon becomes a national success.', 'pigna' ); ?></p>
                         </div>
                     </div>
                     <div class="cell small-6 large-6 medium-6"></div>
@@ -43,7 +43,7 @@
                             <div class="company-history-item-year">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/history-3.png" alt="" />
                             </div>
-                            <p><?php _e( 'Registrazione del marchio e lancio della iconica linea di cartotecnica Monocromo.', $textdomain ); ?></p>
+                            <p><?php _e( 'Registration of the brand and launch of the iconic Monocromo paper converting product line.', 'pigna' ); ?></p>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                             <div class="company-history-item-year">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/history-4.png" alt="" />
                             </div>
-                            <p><?php _e( 'L\'imprenditore bergamasco Giorgio Jannone entra nel capitale sociale di Pigna, diventando negli anni successivi l\'unico azionista. L\'azienda si concentra nello sviluppo di prodotti cartotecnici.', $textdomain ); ?></p>
+                            <p><?php _e( 'Entrepreneur Giorgio Jannone, from Bergamo, enters the share capital of Pigna and over the next few years becomes the sole shareholder. The company focuses on the development of paper converting products.', 'pigna' ); ?></p>
                         </div>
                     </div>
                     <div class="cell small-6 large-6 medium-6"></div>
@@ -68,7 +68,7 @@
                             <div class="company-history-item-year">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/history-5.png" alt="" />
                             </div>
-                            <p><?php _e( 'Viene inaugurata la nuova sede di Cartiere Paolo Pigna sempre ad Alzano Lombardo.', $textdomain ); ?></p>
+                            <p><?php _e( 'The new headquarters of Cartiere Paolo Pigna, also in Alzano Lombardo, are inaugurated.', 'pigna' ); ?></p>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                             <div class="company-history-item-year">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/history-6.png" alt="" />
                             </div>
-                            <p><?php _e( 'Cartiere Paolo Pigna S.p.A. entra in procedura di concordato in continuità.', $textdomain ); ?></p>
+                            <p><?php _e( 'Cartiere Paolo Pigna S.p.A. enters into a continuity arrangement.', 'pigna' ); ?></p>
                         </div>
                     </div>
                     <div class="cell small-6 large-6 medium-6"></div>
@@ -93,7 +93,7 @@
                             <div class="company-history-item-year">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/history-7.png" alt="" />
                             </div>
-                            <p><?php _e( 'Attraverso uno dei suoi fondi entra nella compagine sociale di Pigna il socio DeA Capital (Gruppo De Agostini) al 51%.', $textdomain ); ?></p>
+                            <p><?= html_entity_decode(_e( "Through one of its funds, shareholder DeA Capital (De Agostini Group) joins Pigna's corporate structure with a 51&#37; share.", 'pigna' )); ?></p>
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                             <div class="company-history-item-year">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/history-8.png" alt="" />
                             </div>
-                            <p><?php _e( 'Il Gruppo Buffetti entra nella compagine sociale dell\'azienda al 40% e viene nominato Presidente del CdA e Amministratore delegato Massimo Fagioli (proveniente dal Gruppo De Agostini).', $textdomain ); ?></p>
+                            <p><?= html_entity_decode(_e( 'The Buffetti Group joins the company&apos;s shareholding structure with a 40&#37; share and Massimo Fagioli (from the De Agostini Group) is appointed Chairman of the Board of Directors and CEO.', "pigna" )); ?></p>
                         </div>
                     </div>
                     <div class="cell small-6 large-6 medium-6"></div>
@@ -118,7 +118,7 @@
                             <div class="company-history-item-year">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/history-9.png" alt="" />
                             </div>
-                            <p><?php _e( 'Cartiere Paolo Pigna S.p.A. esce dal concordato in continuità con due anni di anticipo rispetto al piano concordatario. Pigna si apre a nuovi mercati oltre la scuola, entrando nel mercato stationery per adulti, aprendosi anche a nuovi canali come ecommerce ed estero. Si rafforza il posizionamento di love brand italiano con operazioni di respiro internazionale come la collaborazione con il MoMa Design Store di New York in occasione dei 180 anni del brand. Il Gruppo Buffetti acquisisce il 100% delle quote azionarie.', $textdomain ); ?></p>
+                            <p><?= html_entity_decode(_e('Cartiere Paolo Pigna S.p.A. exits the continuity arrangement two years in advance of the agreed plan. Pigna opens up to new markets beyond the school sector to enter the adult stationery market and also opens up to new channels such as e-commerce and foreign markets. The positioning of the Italian love brand is strengthened with international operations such as the collaboration with the MoMa Design Store in New York for the 180 th anniversary of the brand. The Buffetti Group acquires 100&#37; of the shares.', 'pigna' )); ?></p>
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                             <div class="company-history-item-year">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/history-10.png" alt="" />
                             </div>
-                            <p><?php _e( 'Per la prima volta nella sua storia, Cartiere Paolo Pigna, con la sua sede ad Alzano Lombardo, uno dei comuni italiani più colpiti e simbolo dell\'emergenza, è costretta a chiudere per 40 giorni il suo stabilimento per rispondere all\'emergenza da Covid-19. L\'azienda ha riaperto recuperando in pochissimo tempo la produzione arretrata chiudendo l\'anno peggiore dell\'economia italiana con la performance migliore del proprio settore di riferimento. Viene lanciato il nuovo brand "P <i>di</i> Pigna".', $textdomain ); ?></p>
+                            <p><?= html_entity_decode(_e('For the first time in its history, Cartiere Paolo Pigna, with its headquarters in Alzano Lombardo, one of the Italian towns most affected by Covid-19 and a symbol of the emergency, is forced to close its plant for 40 days to respond to the emergency. The company reopens and quickly makes up the loss in production to close the worst year in the Italian economy with the best performance of its reference sector. The new brand 	&quot;P <i>di</i> Pigna	&quot; is launched.', 'pigna' )); ?></p>
                         </div>
                     </div>
                     <div class="cell small-6 large-6 medium-6"></div>
@@ -145,10 +145,10 @@
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/Pigna_logo-1.png" alt="" />
                 </div>
                 <div class="cell small-12 medium-12 large-6 text-left company-historic-brand-col2">
-                    <h2><?php _e( 'Pigna riconosciuto come marchio storico di interesse nazionale dal Ministero dello Sviluppo Economico', $textdomain ); ?></h2>
+                    <h2><?php _e( 'Pigna recognised as a historic brand of national interest by the Ministry of Economic Development', 'pigna' ); ?></h2>
                     <img class="historic-brand" src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/Marchio_storico@3x.png" alt="" />
                     <p>
-                        <?php _e( 'Il marchio storico Pigna con la iconica "P" degli anni 50 è stato inserito nel Registro Speciale dei Marchi Storici di interesse nazionale, albo istituito dal Ministero dello Sviluppo Economico in collaborazione con Unioncamere. L\'iniziativa ha come obiettivo quello di tutelare la proprietà industriale delle aziende storiche italiane, valorizzando la produzione made in Italy in un\'ottica di innovazione, sostenibilità e competitività internazionale. L\'iscrizione di un marchio al registro speciale "marchio storico", che si può ottenere solo per i marchi registrati da almeno 50 anni, comporta una serie di misure che mirano a garantire stabilità e sicurezza alle imprese italiane. A marzo 2021, i marchi riconosciuti come storici sono solo 119 in tutta Italia.', $textdomain ); ?>
+                        <?php _e( 'The historic Pigna brand with the iconic &quot;P&quot; of the 1950s has been included in the Special Register of Historical Brands of national interest, a register established by the Ministry of Economic Development in collaboration with Unioncamere. The initiative aims to protect the industrial property of historic Italian companies, by enhancing &quot;Made in Italy&quot; production in terms of innovation, sustainability and international competitiveness. The registration of a brand in the special register of &quot;historic brands&quot;, which can only be obtained for those that have been registered for at least 50 years, involves a series of measures that aim to ensure stability and security for Italian companies. As of March 2021, throughout Italy, there are just 119 brands recognised as being historical.', 'pigna' ); ?>
                     </p>
                 </div>
             </div>
