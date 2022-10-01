@@ -1,117 +1,120 @@
-
 #page-sustainability {
   overflow: hidden;
-  padding-bottom: 4rem;
-}
-#page-sustainability .sustainability-section {
-  position: relative;
-}
-#page-sustainability .sustainability-section h2 {
-  font-size: 3em;
-}
-#page-sustainability .sustainability-section p {
-  font-size: 1.3em;
-}
-#page-sustainability .sustainability-section .grid-container {
-  position: relative;
-}
-#page-sustainability .sustainability-section .\--text-red {
-  color: #a21c3f;
-}
-#page-sustainability .sustainability-section .\--text-blue {
-  color: #0b7bbf;
-}
-#page-sustainability .sustainability-section .\--font-bold {
-  font-weight: bold;
-}
-#page-sustainability .sustainability-section .pt-180px {
-  padding-top: 180px;
-}
-@media print, screen and (max-width: 39.99875em) {
-  #page-sustainability .sustainability-section .pt-180px {
-    padding-top: 40px;
-  }
-}
-#page-sustainability .sustainability-section .py-180px {
-  padding: 180px 0;
-}
-@media print, screen and (max-width: 39.99875em) {
-  #page-sustainability .sustainability-section .py-180px {
-    padding: 30px 0 40px;
-  }
-}
-@media print, screen and (max-width: 39.99875em) {
-  #page-sustainability .sustainability-section .py-90px {
-    padding: 40px;
-  }
-}
-#page-sustainability .sustainability-section .w-full {
-  width: 100%;
-}
-#page-sustainability .sustainability-section #sostenibilita-icon-1 {
-  position: absolute;
-  width: 1100px;
-  top: -200px;
-  left: -200px;
-  -o-object-fit: contain;
-  object-fit: contain;
-}
-@media print, screen and (max-width: 39.99875em) {
-  #page-sustainability .sustainability-section #sostenibilita-icon-1 {
-    left: 0;
-    margin-top: -10rem;
-    max-width: 22rem;
-    -o-object-fit: initial;
-    object-fit: initial;
+
+  .sustainability-section {
     position: relative;
-    top: 0;
+
+    &__1,
+    &__2,
+    &__3 {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top center;
+    }
+
+    &__1 {
+      background-image: url("../images/sustainability/sezione-1-sfondo.svg");
+    }
+
+    &__2 {
+      background-image: url("../images/sustainability/sezione-2-sfondo.svg");
+    }
+
+    &__3 {
+      background-image: url("../images/sustainability/sezione-3-sfondo.svg");
+    }
+
+    &__4 {      
+      .grey-bk {
+        background-color: #F6F6F6;
+      }
+
+      .white-bk {
+        background-color: #fff;
+      }
+
+      .grey-bk,
+      .white-bk {
+        padding: 2rem 0;
+      }
+
+      img {
+        padding-right: 4rem;
+      }
+
+      .vt-line {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 1px;
+        height: 100%;
+        background-color: #000;
+      }
+
+      h3 {
+        color: $susRed;
+        font-weight: 700; 
+        margin-bottom: 2rem;
+      }
+
+      h3,
+      .btn-report {
+        margin-left: 4rem;
+      }
+    }
+
+    h2 {
+      font-size: 3em;
+    }
+
+    p {
+      font-size: 1.3em;
+    }
+
+    .grid-container {
+      position: relative;
+    }
+
+    .\--text-red {
+      color: $susRed;
+    }
+
+    .\--text-white {
+      color: #fff;
+    }
+
+    .\--text-yellow {
+      color: $susYellow;
+    }
+
+    .\--font-bold {
+      font-weight: bold;
+    }
+
   }
 }
-#page-sustainability .sustainability-section #sostenibilita-icon-2 {
-  position: absolute;
-  width: 1100px;
-  top: -350px;
-  right: -600px;
-  -o-object-fit: contain;
-  object-fit: contain;
-}
-@media print, screen and (max-width: 39.99875em) {
-  #page-sustainability .sustainability-section #sostenibilita-icon-2 {
-    right: -20%;
-    top: 100%;
-    width: 210px;
-  }
-}
-#page-sustainability .sustainability-section #sostenibilita-icon-3 {
-  position: absolute;
-  width: 1000px;
-  top: 0;
-  left: -200px;
-  -o-object-fit: contain;
-  object-fit: contain;
-  z-index: -1;
-}
+
 @media print, screen and (max-width: 39.99875em) {
   #page-sustainability
-  .sustainability-section
-  #sostenibilita-icon-3
-  + .align-right {
+    .sustainability-section
+    #sostenibilita-icon-3
+    + .align-right {
     -ms-flex-pack: center;
     justify-content: center;
   }
 }
 @media print, screen and (max-width: 39.99875em) {
   #page-sustainability
-  .sustainability-section
-  #sostenibilita-icon-3
-  .sustainability-report-wrapper {
+    .sustainability-section
+    #sostenibilita-icon-3
+    .sustainability-report-wrapper {
     text-align: center !important;
   }
   #page-sustainability
-  .sustainability-section
-  #sostenibilita-icon-3
-  .sustainability-report-wrapper
-  img {
+    .sustainability-section
+    #sostenibilita-icon-3
+    .sustainability-report-wrapper
+    img {
     max-width: 18rem;
   }
 }
@@ -131,18 +134,19 @@
   z-index: 3;
 }
 #page-sustainability .sustainability-section .btn-report {
-  margin: auto;
-  display: block;
   text-align: center;
   padding: 10px 35px;
   cursor: pointer;
-  background-color: #1b9780;
+  background-color: $susPink;
   text-transform: uppercase;
   color: #fff;
   border-radius: 250px;
   font-weight: 700;
   font-size: 14pt;
-  margin-top: 30px;
+
+  &.green {
+    background-color: $susGreen;
+  }
 }
 @media print, screen and (max-width: 39.99875em) {
   #page-sustainability .sustainability-section .btn-report {
