@@ -9,19 +9,47 @@
     &__3 {
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: top center;
+      background-position: bottom center;
     }
 
     &__1 {
       background-image: url("../images/sustainability/sezione-1-sfondo.svg");
+      padding: 20rem 0;
     }
 
     &__2 {
       background-image: url("../images/sustainability/sezione-2-sfondo.svg");
+      padding: 0rem 0 8rem;
+
+      @include breakpoint(small medium large){
+        position: relative;
+        top: -1px
+      }
+      
     }
 
     &__3 {
+      padding: 0 0 12rem 0;
       background-image: url("../images/sustainability/sezione-3-sfondo.svg");
+      position: relative;
+
+      @include breakpoint(small medium large){
+        position: relative;
+        top: -1px
+      }
+
+      .btn-report {
+        margin-top: 2rem;
+      }
+
+      #pens {
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        height: 12rem;
+      }
+
+     
     }
 
     &__4 {      
@@ -40,6 +68,10 @@
 
       img {
         padding-right: 4rem;
+
+        @include breakpoint(small down) {
+          padding-right: 0;
+        }
       }
 
       .vt-line {
@@ -49,17 +81,27 @@
         width: 1px;
         height: 100%;
         background-color: #000;
+
+        @include breakpoint(small down){
+          display: none;
+        }
       }
 
       h3 {
         color: $susRed;
         font-weight: 700; 
         margin-bottom: 2rem;
+        font-size: 2rem;
       }
 
       h3,
       .btn-report {
         margin-left: 4rem;
+
+        @include breakpoint(small down) {
+          margin-left: 0;
+          display: block;
+        }
       }
     }
 

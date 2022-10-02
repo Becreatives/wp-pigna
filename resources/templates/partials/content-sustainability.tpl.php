@@ -8,8 +8,9 @@ $doc_filename_2021 = $language  == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PI
 <div id="page-sustainability">
     <div class="sustainability-section sustainability-section__1" style="position: relative; z-index: 10">
         <div class="grid-container text-center">
-            <div class="grid-x align-right py-180px">
-                <div class="cell small-12 medium-5 medium-text-right text-center page-background">
+            <div class="grid-x align-middle">
+                <div class="cell small-12 medium-6"></div>
+                <div class="cell small-12 medium-6 medium-text-right text-center page-background">
                     <h2 class="--text-red --font-bold"><?php _e('Sustainability', $textdomain); ?></h2>
                     <p>
                         <?php _e('The Pigna Sustainability Report aims to tell in a complete and transparent way what sustainability means for the company. A snapshot of the actions, results, approaches, and strategies with which Pigna wants to create lasting, widespread, and consistent value with the needs of all stakeholders and with ecological balances.', $textdomain); ?>
@@ -39,7 +40,7 @@ $doc_filename_2021 = $language  == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PI
         <div class="grid-container">
             <div class="grid-x">
                 <div class="cell medium-3">
-
+                    <img id="glasses" src="<?= get_stylesheet_directory_uri( ) ?>/resources/assets/images/sustainability/sezione-3-1.svg">
                 </div>
                 <div class="cell small-8 medium-6 sustainability-report-wrapper">
                     <img src="<?= get_stylesheet_directory_uri() ?>/public/images/sustainability/<?php echo $sustainability_cover_2021; ?>" id="sostenibilita-report-cover" />
@@ -48,10 +49,11 @@ $doc_filename_2021 = $language  == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PI
                     </div>
                 </div>
                 <div class="cell medium-3">
-
+                    <img id="paper" src="<?= get_stylesheet_directory_uri( ) ?>/resources/assets/images/sustainability/sezione-3-2.svg">
                 </div>
             </div>
         </div>
+        <img id="pens" src="<?= get_stylesheet_directory_uri( ) ?>/resources/assets/images/sustainability/sezione-3-3.svg">
     </div>
 
     <div class="sustainability-section sustainability-section__4">
@@ -61,11 +63,11 @@ $doc_filename_2021 = $language  == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PI
                     <div class="cell small-12">
                         <h2 class="--text-red --font-bold"><?php _e('Balance and Report', $textdomain); ?></h2>
                     </div>
-                    <div class="cell small-2 medium-4" style="position: relative;">
+                    <div class="cell small-12 medium-4" style="position: relative;">
                         <img src="<?= get_stylesheet_directory_uri() ?>/public/images/sustainability/<?php echo $sustainability_cover_2021; ?>" id="sostenibilita-report-cover" />
                         <div class="vt-line"></div>
                     </div>
-                    <div class="cell small-10 medium-8">
+                    <div class="cell small-12 medium-8">
                         <h3><?php _e('Balance 2021', $textdomain); ?></h3>
                         <a target="_blank" class="btn-report" href="<?= get_stylesheet_directory_uri() ?>/resources/assets/pdf/<?php echo $doc_filename_2021; ?>"><?php _e('Download report 2021', $textdomain); ?></a>
                     </div>
@@ -75,11 +77,11 @@ $doc_filename_2021 = $language  == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PI
         <div class="white-bk">
             <div class="grid-container">
                 <div class="grid-x align-middle">
-                    <div class="cell small-2 medium-4" style="position: relative;">
+                    <div class="cell small-12 medium-4" style="position: relative;">
                         <img src="<?= get_stylesheet_directory_uri() ?>/public/images/sustainability/<?php echo $sustainability_cover_2020; ?>" id="sostenibilita-report-cover" />
                         <div class="vt-line"></div>
                     </div>
-                    <div class="cell small-10 medium-8">
+                    <div class="cell small-12 medium-8">
                         <h3><?php _e('Balance 2020', $textdomain); ?></h3>
                         <a target="_blank" class="btn-report green" href="<?= get_stylesheet_directory_uri() ?>/resources/assets/pdf/<?php echo $doc_filename_2020; ?>"><?php _e('Download report 2020', $textdomain); ?></a>
                     </div>
