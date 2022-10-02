@@ -30,7 +30,7 @@ $doc_filename_2021 = $language  == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PI
                     </p>
                 </div>
                 <div class="cell small-12 medium-7">
-                    <img src="<?= get_stylesheet_directory_uri() ?>/resources/assets/images/sustainability/sezione-2-1.svg">
+                    <img src="<?= get_stylesheet_directory_uri() ?>/public/images/sustainability/sezione-2-1.svg">
                 </div>
             </div>
         </div>
@@ -39,21 +39,21 @@ $doc_filename_2021 = $language  == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PI
     <div class="sustainability-section sustainability-section__3">
         <div class="grid-container">
             <div class="grid-x">
-                <div class="cell medium-3">
-                    <img id="glasses" src="<?= get_stylesheet_directory_uri( ) ?>/resources/assets/images/sustainability/sezione-3-1.svg">
+                <div class="cell medium-3" style="position:relative;">
+                    <img id="glasses" src="<?= get_stylesheet_directory_uri( ) ?>/public/images/sustainability/sezione-3-1.svg">
                 </div>
-                <div class="cell small-8 medium-6 sustainability-report-wrapper">
+                <div class="cell small-12 medium-6 sustainability-report-wrapper">
                     <img src="<?= get_stylesheet_directory_uri() ?>/public/images/sustainability/<?php echo $sustainability_cover_2021; ?>" id="sostenibilita-report-cover" />
                     <div class="grid-x align-center">
                         <a target="_blank" class="btn-report" href="<?= get_stylesheet_directory_uri() ?>/resources/assets/pdf/<?php echo $doc_filename_2021; ?>"><?php _e('Download report', $textdomain); ?></a>
                     </div>
                 </div>
-                <div class="cell medium-3">
-                    <img id="paper" src="<?= get_stylesheet_directory_uri( ) ?>/resources/assets/images/sustainability/sezione-3-2.svg">
+                <div class="cell medium-3" style="position:relative;">
+                    <img id="paper" src="<?= get_stylesheet_directory_uri( ) ?>/public/images/sustainability/sezione-3-2.svg">
                 </div>
             </div>
         </div>
-        <img id="pens" src="<?= get_stylesheet_directory_uri( ) ?>/resources/assets/images/sustainability/sezione-3-3.svg">
+        <img id="pens" src="<?= get_stylesheet_directory_uri( ) ?>/public/images/sustainability/sezione-3-3.svg">
     </div>
 
     <div class="sustainability-section sustainability-section__4">

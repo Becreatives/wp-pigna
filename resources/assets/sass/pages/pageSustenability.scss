@@ -21,11 +21,10 @@
       background-image: url("../images/sustainability/sezione-2-sfondo.svg");
       padding: 0rem 0 8rem;
 
-      @include breakpoint(small medium large){
+      @include breakpoint(small medium large) {
         position: relative;
-        top: -1px
+        top: -1px;
       }
-      
     }
 
     &__3 {
@@ -33,13 +32,41 @@
       background-image: url("../images/sustainability/sezione-3-sfondo.svg");
       position: relative;
 
-      @include breakpoint(small medium large){
+      @include breakpoint(small only) {
+        padding: 0 0 14rem 0;
+      }
+
+      @include breakpoint(small medium large) {
         position: relative;
-        top: -1px
+        top: -1px;
       }
 
       .btn-report {
         margin-top: 2rem;
+      }
+
+      #glasses {
+        width: 400px;
+        position: absolute;
+        max-width: none;
+        left: -200px;
+        top: 100px;
+
+        @include breakpoint(small only) {
+          display: none;
+        }
+      }
+
+      #paper {
+        width: 400px;
+        position: absolute;
+        max-width: none;
+        bottom: 100px;
+        right: -200px;
+
+        @include breakpoint(small only) {
+          display: none;
+        }
       }
 
       #pens {
@@ -48,13 +75,11 @@
         right: 10%;
         height: 12rem;
       }
-
-     
     }
 
-    &__4 {      
+    &__4 {
       .grey-bk {
-        background-color: #F6F6F6;
+        background-color: #f6f6f6;
       }
 
       .white-bk {
@@ -82,14 +107,14 @@
         height: 100%;
         background-color: #000;
 
-        @include breakpoint(small down){
+        @include breakpoint(small down) {
           display: none;
         }
       }
 
       h3 {
         color: $susRed;
-        font-weight: 700; 
+        font-weight: 700;
         margin-bottom: 2rem;
         font-size: 2rem;
       }
@@ -132,7 +157,6 @@
     .\--font-bold {
       font-weight: bold;
     }
-
   }
 }
 
