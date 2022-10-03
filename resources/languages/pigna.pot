@@ -87,7 +87,7 @@ msgstr ""
 msgid "Pigna operates within internationally recognized guidelines such as the United Nations Global Compact, adhering to the 2030 Agenda and the Sustainable Development Goals. Today the company's commitment to sustainability focuses on achieving 6 of the 17 Sustainable Development Goals."
 msgstr ""
 
-msgid "The first Pigna Sustainability Report aims to tell in a complete and transparent way what sustainability means for the company. A snapshot of the actions, results, approaches, and strategies with which Pigna wants to create lasting, widespread, and consistent value with the needs of all stakeholders and with ecological balances."
+msgid "The Pigna Sustainability Report aims to tell in a complete and transparent way what sustainability means for the company. A snapshot of the actions, results, approaches, and strategies with which Pigna wants to create lasting, widespread, and consistent value with the needs of all stakeholders and with ecological balances."
 msgstr ""
 
 msgid "The Barrow world meets Pigna for a truly unmissable new collection."
@@ -175,7 +175,7 @@ msgstr ""
 msgid "Pigna operates within internationally recognized guidelines such as the United Nations Global Compact, adhering to the 2030 Agenda and the Sustainable Development Goals. Today the company's commitment to sustainability focuses on achieving 6 of the 17 Sustainable Development Goals."
 msgstr ""
 
-msgid "The first Pigna Sustainability Report aims to tell in a complete and transparent way what sustainability means for the company. A snapshot of the actions, results, approaches, and strategies with which Pigna wants to create lasting, widespread, and consistent value with the needs of all stakeholders and with ecological balances."
+msgid "The Pigna Sustainability Report aims to tell in a complete and transparent way what sustainability means for the company. A snapshot of the actions, results, approaches, and strategies with which Pigna wants to create lasting, widespread, and consistent value with the needs of all stakeholders and with ecological balances."
 msgstr ""
 
 msgid "View Doc"
