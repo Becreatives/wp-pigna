@@ -17,6 +17,11 @@
   .menu-mobile-container{
     width: 100%;
   }
+  .scroll-container {
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+  }
 }
 .overlay-menu.\--open {
   left: 0;
@@ -25,6 +30,7 @@
   position: absolute;
   top: 25px;
   right: 25px;
+  cursor: pointer;
 }
 .overlay-menu #close-menu i {
   color: #fff;

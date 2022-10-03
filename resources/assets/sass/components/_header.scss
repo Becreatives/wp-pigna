@@ -148,7 +148,7 @@
 
     .ov-menu {
       display: none;
-      @include breakpoint(medium down) {
+      @include breakpoint(xlarge down) {
         display: block !important;
       }
     }
@@ -224,7 +224,7 @@
     //max-width: 100rem;
     margin: auto;
 
-    @include breakpoint(medium down) {
+    @include breakpoint(xlarge down) {
       display: none;
     }
 

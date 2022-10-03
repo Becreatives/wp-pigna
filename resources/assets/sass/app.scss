@@ -35,6 +35,9 @@ body {
   //overflow-y: hidden;
   font-family: $font-family;
 
+  &.--open {
+    overflow: hidden;
+  }
 }
 .actionbox {
   max-width: $boxSlide-width;
@@ -99,6 +102,7 @@ p {
   padding: 0;
   top: 0 !important;
   border: none;
+  max-width: 1000px;
 
   &:focus {
     outline: none;
@@ -114,7 +118,6 @@ p {
 
   @include breakpoint(xs) {
     width: 98%;
-    left: 1%;
   }
 }
 

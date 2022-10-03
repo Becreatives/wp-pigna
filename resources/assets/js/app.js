@@ -76,10 +76,10 @@ function initMobileMenu() {
     var $btnMenu = $('.btn-menu');
     var $closeMenu = $('#close-menu');
     var $overlayMenu = $('.overlay-menu');
-    console.log($btnMenu);
 
     $btnMenu.on('click', function () {
         $overlayMenu.addClass('--open');
+        $("body").addClass("--open");
         if (typeof $closeMenu != 'undefined') {
             $closeMenu.on('click', function () {
                 $overlayMenu.removeClass('--open');
@@ -90,7 +90,7 @@ function initMobileMenu() {
     if (typeof $closeMenu != 'undefined') {
         $closeMenu.on('click', function () {
             $overlayMenu.removeClass('--open');
-
+            $("body").removeClass("--open");
         });
     }
 }
