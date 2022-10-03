@@ -40,7 +40,7 @@ $doc_filename_2021 = $language  == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PI
         <div class="grid-container">
             <div class="grid-x">
                 <div class="cell medium-3" style="position:relative;">
-                    <img id="glasses" src="<?= get_stylesheet_directory_uri( ) ?>/public/images/sustainability/sezione-3-1.svg">
+                    <img id="glasses" src="<?= get_stylesheet_directory_uri() ?>/public/images/sustainability/sezione-3-1.svg">
                 </div>
                 <div class="cell small-12 medium-6 sustainability-report-wrapper">
                     <img src="<?= get_stylesheet_directory_uri() ?>/public/images/sustainability/<?php echo $sustainability_cover_2021; ?>" id="sostenibilita-report-cover" />
@@ -49,11 +49,11 @@ $doc_filename_2021 = $language  == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PI
                     </div>
                 </div>
                 <div class="cell medium-3" style="position:relative;">
-                    <img id="paper" src="<?= get_stylesheet_directory_uri( ) ?>/public/images/sustainability/sezione-3-2.svg">
+                    <img id="paper" src="<?= get_stylesheet_directory_uri() ?>/public/images/sustainability/sezione-3-2.svg">
                 </div>
             </div>
         </div>
-        <img id="pens" src="<?= get_stylesheet_directory_uri( ) ?>/public/images/sustainability/sezione-3-3.svg">
+        <img id="pens" src="<?= get_stylesheet_directory_uri() ?>/public/images/sustainability/sezione-3-3.svg">
     </div>
 
     <div class="sustainability-section sustainability-section__4">
@@ -63,7 +63,7 @@ $doc_filename_2021 = $language  == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PI
                     <div class="cell small-12">
                         <h2 class="--text-red --font-bold"><?php _e('Balance and Report', $textdomain); ?></h2>
                     </div>
-                    <div class="cell small-12 medium-4" style="position: relative;">
+                    <div class="cell small-8 medium-4" style="position: relative;">
                         <img src="<?= get_stylesheet_directory_uri() ?>/public/images/sustainability/<?php echo $sustainability_cover_2021; ?>" id="sostenibilita-report-cover" />
                         <div class="vt-line"></div>
                     </div>
@@ -77,13 +77,23 @@ $doc_filename_2021 = $language  == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PI
         <div class="white-bk">
             <div class="grid-container">
                 <div class="grid-x align-middle">
-                    <div class="cell small-12 medium-4" style="position: relative;">
+                    <div class="cell small-8 medium-4" style="position: relative;">
                         <img src="<?= get_stylesheet_directory_uri() ?>/public/images/sustainability/<?php echo $sustainability_cover_2020; ?>" id="sostenibilita-report-cover" />
                         <div class="vt-line"></div>
                     </div>
                     <div class="cell small-12 medium-8">
-                        <h3><?php _e('Balance 2020', $textdomain); ?></h3>
-                        <a target="_blank" class="btn-report green" href="<?= get_stylesheet_directory_uri() ?>/resources/assets/pdf/<?php echo $doc_filename_2020; ?>"><?php _e('Download report 2020', $textdomain); ?></a>
+                        <div class="grid-x align-middle">
+                            <div class="cell small-12 large-6">
+                                <h3><?php _e('Balance 2020', $textdomain); ?></h3>
+                                <a target="_blank" class="btn-report green" href="<?= get_stylesheet_directory_uri() ?>/resources/assets/pdf/<?php echo $doc_filename_2020; ?>"><?php _e('Download report 2020', $textdomain); ?></a>
+                            </div>
+                            <div class="cell small-12 large-6">
+                                <video controls>
+                                    <source src="<?= get_stylesheet_directory_uri() ?>/resources/assets/video/Video_Pigna-Bilancio-v3-2.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

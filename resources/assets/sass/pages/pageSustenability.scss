@@ -15,6 +15,10 @@
     &__1 {
       background-image: url("../images/sustainability/sezione-1-sfondo.svg");
       padding: 20rem 0;
+
+      @include breakpoint(small only) {
+        background-position: right;
+      }
     }
 
     &__2 {
@@ -123,10 +127,31 @@
       .btn-report {
         margin-left: 4rem;
 
+        @include breakpoint(large down) {
+          margin-left: 1rem;
+        }
+
         @include breakpoint(small down) {
           margin-left: 0;
           display: block;
         }
+      }
+
+      video {
+        height: auto;
+        width: 100%;
+        max-width: 400px;
+        
+        @include breakpoint(medium down) {
+          margin-top: 2rem;
+          margin-left: 1rem;
+        }
+
+        @include breakpoint(small down) {
+          max-width: 100%;
+          margin-left: 0;
+        }
+
       }
     }
 
