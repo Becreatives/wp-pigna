@@ -88,8 +88,8 @@ $doc_filename_2021 = $language  == 'en' ? 'PIGNA_report21_ENG-schermo.pdf' : 'PI
                                 <a target="_blank" class="btn-report green" href="<?= get_stylesheet_directory_uri() ?>/resources/assets/pdf/<?php echo $doc_filename_2020; ?>"><?php _e('Download report 2020', $textdomain); ?></a>
                             </div>
                             <div class="cell small-12 large-6">
-                                <video controls>
-                                    <source src="<?= get_stylesheet_directory_uri() ?>/resources/assets/video/Video_Pigna-Bilancio-v3-2.mp4" type="video/mp4">
+                                <video preload="metadata" controls>
+                                    <source src="<?= get_stylesheet_directory_uri() ?>/resources/assets/video/Video_Pigna-Bilancio-v3-2.mp4#t=0.001" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
