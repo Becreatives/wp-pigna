@@ -12,7 +12,7 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1><?php _e('friend of colors', $textdomain); ?></h1>
                                 <p>
-                                    <?php _e('From school to free time, what matters is to give a unique nuance to your daily adventures in the company of Monochrome backpacks', $textdomain); ?>
+                                    <?php _e('From school to free time, what matters is to give a unique nuance to your daily adventures in the company of Monocromo backpacks', $textdomain); ?>
                                 </p>
 
                             </div>

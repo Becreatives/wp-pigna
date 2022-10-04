@@ -113,7 +113,7 @@
         margin-bottom:25px;
         max-width: 650px;
         font-family: 'Almarai',sans-serif !important;
-        height: 80px;
+
         @include breakpoint(small only){
           font-size: 30pt;
           line-height: 30pt;

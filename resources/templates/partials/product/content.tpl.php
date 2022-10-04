@@ -54,8 +54,8 @@ $products = get_posts($args);
                             <?= htmlspecialchars_decode($product['content']); ?>
                         </div>
                         <?php if (isset($product['url'])) : ?>
-                            <a href="<?= $product['url']; ?>" target="_blank" class="btn">
-                                <?= $product['label'] ? $product['label'] : _e('Acquista ora', $textdomain); ?>
+                            <a href="<?= $product['url']; ?>" target="_blank" class="btn<?= $product['url'] === '' ? ' disabled' : '' ?>">
+                                <?= $product['label_bottone'] ? $product['label_bottone'] : _e('Shop now', $textdomain); ?>
                             </a>
                         <?php endif; ?>
                     </div>
@@ -109,7 +109,7 @@ $products = get_posts($args);
                         </div>
                         <?php if (isset($url)) : ?>
                             <a href="<?= $url ?>" target="_blank" class="btn">
-                                <?= $label ? $label : _e('Acquista ora', $textdomain); ?>
+                                <?= $label ? $label : _e('Shop now', $textdomain); ?>
                             </a>
                         <?php endif; ?>
                     </div>

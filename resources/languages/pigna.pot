@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pigna/theme\n"
-"POT-Creation-Date: 2022-10-03 11:56+0200\n"
+"POT-Creation-Date: 2022-10-04 10:21+0200\n"
 "PO-Revision-Date: 2017-04-11 11:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: Becreatives\n"
@@ -103,14 +103,6 @@ msgstr ""
 msgid "Tonik is a WordPress Starter Theme which aims to modernize, organize and enhance some aspects of WordPress theme development. Take a look at what is waiting for you."
 msgstr ""
 
-#: public/js/foundation.js:1
-msgid "input"
-msgstr ""
-
-#: public/js/foundation.js:1
-msgid "intent"
-msgstr ""
-
 #: resources/templates/layout/footer.tpl.php:19
 msgid "Company policies"
 msgstr ""
@@ -167,7 +159,6 @@ msgstr ""
 #: resources/templates/partials/pdi.tpl.php:112
 #: resources/templates/partials/pdi.tpl.php:134
 #: resources/templates/partials/scrittura.tpl.php:17
-#: resources/templates/partials/zaini.tpl.php:17
 msgid "SHOP NOW"
 msgstr ""
 
@@ -181,6 +172,7 @@ msgstr ""
 #: resources/templates/partials/pdi.tpl.php:91
 #: resources/templates/partials/pdi.tpl.php:113
 #: resources/templates/partials/pdi.tpl.php:135
+#: resources/templates/partials/zaini.tpl.php:17
 msgid "DISCOVER MORE"
 msgstr ""
 
@@ -655,9 +647,9 @@ msgstr ""
 msgid "The notebook that has been used for generations since 1948 is back. A bridge between worlds, a milestone in our tradition, now revised with a touch of irony."
 msgstr ""
 
-#: resources/templates/partials/product/content.tpl.php:65
-#: resources/templates/partials/product/content.tpl.php:130
-msgid "Acquista ora"
+#: resources/templates/partials/product/content.tpl.php:58
+#: resources/templates/partials/product/content.tpl.php:112
+msgid "Shop now"
 msgstr ""
 
 #: resources/templates/partials/scrittura.tpl.php:12
@@ -696,7 +688,7 @@ msgstr ""
 
 #: resources/templates/partials/zaini.php:15
 #: resources/templates/partials/zaini.tpl.php:14
-msgid "From school to free time, what matters is to give a unique nuance to your daily adventures in the company of Monochrome backpacks"
+msgid "From school to free time, what matters is to give a unique nuance to your daily adventures in the company of Monocromo backpacks"
 msgstr ""
 
 #: resources/templates/partials/zaini.tpl.php:12

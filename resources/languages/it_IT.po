@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pigna/theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-03 11:53+0200\n"
-"PO-Revision-Date: 2022-10-03 11:55+0200\n"
+"PO-Revision-Date: 2022-10-04 07:54+0000\n"
 "Last-Translator: \n"
 "Language-Team: Italiano\n"
 "Language: it_IT\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Loco https://localise.biz/\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-KeywordsList: __;_e;_x;esc_attr_e\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -21,48 +21,589 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: vendor\n"
 "X-Poedit-SearchPathExcluded-1: node_modules\n"
 
-#: 404.php:25
-msgid "Not Found"
+#: resources/templates/partials/content-news.tpl.php:23
+msgid "12 ottobre 2020"
 msgstr ""
 
-#: 404.php:26
-msgid "The page you are looking for no longer exists."
+#: resources/templates/partials/content-news.tpl.php:29
+msgid "16 ottobre 2020"
 msgstr ""
 
-#: app/Structure/navs.php:26
-msgid "Primary TOP"
+#: resources/templates/partials/content-news.tpl.php:35
+#: resources/templates/partials/content-news.tpl.php:41
+msgid "17 ottobre 2020"
 msgstr ""
 
-#: app/Structure/navs.php:27
-msgid "Primary"
+#: resources/templates/partials/content-news.tpl.php:125
+#: resources/templates/partials/content-news.tpl.php:131
+msgid "22 dicembre 2020"
 msgstr ""
 
-#: app/Structure/navs.php:28
-msgid "Mobile"
+#: resources/templates/partials/content-news.tpl.php:11
+msgid "23 settembre 2020"
 msgstr ""
 
-#: app/Structure/sidebars.php:27
-msgid "Sidebar"
+#: resources/templates/partials/content-news.tpl.php:47
+msgid "24 ottobre 2020"
 msgstr ""
 
-#: app/Structure/sidebars.php:28
-msgid "Website sidebar"
+#: resources/templates/partials/content-news.tpl.php:95
+msgid "26 novembre 2020"
+msgstr ""
+
+#: resources/templates/partials/content-news.tpl.php:53
+msgid "26 ottobre 2020"
+msgstr ""
+
+#: resources/templates/partials/content-news.tpl.php:59
+msgid "28 ottobre 2020"
+msgstr ""
+
+#: resources/templates/partials/content-news.tpl.php:83
+msgid "5 novembre 2020"
+msgstr ""
+
+#: resources/templates/partials/content-news.tpl.php:89
+msgid "6 novembre 2020"
+msgstr ""
+
+#: resources/templates/partials/content-news.tpl.php:17
+msgid "8 ottobre 2020"
+msgstr ""
+
+#: resources/templates/partials/content-news.tpl.php:119
+msgid "9 dicembre 2020"
+msgstr ""
+
+#: resources/templates/partials/contacts.tpl.php:29
+msgid "[wpforms id=\"11\" title=\"false\" description=\"false\"]"
+msgstr ""
+
+#: resources/templates/partials/contacts.tpl.php:31
+msgid "[wpforms id=\"23\" title=\"false\" description=\"false\"]"
+msgstr ""
+
+#: resources/templates/partials/company.tpl.php:87
+msgid ""
+"A partire dagli anni ‘50 Pigna estende la propria gamma prodotti includendo "
+"gli astucci, i diari e oggi anche gli zaini e i colori per bambini. Le "
+"collezioni si evolvono guardando al futuro e al mondo che cambia, senza mai "
+"dimenticare le radici italiane su cui l’azienda ha costruito la propria "
+"storia. Oggi  Pigna  è  un  brand  leader  del  Made  in  Italy,  sempre  "
+"impegnato  a  creare  oggetti  quotidiani  per idee senza tempo, capaci di "
+"ispirare le persone a riscoprire, esprimere e raccontare la propria unicità"
+msgstr ""
+
+#: resources/templates/partials/product/content.tpl.php:58
+#: resources/templates/partials/product/content.tpl.php:112
+msgid "Acquista ora"
+msgstr ""
+
+#: app/Structure/taxonomies.php:41
+msgid "Add New Genre"
+msgstr ""
+
+#: app/Structure/taxonomies.php:36
+msgid "All Genres"
+msgstr ""
+
+#: resources/templates/layout/footer.tpl.php:63
+msgid ""
+"All rights reserved ©2022 <b>Cartiere Paolo Pigna S.p.A.</b> with sole "
+"shareholder Direction and coordination <b>Gruppo Buffetti S.p.A.</b><br><b>"
+"Registered Office:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - <b>"
+"Operational Headquarters</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo)"
+" Italy  - <b>VAT 00216380162</b>"
+msgstr ""
+"Tutti i diritti riservati ©2022 <b>Cartiere Paolo Pigna S.p.A.</b> come "
+"socio unico, Direzione e coordinamento <b>Gruppo Buffetti S.p.A.</b><br><b>"
+"sede legale:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - <b>sede "
+"operativa:</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo) Italia  - <b>"
+"P.IVA 00216380162</b>"
+
+#: resources/templates/partials/monocromo.tpl.php:40
+msgid ""
+"An elegant and romantic touch, yet full of character. Browse all the more "
+"delicate shades in the Monocromo Pastel color palette."
+msgstr ""
+"Un tocco elegante e romantico, ma sempre di carattere.<br>Sfoglia tutte le "
+"sfumature più delicate nella tavolozza di colori Monocromo Pastel."
+
+#: resources/templates/partials/astucci.tpl.php:12
+msgid "Astucci"
+msgstr ""
+
+#: resources/templates/partials/content-company.tpl.php:96
+msgid ""
+"Attraverso uno dei suoi fondi entra nella compagine sociale di Pigna il "
+"socio DeA Capital (Gruppo De Agostini) al 51%."
+msgstr ""
+
+#: resources/templates/partials/bts.tpl.php:34
+msgid "Back 2 School"
+msgstr "Back 2 School"
+
+#: resources/templates/partials/zaini.tpl.php:12
+msgid "Backpacks"
+msgstr "Zaini"
+
+#: resources/templates/partials/content-sustainability.tpl.php:87
+msgid "Balance 2020"
+msgstr "Bilancio 202"
+
+#: resources/templates/partials/content-sustainability.tpl.php:71
+msgid "Balance 2021"
+msgstr "Bilancio 2021"
+
+#: resources/templates/partials/content-sustainability.tpl.php:64
+msgid "Balance and Report"
+msgstr "Bilancio e Report"
+
+#: resources/templates/partials/barrow.tpl.php:14
+#: resources/templates/partials/barrow.tpl.php:38
+msgid "Barrow"
+msgstr "Barrow"
+
+#: resources/templates/partials/content-company-policies.tpl.php:37
+msgid "Basic Labor Requirements Policy"
+msgstr "Politica requisiti fondamentali del lavoro"
+
+#: resources/templates/partials/pdi.tpl.php:62
+msgid "Bella Copia"
+msgstr ""
+
+#: resources/templates/partials/flowers.tpl.php:71
+msgid ""
+"Between authentic colors and accurate details inspired by the most "
+"imaginative natural compositions, the refined Pigna Flowers collections "
+"never stop blooming"
+msgstr ""
+"Tra colori autentici e accurati dettagli ispirati alle più fantasiose "
+"composizioni naturali, le raffinate collezioni Pigna Flowers non smettono "
+"mai di fiorire"
+
+#: resources/templates/partials/pdi.tpl.php:64
+msgid ""
+"Between lines and colors, a hymn to the more relaxed, playful, and joyful "
+"Dolce Vita that since 1952 tells the inimitable idea of the well-made in "
+"Italy."
+msgstr ""
+"Tra righe e colori, un inno alla Dolce Vita più rilassata, giocosa e gioiosa "
+"che dal 1952 racconta l’inimitabile idea del fatto bene in Italia"
+
+#: resources/templates/partials/company.tpl.php:55
+msgid ""
+"Cartiere  Paolo  Pigna  è  stata  la  prima  azienda  a  unire  la  più  "
+"sapiente  arte  artigiana  con  i  vantaggi tecnologici dell’industria. "
+"Grazie alla grafica, al design, alla qualità e all’amore per i dettagli del "
+"fatto bene, i quaderni Pigna sono presenti da sempre su milioni di scrivanie,"
+" accompagnando ogni giorno la creatività degli italiani a scuola, in ufficio "
+"e nel tempo libero"
+msgstr ""
+
+#: resources/templates/partials/pages/company/content-company.tpl.php:83
+msgid "Cartiere Paolo Pigna S.p.A. enters into a continuity arrangement."
+msgstr ""
+"Cartiere Paolo Pigna S.p.A. entra in procedura di concordato in continuità."
+
+#: resources/templates/partials/content-company.tpl.php:83
+#, fuzzy
+#| msgid "Cartiere Paolo Pigna S.p.A. enters into a continuity arrangement."
+msgid ""
+"Cartiere Paolo Pigna S.p.A. entra in procedura di concordato in continuità."
+msgstr ""
+"Cartiere Paolo Pigna S.p.A. entra in procedura di concordato in continuità."
+
+#: resources/templates/partials/content-company.tpl.php:121
+#, php-format
+msgid ""
+"Cartiere Paolo Pigna S.p.A. esce dal concordato in continuità con due anni "
+"di anticipo rispetto al piano concordatario. Pigna si apre a nuovi mercati "
+"oltre la scuola, entrando nel mercato stationery per adulti, aprendosi anche "
+"a nuovi canali come ecommerce ed estero. Si rafforza il posizionamento di "
+"love brand italiano con operazioni di respiro internazionale come la "
+"collaborazione con il MoMa Design Store di New York in occasione dei 180 "
+"anni del brand. Il Gruppo Buffetti acquisisce il 100% delle quote azionarie."
+msgstr ""
+
+#: resources/templates/partials/pages/company/content-company.tpl.php:121
+msgid ""
+"Cartiere Paolo Pigna S.p.A. exits the continuity arrangement two years in "
+"advance of the agreed plan. Pigna opens up to new markets beyond the school "
+"sector to enter the adult stationery market and also opens up to new "
+"channels such as e-commerce and foreign markets. The positioning of the "
+"Italian love brand is strengthened with international operations such as the "
+"collaboration with the MoMa Design Store in New York for the 180 th "
+"anniversary of the brand. The Buffetti Group acquires 100&#37; of the shares."
+msgstr ""
+"Cartiere Paolo Pigna S.p.A. esce dal concordato in continuità con due anni "
+"di anticipo rispetto al piano concordatario. Pigna si apre a nuovi mercati "
+"oltre la scuola, entrando nel mercato stationery per adulti, aprendosi anche "
+"a nuovi canali come e-commerce ed estero. Si rafforza il posizionamento di "
+"love brand italiano con operazioni di respiro internazionale come la "
+"collaborazione con il MoMa Design Store di New York in occasione dei 180 "
+"anni del brand. Il Gruppo Buffetti acquisisce il 100% delle quote azionarie."
+
+#: resources/templates/partials/scrittura.tpl.php:12
+msgid "Colored Writing"
+msgstr "Scrittura colorata"
+
+#: resources/templates/layout/footer.tpl.php:25
+msgid "Company certifications"
+msgstr "Certificazioni Aziendali"
+
+#: resources/templates/layout/footer.tpl.php:19
+msgid "Company policies"
+msgstr "Politiche Aziendali"
+
+#: resources/templates/layout/footer.tpl.php:45
+msgid "Cookie Policy"
+msgstr "Cookie Policy"
+
+#: resources/templates/partials/monocromo.tpl.php:13
+#: resources/templates/partials/monocromo.tpl.php:38
+#: resources/templates/partials/monocromo.tpl.php:59
+msgid "Copybooks"
+msgstr "Quaderni"
+
+#: resources/templates/layout/footer.tpl.php:31
+msgid "Corporate Governance"
+msgstr "Corporate Governance"
+
+#: resources/templates/partials/pages/company/content-company.tpl.php:33
+msgid ""
+"Creation of the Quablock branded ring binder, which soon becomes a national "
+"success."
+msgstr ""
+"Creazione del raccoglitore ad anelli a marchio Quablock che presto diventa "
+"un successo a livello nazionale."
+
+#: resources/templates/partials/content-company.tpl.php:33
+msgid ""
+"Creazione del raccoglitore ad anelli a marchio Quablock che presto diventa "
+"un successo a livello nazionale."
+msgstr ""
+
+#: resources/templates/partials/company.tpl.php:117
+msgid ""
+"di interesse nazionale dal Ministero dello Sviluppo Economico. Il marchio "
+"storico Pigna con la iconica \"P\" degli anni 50 è stato inserito nel "
+"Registro Speciale dei Marchi Storici di interesse nazionale, albo istituito "
+"dal Ministero dello Sviluppo Economico in collaborazione con Unioncamere."
+msgstr ""
+
+#: resources/templates/partials/content-news.tpl.php:101
+#: resources/templates/partials/content-news.tpl.php:107
+#: resources/templates/partials/content-news.tpl.php:113
+msgid "Dicembre 2020"
+msgstr ""
+
+#: resources/templates/partials/scrittura.tpl.php:14
+msgid "Discover all the Colored Writing products"
+msgstr "Scopri tutti i prodotti Scrittura Colorata"
+
+#: resources/templates/partials/monocromo.tpl.php:61
+msgid ""
+"Discover all the colors of sustainability and tell a colorful future with "
+"the Monocromo Green collections by Pigna in 100% recycled paper."
+msgstr ""
+"Scopri tutti i colori della sostenibilità e racconta un futuro variopinto "
+"con le collezioni Monocromo Green di Pigna in carta 100% riciclata"
+
+#: resources/templates/partials/astucci.tpl.php:18
+#: resources/templates/partials/monocromo.tpl.php:19
+#: resources/templates/partials/monocromo.tpl.php:44
+#: resources/templates/partials/monocromo.tpl.php:65
+#: resources/templates/partials/pdi.tpl.php:20
+#: resources/templates/partials/pdi.tpl.php:44
+#: resources/templates/partials/pdi.tpl.php:70
+#: resources/templates/partials/pdi.tpl.php:91
+#: resources/templates/partials/pdi.tpl.php:113
+#: resources/templates/partials/pdi.tpl.php:135
+#: resources/templates/partials/zaini.tpl.php:17
+msgid "DISCOVER MORE"
+msgstr "SCOPRI DI PIU"
+
+#: resources/templates/partials/monocromo-second.tpl.php:15
+msgid ""
+"Discover the new Monocromo #Mood diary 12 months fixed date. Each day "
+"different and full of surprises."
+msgstr ""
+"Scopri il nuovo diario Monocromo #Mood 12 mesi data fissa. Ogni giorno "
+"diverso e pieno di sorprese."
+
+#: resources/templates/partials/content-sustainability.tpl.php:48
+msgid "Download report"
+msgstr "Scarica il report"
+
+#: resources/templates/partials/content-sustainability.tpl.php:88
+msgid "Download report 2020"
+msgstr "Scarica il report 2020"
+
+#: resources/templates/partials/content-sustainability.tpl.php:72
+msgid "Download report 2021"
+msgstr "Scarica il report 2021"
+
+#: app/Structure/taxonomies.php:39
+msgid "Edit Genre"
+msgstr ""
+
+#: resources/templates/partials/pages/company/content-company.tpl.php:58
+msgid ""
+"Entrepreneur Giorgio Jannone, from Bergamo, enters the share capital of "
+"Pigna and over the next few years becomes the sole shareholder. The company "
+"focuses on the development of paper converting products."
+msgstr ""
+"L'imprenditore bergamasco Giorgio Jannone entra nel capitale sociale di "
+"Pigna, diventando negli anni successivi l'unico azionista. L'azienda si "
+"concentra nello sviluppo di prodotti cartotecnici."
+
+#: resources/templates/partials/content-company-policies.tpl.php:4
+msgid "Environmental policy"
+msgstr "Politica ambientale"
+
+#: resources/templates/partials/pdi.tpl.php:85
+msgid "Enzo Mari"
+msgstr ""
+
+#: resources/templates/partials/flowers.tpl.php:11
+msgid "Flowers"
+msgstr "Flowers"
+
+#: resources/templates/partials/company.tpl.php:22
+msgid ""
+"Fondata nel 1839 da Paolo Pigna ad Alzano Lombardo (BG) - dove ancora oggi "
+"c’è la sede aziendale - fin dalla nascita Pigna è il brand dei quaderni Made "
+"in Italy.Già dal 17° secolo ad Alzano Lombardo si produceva una carta di "
+"altissima qualità. Cartiere Paolo Pigna continua ancora oggi questa lunga "
+"tradizione, scrivendo la storia della carta da quel territorio industriale, "
+"per tutto il mondo"
+msgstr ""
+
+#: resources/templates/partials/pages/company/content-company.tpl.php:133
+msgid ""
+"For the first time in its history, Cartiere Paolo Pigna, with its "
+"headquarters in Alzano Lombardo, one of the Italian towns most affected by "
+"Covid-19 and a symbol of the emergency, is forced to close its plant for 40 "
+"days to respond to the emergency. The company reopens and quickly makes up "
+"the loss in production to close the worst year in the Italian economy with "
+"the best performance of its reference sector. The new brand \t&quot;P <i>"
+"di</i> Pigna\t&quot; is launched."
+msgstr ""
+"Per la prima volta nella sua storia, Cartiere Paolo Pigna, con la sua sede "
+"ad Alzano Lombardo, uno dei comuni italiani più colpiti e simbolo "
+"dell'emergenza, è costretta a chiudere per 40 giorni il suo stabilimento per "
+"rispondere all'emergenza da Covid-19. L'azienda ha riaperto recuperando in "
+"pochissimo tempo la produzione arretrata chiudendo l'anno peggiore "
+"dell'economia italiana con la performance migliore del proprio settore di "
+"riferimento. Viene lanciato il nuovo brand \"P <i>di</i> Pigna\". "
+
+#: resources/templates/partials/zaini.php:13
+msgid "friend of colors"
+msgstr "amici del colore"
+
+#: resources/templates/partials/zaini.php:15
+#: resources/templates/partials/zaini.tpl.php:14
+#| msgid ""
+#| "From school to free time, what matters is to give a unique nuance to your "
+#| "daily adventures in the company of Monochrome backpacks"
+msgid ""
+"From school to free time, what matters is to give a unique nuance to your "
+"daily adventures in the company of Monocromo backpacks"
+msgstr ""
+"Dalla scuola al tempo libero, ciò che conta è dare una sfumatura unica alle "
+"tue avventure quotidiane in compagnia degli zaini Monocromo "
+
+#: resources/templates/partials/content-certificates.tpl.php:15
+msgid "FSC® certification"
+msgstr "Certificazione FSC®"
+
+#: resources/templates/partials/content-company-policies.tpl.php:26
+msgid "FSC® Policy"
+msgstr "Politica FSC®"
+
+#: app/Structure/taxonomies.php:34 app/Structure/taxonomies.php:43
+msgid "Genre"
 msgstr ""
 
 #: app/Structure/taxonomies.php:33
 msgid "Genres"
 msgstr ""
 
-#: app/Structure/taxonomies.php:34 app/Structure/taxonomies.php:43
-msgid "Genre"
+#: resources/templates/partials/pdi.tpl.php:38
+msgid "Gio Ponti"
 msgstr ""
 
-#: app/Structure/taxonomies.php:35
-msgid "Search Genres"
+#: resources/templates/partials/pdi.tpl.php:40
+msgid ""
+"Hypnotic fantasy and mathematical rigor. A collection dedicated to the great "
+"architect of beauty who brought the decoration of the ideal Italian home all "
+"over the world."
+msgstr ""
+"Ipnotica fantasia e rigore matematico. Una collezione dedicata al grande "
+"architetto della bellezza che ha portato il decoro della casa ideale "
+"italiana in tutto il mondo."
+
+#: resources/templates/partials/astucci.tpl.php:14
+msgid ""
+"Ideas waiting to take shape, emotions to express, dreams ready to become "
+"true.<br>In the Monocromo cases there is room for everything!"
+msgstr ""
+"Idee non ancora realizzate, emozioni da esprimere, sogni pronti a diventare "
+"realtà.<br>Negli astucci Monocromo c’è spazio per tutto!"
+
+#: resources/templates/partials/content-company.tpl.php:108
+msgid ""
+"Il Gruppo Buffetti entra nella compagine sociale dell'azienda al 40& e viene "
+"nominato Presidente del CdA e Amministratore delegato Massimo Fagioli "
+"(proveniente dal Gruppo De Agostini)."
 msgstr ""
 
-#: app/Structure/taxonomies.php:36
-msgid "All Genres"
+#: resources/templates/partials/content-company.tpl.php:151
+msgid ""
+"Il marchio storico Pigna con la iconica \"P\" degli anni 50 è stato inserito "
+"nel Registro Speciale dei Marchi Storici di interesse nazionale, albo "
+"istituito dal Ministero dello Sviluppo Economico in collaborazione con "
+"Unioncamere. L'iniziativa ha come obiettivo quello di tutelare la proprietà "
+"industriale delle aziende storiche italiane, valorizzando la produzione made "
+"in Italy in un'ottica di innovazione, sostenibilità e competitività "
+"internazionale. L'iscrizione di un marchio al registro speciale \"marchio "
+"storico\", che si può ottenere solo per i marchi registrati da almeno 50 "
+"anni, comporta una serie di misure che mirano a garantire stabilità e "
+"sicurezza alle imprese italiane. A marzo 2021, i marchi riconosciuti come "
+"storici sono solo 119 in tutta Italia."
+msgstr ""
+
+#: resources/templates/partials/sostenibilita.tpl.php:71
+msgid ""
+"Il primo Rapporto di Sostenibilità di Pigna mira a raccontare in maniera "
+"completa e trasparente cosa significa sostenibilità per l’azienda. Una "
+"fotografia istantanea di azioni, risultati, approcci e strategie con cui "
+"Pigna vuole creare valore durevole, diffuso e coerente con le necessità di "
+"tutti gli stakeholder e con gli equilibri ecologici."
+msgstr ""
+
+#: bootstrap/compatibility.php:39
+msgid ""
+"Important! This theme requires <a href='//github.com/tonik/gin'><strong>"
+"tonik/gin</strong></a> package. Please, make sure it's installed and active."
+msgstr ""
+
+#: resources/templates/partials/content-company.tpl.php:6
+msgid "in 10 tappe"
+msgstr ""
+
+#: resources/templates/partials/pdi.tpl.php:87
+msgid ""
+"In search of the pure forms of nature through the essential and democratic "
+"approach of one of the greatest Italian artists and designers."
+msgstr ""
+"Alla ricerca delle forme pure della natura attraverso l’approccio essenziale "
+"e democratico di uno dei più grandi artisti e designer italiani."
+
+#: resources/templates/partials/flowers.tpl.php:69
+msgid "Intramontabile"
+msgstr ""
+
+#: resources/templates/partials/content-certificates.tpl.php:37
+msgid "ISO 14001 Environment Certification"
+msgstr "Certificazione ISO 14001 Ambiente"
+
+#: resources/templates/partials/content-certificates.tpl.php:48
+msgid "ISO 45001 Safety certification"
+msgstr "Certificazione ISO 45001 Sicurezza"
+
+#: resources/templates/partials/content-certificates.tpl.php:26
+msgid "ISO 9001 Quality Certification"
+msgstr "Certificazione ISO 9001 Qualità"
+
+#: resources/templates/partials/bts.tpl.php:60
+msgid ""
+"It's time to redefine the style with which to be online and spread the "
+"positive virus of \"I choose words with care\" with the Parole O_Stili "
+"collection in collaboration with Pigna"
+msgstr ""
+"È ora di ridefinire lo stile con cui stare in rete e diffondere il virus "
+"positivo dello “scelgo le parole con cura” con la collezione Parole O_Stili "
+"in collaborazione con Pigna."
+
+#: resources/templates/partials/content-company.tpl.php:21
+msgid ""
+"L'azienda inizia ad allargare il proprio business ad altre categorie nel "
+"mondo della scuola oltre i quaderni come diari, astucci e cartelle."
+msgstr ""
+
+#: resources/templates/partials/content-company.tpl.php:58
+msgid ""
+"L'imprenditore bergamasco Giorgio Jannone entra nel capitale sociale di "
+"Pigna, diventando negli anni successivi l'unico azionista. L'azienda si "
+"concentra nello sviluppo di prodotti cartotecnici."
+msgstr ""
+
+#: resources/templates/partials/monocromo.tpl.php:15
+msgid ""
+"Learn, dream, tell, grow, have fun, express yourself. The important thing is "
+"to do it in color, in the company of the Monocromo collections by Pigna."
+msgstr ""
+"Imparare, sognare, raccontare, crescere, divertirsi, esprimersi. "
+"L’importante è farlo a colori, in compagnia delle collezioni Monocromo di "
+"Pigna."
+
+#: resources/templates/partials/content-news.tpl.php:165
+msgid "Leggi Articolo"
+msgstr ""
+
+#: resources/templates/partials/pdi.tpl.php:107
+msgid "Lettera 22"
+msgstr ""
+
+#: resources/templates/partials/sostenibilita.tpl.php:26
+msgid ""
+"Made  in  Italy,  Patrimonio  storico,  Sostenibilità  e  Design.  Sono  "
+"questi  i  punti  cardine  su  cui  Pigna costruisce la propria evoluzione "
+"aziendale, intendendo la sostenibilità come modo di fare impresa e business  "
+"ogni  giorno:  un  percorso  in  continuo  divenire,  che  necessita  di  un "
+" lavoro  intenso  e quotidiano."
+msgstr ""
+
+#: app/Structure/navs.php:28
+msgid "Mobile"
+msgstr ""
+
+#: resources/templates/partials/monocromo-second.tpl.php:13
+msgid "Monocromo Diaries"
+msgstr "Monocromo diari"
+
+#: resources/templates/partials/pdi.tpl.php:109
+msgid ""
+"Much more than just a typewriter. A tribute to the modern icon with which "
+"Olivetti has allowed millions of people to work and write with a real "
+"portable office."
+msgstr ""
+"Molto più di una semplice macchina da scrivere. Un omaggio all'icona moderna "
+"con cui Olivetti ha permesso a milioni di persone di lavorare e scrivere con "
+"un vero ufficio portatile."
+
+#: resources/templates/partials/pdi.tpl.php:129
+msgid "Nero Oriente"
+msgstr ""
+
+#: app/Structure/taxonomies.php:42
+msgid "New Genre Name"
+msgstr ""
+
+#: 404.php:25
+msgid "Not Found"
+msgstr ""
+
+#: resources/templates/partials/content-news.tpl.php:65
+#: resources/templates/partials/content-news.tpl.php:71
+#: resources/templates/partials/content-news.tpl.php:77
+msgid "Novembre 2020"
+msgstr ""
+
+#: resources/templates/partials/pdi.tpl.php:14
+msgid "Olimpia Zagnoli "
 msgstr ""
 
 #: app/Structure/taxonomies.php:37
@@ -73,99 +614,182 @@ msgstr ""
 msgid "Parent Genre:"
 msgstr ""
 
-#: app/Structure/taxonomies.php:39
-msgid "Edit Genre"
+#: resources/templates/partials/bts.tpl.php:58
+msgid "Parole o Stili"
 msgstr ""
 
-#: app/Structure/taxonomies.php:40
-msgid "Update Genre"
-msgstr ""
+#: resources/templates/partials/content-company-policies.tpl.php:15
+msgid "PEFC Policy"
+msgstr "Politica PEFC"
 
-#: app/Structure/taxonomies.php:41
-msgid "Add New Genre"
-msgstr ""
+#: resources/templates/partials/content-certificates.tpl.php:4
+msgid "PEFC ® certification"
+msgstr "Certificazione PEFC™"
 
-#: app/Structure/taxonomies.php:42
-msgid "New Genre Name"
-msgstr ""
-
-#: bootstrap/compatibility.php:39
+#: resources/templates/partials/content-company.tpl.php:133
 msgid ""
-"Important! This theme requires <a href='//github.com/tonik/"
-"gin'><strong>tonik/gin</strong></a> package. Please, make sure it's "
-"installed and active."
+"Per la prima volta nella sua storia, Cartiere Paolo Pigna, con la sua sede "
+"ad Alzano Lombardo, uno dei comuni italiani più colpiti e simbolo "
+"dell'emergenza, è costretta a chiudere per 40 giorni il suo stabilimento per "
+"rispondere all'emergenza da Covid-19. L'azienda ha riaperto recuperando in "
+"pochissimo tempo la produzione arretrata chiudendo l'anno peggiore "
+"dell'economia italiana con la performance migliore del proprio settore di "
+"riferimento. Viene lanciato il nuovo brand \"P di Pigna\"."
 msgstr ""
 
-#: bootstrap/compatibility.php:52
+#: resources/templates/partials/content-company.tpl.php:6
+msgid "Pigna"
+msgstr ""
+
+#: resources/templates/partials/sostenibilita.tpl.php:49
 msgid ""
-"We could not find <a href='//github.com/tonik/gin'><strong>tonik/gin</"
-"strong></a> package. You have to install it before using this theme."
+"Pigna  opera  all’interno  delle  linee  guida  internazionalmente  "
+"riconosciute  come  il  Global  Compact delle  Nazioni  Unite,  aderendo  "
+"all’Agenda  2030  e  agli  Obiettivi  di  Sviluppo  Sostenibile.  Oggi "
+"l’impegno  dell’azienda  per  la  sostenibilità  si  focalizza  sul  "
+"raggiungimento  di  6  dei  17  Obiettivi  di Sviluppo Sostenibile."
 msgstr ""
 
-#: index.php:26
-msgid "Tonik — WordPress Starter Theme"
+#: resources/templates/partials/company.tpl.php:20
+#: resources/templates/partials/company.tpl.php:53
+#: resources/templates/partials/company.tpl.php:85
+msgid "Pigna 1839"
 msgstr ""
 
-#: index.php:27
+#: resources/templates/partials/bts.tpl.php:11
+msgid "Pigna Classic"
+msgstr "Pigna Classic"
+
+#: resources/templates/partials/bts.tpl.php:36
 msgid ""
-"Tonik is a WordPress Starter Theme which aims to modernize, organize and "
-"enhance some aspects of WordPress theme development. Take a look at what is "
-"waiting for you."
+"Pigna Classic is the new Pigna Classic! Several collections in continuous "
+"evolution, designed for those who learn, grow, dream, and for those who have "
+"never quit doing it."
+msgstr ""
+"Pigna Classic is the new Pigna Classic! Tante collezioni in continua "
+"evoluzione, pensate per chi impara, cresce, sogna e per chi non ha mai "
+"smesso di farlo"
+
+#: resources/templates/partials/content-documents.tpl.php:7
+msgid "Pigna Code of Ethics"
+msgstr "Codice Etico Pigna"
+
+#: resources/templates/partials/flowers.tpl.php:43
+msgid ""
+"Pigna Flowers is a world full of life that blooms in every corner. A genuine "
+"tribute to the greatest teacher of creativity: Mother Nature."
+msgstr ""
+"Quello di Pigna Flowers è un mondo pieno di vita che fiorisce in ogni angolo."
+" Un vero omaggio alla maestra di creatività più famosa: Madre Natura"
+
+#: resources/templates/partials/content-documents.tpl.php:24
+msgid "Pigna Model 231 – general part"
+msgstr "Modello 231 Pigna – parte generale"
+
+#: resources/templates/partials/content-sustainability.tpl.php:29
+msgid ""
+"Pigna operates within internationally recognized guidelines such as the "
+"United Nations Global Compact, adhering to the 2030 Agenda and the "
+"Sustainable Development Goals. Today the company's commitment to "
+"sustainability focuses on achieving 6 of the 17 Sustainable Development "
+"Goals."
+msgstr ""
+"Pigna opera all’interno delle linee guida internazionalmente riconosciute "
+"come il Global Compact delle Nazioni Unite, aderendo all’Agenda 2030 e agli "
+"Obiettivi di Sviluppo Sostenibile. Oggi l’impegno dell’azienda per la "
+"sostenibilità si focalizza sul raggiungimento di 6 dei 17 Obiettivi di "
+"Sviluppo Sostenibile."
+
+#: resources/templates/partials/pages/company/content-company.tpl.php:148
+msgid ""
+"Pigna recognised as a historic brand of national interest by the Ministry of "
+"Economic Development"
+msgstr ""
+"Pigna riconosciuto come marchio storico di interesse nazionale dal Ministero "
+"dello Sviluppo Economico"
+
+#: resources/templates/partials/company.tpl.php:115
+msgid "Pigna riconosciuto come marchio storico"
 msgstr ""
 
-#: public/js/foundation.js:1
-msgid "input"
+#: resources/templates/partials/content-company.tpl.php:148
+msgid ""
+"Pigna riconosciuto come marchio storico di interesse nazionale dal Ministero "
+"dello Sviluppo Economico"
 msgstr ""
 
-#: public/js/foundation.js:1
-msgid "intent"
+#: resources/templates/partials/content-documents.tpl.php:41
+msgid "Pigna Whistleblowing Procedure"
+msgstr "Procedura whisleblowing Pigna"
+
+#: app/Structure/navs.php:27
+msgid "Primary"
 msgstr ""
 
-#: resources/templates/layout/footer.tpl.php:19
-msgid "Company policies"
-msgstr "Politiche Aziendali"
-
-#: resources/templates/layout/footer.tpl.php:25
-msgid "Company certifications"
-msgstr "Certificazioni Aziendali"
-
-#: resources/templates/layout/footer.tpl.php:31
-msgid "Corporate Governance"
-msgstr "Corporate Governance"
+#: app/Structure/navs.php:26
+msgid "Primary TOP"
+msgstr ""
 
 #: resources/templates/layout/footer.tpl.php:38
 msgid "Privacy Policy"
 msgstr "Privacy Policy"
 
-#: resources/templates/layout/footer.tpl.php:45
-msgid "Cookie Policy"
-msgstr "Cookie Policy"
+#: resources/templates/partials/content-company-policies.tpl.php:48
+msgid "Quality policy"
+msgstr "Politica per la qualità"
 
-#: resources/templates/layout/footer.tpl.php:63
+#: resources/templates/partials/content-news.tpl.php:153
+msgid "Rassegna stampa"
+msgstr ""
+
+#: resources/templates/partials/pages/company/content-company.tpl.php:46
 msgid ""
-"All rights reserved ©2022 <b>Cartiere Paolo Pigna S.p.A.</b> with sole "
-"shareholder Direction and coordination <b>Gruppo Buffetti S.p.A.</"
-"b><br><b>Registered Office:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - "
-"<b>Operational Headquarters</b> Viale Piave 35 - 24022 Alzano Lombardo "
-"(Bergamo) Italy  - <b>VAT 00216380162</b>"
+"Registration of the brand and launch of the iconic Monocromo paper "
+"converting product line."
 msgstr ""
-"Tutti i diritti riservati ©2022 <b>Cartiere Paolo Pigna S.p.A.</b> come "
-"socio unico, Direzione e coordinamento <b>Gruppo Buffetti S.p.A.</"
-"b><br><b>sede legale:</b> Via D. Pesenti 1 - 24022 Alzano Lombardo - <b>sede "
-"operativa:</b> Viale Piave 35 - 24022 Alzano Lombardo (Bergamo) Italia  - "
-"<b>P.IVA 00216380162</b>"
+"Registrazione del marchio e lancio della iconica linea di cartotecnica "
+"Monocromo"
 
-#: resources/templates/partials/astucci.tpl.php:12
-msgid "Astucci"
-msgstr ""
-
-#: resources/templates/partials/astucci.tpl.php:14
+#: resources/templates/partials/content-company.tpl.php:46
 msgid ""
-"Ideas waiting to take shape, emotions to express, dreams ready to become "
-"true.<br>In the Monocromo cases there is room for everything!"
+"Registrazione del marchio e lancio della iconica linea di cartotecnica "
+"Monocromo."
 msgstr ""
-"Idee non ancora realizzate, emozioni da esprimere, sogni pronti a diventare "
-"realtà.<br>Negli astucci Monocromo c’è spazio per tutto!"
+
+#: resources/templates/partials/flowers.tpl.php:13
+msgid ""
+"Romantic and timeless, the Pigna Flowers collections look like colorful "
+"bouquets that bloom every season, page after page."
+msgstr ""
+"Romantiche e intramontabili, le collezioni Pigna Flowers sembrano variopinti "
+"bouquet che sbocciano ogni stagione, pagina dopo pagina"
+
+#: resources/templates/partials/flowers.tpl.php:41
+msgid "Romantico"
+msgstr "Romantico"
+
+#: resources/templates/partials/company.tpl.php:25
+#: resources/templates/partials/company.tpl.php:58
+#: resources/templates/partials/company.tpl.php:90
+#: resources/templates/partials/company.tpl.php:120
+#: resources/templates/partials/event-popup.tpl.php:32
+#: resources/templates/partials/sostenibilita.tpl.php:29
+#: resources/templates/partials/sostenibilita.tpl.php:52
+#: resources/templates/partials/sostenibilita.tpl.php:74
+msgid "Scopri di più"
+msgstr ""
+
+#: app/Structure/taxonomies.php:35
+msgid "Search Genres"
+msgstr ""
+
+#: resources/templates/partials/searchform.tpl.php:8
+msgid "Searching for..."
+msgstr ""
+
+#: resources/templates/partials/content-news.tpl.php:5
+msgid "Settembre 2020"
+msgstr ""
 
 #: resources/templates/partials/astucci.tpl.php:17
 #: resources/templates/partials/barrow.tpl.php:20
@@ -191,37 +815,18 @@ msgstr ""
 #: resources/templates/partials/pdi.tpl.php:112
 #: resources/templates/partials/pdi.tpl.php:134
 #: resources/templates/partials/scrittura.tpl.php:17
-#: resources/templates/partials/zaini.tpl.php:17
 msgid "SHOP NOW"
 msgstr "SHOP NOW"
 
-#: resources/templates/partials/astucci.tpl.php:18
-#: resources/templates/partials/monocromo.tpl.php:19
-#: resources/templates/partials/monocromo.tpl.php:44
-#: resources/templates/partials/monocromo.tpl.php:65
-#: resources/templates/partials/pdi.tpl.php:20
-#: resources/templates/partials/pdi.tpl.php:44
-#: resources/templates/partials/pdi.tpl.php:70
-#: resources/templates/partials/pdi.tpl.php:91
-#: resources/templates/partials/pdi.tpl.php:113
-#: resources/templates/partials/pdi.tpl.php:135
-msgid "DISCOVER MORE"
-msgstr "SCOPRI DI PIU"
-
-#: resources/templates/partials/barrow.tpl.php:14
-#: resources/templates/partials/barrow.tpl.php:38
-msgid "Barrow"
-msgstr "Barrow"
-
-#: resources/templates/partials/barrow.tpl.php:16
-#: resources/templates/partials/barrow.tpl.php:40
-msgid "The Barrow world meets Pigna for a truly unmissable new collection."
+#: app/Structure/sidebars.php:27
+msgid "Sidebar"
 msgstr ""
-"Il mondo Barrow incontra Pigna per una nuova collezione davvero imperdibile."
 
-#: resources/templates/partials/bts.tpl.php:11
-msgid "Pigna Classic"
-msgstr "Pigna Classic"
+#: resources/templates/partials/sostenibilita.tpl.php:24
+#: resources/templates/partials/sostenibilita.tpl.php:47
+#: resources/templates/partials/sostenibilita.tpl.php:69
+msgid "Sostenibilità"
+msgstr "Sostenibilità"
 
 #: resources/templates/partials/bts.tpl.php:13
 msgid ""
@@ -231,556 +836,19 @@ msgstr ""
 "Spazio ai back to school e back to work che interpretano le inspirazioni e "
 "le tendenze più attuali, in compagnia delle collezioni Pigna Classic."
 
-#: resources/templates/partials/bts.tpl.php:34
-msgid "Back 2 School"
-msgstr "Back 2 School"
-
-#: resources/templates/partials/bts.tpl.php:36
-msgid ""
-"Pigna Classic is the new Pigna Classic! Several collections in continuous "
-"evolution, designed for those who learn, grow, dream, and for those who have "
-"never quit doing it."
-msgstr ""
-"Pigna Classic is the new Pigna Classic! Tante collezioni in continua "
-"evoluzione, pensate per chi impara, cresce, sogna e per chi non ha mai "
-"smesso di farlo"
-
-#: resources/templates/partials/bts.tpl.php:58
-msgid "Parole o Stili"
-msgstr ""
-
-#: resources/templates/partials/bts.tpl.php:60
-msgid ""
-"It's time to redefine the style with which to be online and spread the "
-"positive virus of \"I choose words with care\" with the Parole O_Stili "
-"collection in collaboration with Pigna"
-msgstr ""
-"È ora di ridefinire lo stile con cui stare in rete e diffondere il virus "
-"positivo dello “scelgo le parole con cura” con la collezione Parole O_Stili "
-"in collaborazione con Pigna."
-
-#: resources/templates/partials/company.tpl.php:20
-#: resources/templates/partials/company.tpl.php:53
-#: resources/templates/partials/company.tpl.php:85
-msgid "Pigna 1839"
-msgstr ""
-
-#: resources/templates/partials/company.tpl.php:22
-msgid ""
-"Fondata nel 1839 da Paolo Pigna ad Alzano Lombardo (BG) - dove ancora oggi "
-"c’è la sede aziendale - fin dalla nascita Pigna è il brand dei quaderni Made "
-"in Italy.Già dal 17° secolo ad Alzano Lombardo si produceva una carta di "
-"altissima qualità. Cartiere Paolo Pigna continua ancora oggi questa lunga "
-"tradizione, scrivendo la storia della carta da quel territorio industriale, "
-"per tutto il mondo"
-msgstr ""
-
-#: resources/templates/partials/company.tpl.php:25
-#: resources/templates/partials/company.tpl.php:58
-#: resources/templates/partials/company.tpl.php:90
-#: resources/templates/partials/company.tpl.php:120
-#: resources/templates/partials/event-popup.tpl.php:32
-#: resources/templates/partials/sostenibilita.tpl.php:29
-#: resources/templates/partials/sostenibilita.tpl.php:52
-#: resources/templates/partials/sostenibilita.tpl.php:74
-msgid "Scopri di più"
-msgstr ""
-
-#: resources/templates/partials/company.tpl.php:55
-msgid ""
-"Cartiere  Paolo  Pigna  è  stata  la  prima  azienda  a  unire  la  più  "
-"sapiente  arte  artigiana  con  i  vantaggi tecnologici dell’industria. "
-"Grazie alla grafica, al design, alla qualità e all’amore per i dettagli del "
-"fatto bene, i quaderni Pigna sono presenti da sempre su milioni di "
-"scrivanie, accompagnando ogni giorno la creatività degli italiani a scuola, "
-"in ufficio e nel tempo libero"
-msgstr ""
-
-#: resources/templates/partials/company.tpl.php:87
-msgid ""
-"A partire dagli anni ‘50 Pigna estende la propria gamma prodotti includendo "
-"gli astucci, i diari e oggi anche gli zaini e i colori per bambini. Le "
-"collezioni si evolvono guardando al futuro e al mondo che cambia, senza mai "
-"dimenticare le radici italiane su cui l’azienda ha costruito la propria "
-"storia. Oggi  Pigna  è  un  brand  leader  del  Made  in  Italy,  sempre  "
-"impegnato  a  creare  oggetti  quotidiani  per idee senza tempo, capaci di "
-"ispirare le persone a riscoprire, esprimere e raccontare la propria unicità"
-msgstr ""
-
-#: resources/templates/partials/company.tpl.php:115
-msgid "Pigna riconosciuto come marchio storico"
-msgstr ""
-
-#: resources/templates/partials/company.tpl.php:117
-msgid ""
-"di interesse nazionale dal Ministero dello Sviluppo Economico. Il marchio "
-"storico Pigna con la iconica \"P\" degli anni 50 è stato inserito nel "
-"Registro Speciale dei Marchi Storici di interesse nazionale, albo istituito "
-"dal Ministero dello Sviluppo Economico in collaborazione con Unioncamere."
-msgstr ""
-
-#: resources/templates/partials/contacts.tpl.php:29
-msgid "[wpforms id=\"11\" title=\"false\" description=\"false\"]"
-msgstr ""
-
-#: resources/templates/partials/contacts.tpl.php:31
-msgid "[wpforms id=\"23\" title=\"false\" description=\"false\"]"
-msgstr ""
-
-#: resources/templates/partials/content-certificates.tpl.php:4
-msgid "PEFC ® certification"
-msgstr "Certificazione PEFC™"
-
-#: resources/templates/partials/content-certificates.tpl.php:7
-#: resources/templates/partials/content-certificates.tpl.php:18
-#: resources/templates/partials/content-certificates.tpl.php:29
-#: resources/templates/partials/content-certificates.tpl.php:40
-#: resources/templates/partials/content-certificates.tpl.php:51
-#: resources/templates/partials/content-company-policies.tpl.php:7
-#: resources/templates/partials/content-company-policies.tpl.php:18
-#: resources/templates/partials/content-company-policies.tpl.php:29
-#: resources/templates/partials/content-company-policies.tpl.php:40
-#: resources/templates/partials/content-company-policies.tpl.php:51
-#: resources/templates/partials/content-documents.tpl.php:11
-#: resources/templates/partials/content-documents.tpl.php:13
-#: resources/templates/partials/content-documents.tpl.php:29
-#: resources/templates/partials/content-documents.tpl.php:31
-#: resources/templates/partials/content-documents.tpl.php:46
-#: resources/templates/partials/content-documents.tpl.php:48
-msgid "View Doc"
-msgstr "Visualizza Documento"
-
-#: resources/templates/partials/content-certificates.tpl.php:15
-msgid "FSC® certification"
-msgstr "Certificazione FSC®"
-
-#: resources/templates/partials/content-certificates.tpl.php:26
-msgid "ISO 9001 Quality Certification"
-msgstr "Certificazione ISO 9001 Qualità"
-
-#: resources/templates/partials/content-certificates.tpl.php:37
-msgid "ISO 14001 Environment Certification"
-msgstr "Certificazione ISO 14001 Ambiente"
-
-#: resources/templates/partials/content-certificates.tpl.php:48
-msgid "ISO 45001 Safety certification"
-msgstr "Certificazione ISO 45001 Sicurezza"
-
-#: resources/templates/partials/content-company-policies.tpl.php:4
-msgid "Environmental policy"
-msgstr "Politica ambientale"
-
-#: resources/templates/partials/content-company-policies.tpl.php:15
-msgid "PEFC Policy"
-msgstr "Politica PEFC"
-
-#: resources/templates/partials/content-company-policies.tpl.php:26
-msgid "FSC® Policy"
-msgstr "Politica FSC®"
-
-#: resources/templates/partials/content-company-policies.tpl.php:37
-msgid "Basic Labor Requirements Policy"
-msgstr "Politica requisiti fondamentali del lavoro"
-
-#: resources/templates/partials/content-company-policies.tpl.php:48
-msgid "Quality policy"
-msgstr "Politica per la qualità"
-
-#: resources/templates/partials/content-company.tpl.php:6
-msgid "Pigna"
-msgstr ""
-
-#: resources/templates/partials/content-company.tpl.php:6
-msgid "in 10 tappe"
-msgstr ""
-
-#: resources/templates/partials/content-company.tpl.php:21
-msgid ""
-"L'azienda inizia ad allargare il proprio business ad altre categorie nel "
-"mondo della scuola oltre i quaderni come diari, astucci e cartelle."
-msgstr ""
-
-#: resources/templates/partials/content-company.tpl.php:33
-msgid ""
-"Creazione del raccoglitore ad anelli a marchio Quablock che presto diventa "
-"un successo a livello nazionale."
-msgstr ""
-
-#: resources/templates/partials/content-company.tpl.php:46
-msgid ""
-"Registrazione del marchio e lancio della iconica linea di cartotecnica "
-"Monocromo."
-msgstr ""
-
-#: resources/templates/partials/content-company.tpl.php:58
-msgid ""
-"L'imprenditore bergamasco Giorgio Jannone entra nel capitale sociale di "
-"Pigna, diventando negli anni successivi l'unico azionista. L'azienda si "
-"concentra nello sviluppo di prodotti cartotecnici."
-msgstr ""
-
-#: resources/templates/partials/content-company.tpl.php:71
-#, fuzzy
-#| msgid ""
-#| "The new headquarters of Cartiere Paolo Pigna, also in Alzano Lombardo, "
-#| "are inaugurated."
-msgid ""
-"Viene inaugurata la nuova sede di Cartiere Paolo Pigna sempre ad Alzano "
-"Lombardo."
-msgstr ""
-"Viene inaugurata la nuova sede di Cartiere Paolo Pigna sempre ad Alzano "
-"Lombardo."
-
-#: resources/templates/partials/content-company.tpl.php:83
-#, fuzzy
-#| msgid "Cartiere Paolo Pigna S.p.A. enters into a continuity arrangement."
-msgid ""
-"Cartiere Paolo Pigna S.p.A. entra in procedura di concordato in continuità."
-msgstr ""
-"Cartiere Paolo Pigna S.p.A. entra in procedura di concordato in continuità."
-
-#: resources/templates/partials/content-company.tpl.php:96
-msgid ""
-"Attraverso uno dei suoi fondi entra nella compagine sociale di Pigna il "
-"socio DeA Capital (Gruppo De Agostini) al 51%."
-msgstr ""
-
-#: resources/templates/partials/content-company.tpl.php:108
-msgid ""
-"Il Gruppo Buffetti entra nella compagine sociale dell'azienda al 40& e viene "
-"nominato Presidente del CdA e Amministratore delegato Massimo Fagioli "
-"(proveniente dal Gruppo De Agostini)."
-msgstr ""
-
-#: resources/templates/partials/content-company.tpl.php:121
-#, php-format
-msgid ""
-"Cartiere Paolo Pigna S.p.A. esce dal concordato in continuità con due anni "
-"di anticipo rispetto al piano concordatario. Pigna si apre a nuovi mercati "
-"oltre la scuola, entrando nel mercato stationery per adulti, aprendosi anche "
-"a nuovi canali come ecommerce ed estero. Si rafforza il posizionamento di "
-"love brand italiano con operazioni di respiro internazionale come la "
-"collaborazione con il MoMa Design Store di New York in occasione dei 180 "
-"anni del brand. Il Gruppo Buffetti acquisisce il 100% delle quote azionarie."
-msgstr ""
-
-#: resources/templates/partials/content-company.tpl.php:133
-msgid ""
-"Per la prima volta nella sua storia, Cartiere Paolo Pigna, con la sua sede "
-"ad Alzano Lombardo, uno dei comuni italiani più colpiti e simbolo "
-"dell'emergenza, è costretta a chiudere per 40 giorni il suo stabilimento per "
-"rispondere all'emergenza da Covid-19. L'azienda ha riaperto recuperando in "
-"pochissimo tempo la produzione arretrata chiudendo l'anno peggiore "
-"dell'economia italiana con la performance migliore del proprio settore di "
-"riferimento. Viene lanciato il nuovo brand \"P di Pigna\"."
-msgstr ""
-
-#: resources/templates/partials/content-company.tpl.php:148
-msgid ""
-"Pigna riconosciuto come marchio storico di interesse nazionale dal Ministero "
-"dello Sviluppo Economico"
-msgstr ""
-
-#: resources/templates/partials/content-company.tpl.php:151
-msgid ""
-"Il marchio storico Pigna con la iconica \"P\" degli anni 50 è stato inserito "
-"nel Registro Speciale dei Marchi Storici di interesse nazionale, albo "
-"istituito dal Ministero dello Sviluppo Economico in collaborazione con "
-"Unioncamere. L'iniziativa ha come obiettivo quello di tutelare la proprietà "
-"industriale delle aziende storiche italiane, valorizzando la produzione made "
-"in Italy in un'ottica di innovazione, sostenibilità e competitività "
-"internazionale. L'iscrizione di un marchio al registro speciale \"marchio "
-"storico\", che si può ottenere solo per i marchi registrati da almeno 50 "
-"anni, comporta una serie di misure che mirano a garantire stabilità e "
-"sicurezza alle imprese italiane. A marzo 2021, i marchi riconosciuti come "
-"storici sono solo 119 in tutta Italia."
-msgstr ""
-
-#: resources/templates/partials/content-documents.tpl.php:7
-msgid "Pigna Code of Ethics"
-msgstr "Codice Etico Pigna"
-
-#: resources/templates/partials/content-documents.tpl.php:24
-msgid "Pigna Model 231 – general part"
-msgstr "Modello 231 Pigna – parte generale"
-
-#: resources/templates/partials/content-documents.tpl.php:41
-msgid "Pigna Whistleblowing Procedure"
-msgstr "Procedura whisleblowing Pigna"
-
-#: resources/templates/partials/content-news.tpl.php:5
-msgid "Settembre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:11
-msgid "23 settembre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:17
-msgid "8 ottobre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:23
-msgid "12 ottobre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:29
-msgid "16 ottobre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:35
-#: resources/templates/partials/content-news.tpl.php:41
-msgid "17 ottobre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:47
-msgid "24 ottobre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:53
-msgid "26 ottobre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:59
-msgid "28 ottobre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:65
-#: resources/templates/partials/content-news.tpl.php:71
-#: resources/templates/partials/content-news.tpl.php:77
-msgid "Novembre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:83
-msgid "5 novembre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:89
-msgid "6 novembre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:95
-msgid "26 novembre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:101
-#: resources/templates/partials/content-news.tpl.php:107
-#: resources/templates/partials/content-news.tpl.php:113
-msgid "Dicembre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:119
-msgid "9 dicembre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:125
-#: resources/templates/partials/content-news.tpl.php:131
-msgid "22 dicembre 2020"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:153
-msgid "Rassegna stampa"
-msgstr ""
-
-#: resources/templates/partials/content-news.tpl.php:165
-msgid "Leggi Articolo"
-msgstr ""
-
 #: resources/templates/partials/content-sustainability.tpl.php:14
 msgid "Sustainability"
 msgstr "Sostenibilità"
-
-#: resources/templates/partials/content-sustainability.tpl.php:16
-msgid ""
-"The Pigna Sustainability Report aims to tell in a complete and transparent "
-"way what sustainability means for the company. A snapshot of the actions, "
-"results, approaches, and strategies with which Pigna wants to create "
-"lasting, widespread, and consistent value with the needs of all stakeholders "
-"and with ecological balances."
-msgstr ""
-"Il Rapporto di Sostenibilità di Pigna mira a raccontare in maniera completa "
-"e trasparente cosa significa sostenibilità per l’azienda. Una fotografia "
-"istantanea di azioni, risultati, approcci e strategie con cui Pigna vuole "
-"creare valore durevole, diffuso e coerente con le necessità di tutti gli "
-"stakeholder e con gli equilibri ecologici."
 
 #: resources/templates/partials/content-sustainability.tpl.php:27
 msgid "The application effort"
 msgstr "L'impegno"
 
-#: resources/templates/partials/content-sustainability.tpl.php:29
-msgid ""
-"Pigna operates within internationally recognized guidelines such as the "
-"United Nations Global Compact, adhering to the 2030 Agenda and the "
-"Sustainable Development Goals. Today the company's commitment to "
-"sustainability focuses on achieving 6 of the 17 Sustainable Development "
-"Goals."
+#: resources/templates/partials/barrow.tpl.php:16
+#: resources/templates/partials/barrow.tpl.php:40
+msgid "The Barrow world meets Pigna for a truly unmissable new collection."
 msgstr ""
-"Pigna opera all’interno delle linee guida internazionalmente riconosciute "
-"come il Global Compact delle Nazioni Unite, aderendo all’Agenda 2030 e agli "
-"Obiettivi di Sviluppo Sostenibile. Oggi l’impegno dell’azienda per la "
-"sostenibilità si focalizza sul raggiungimento di 6 dei 17 Obiettivi di "
-"Sviluppo Sostenibile."
-
-#: resources/templates/partials/content-sustainability.tpl.php:48
-msgid "Download report"
-msgstr "Scarica il report"
-
-#: resources/templates/partials/content-sustainability.tpl.php:64
-msgid "Balance and Report"
-msgstr "Bilancio e Report"
-
-#: resources/templates/partials/content-sustainability.tpl.php:71
-msgid "Balance 2021"
-msgstr "Bilancio 2021"
-
-#: resources/templates/partials/content-sustainability.tpl.php:72
-msgid "Download report 2021"
-msgstr "Scarica il report 2021"
-
-#: resources/templates/partials/content-sustainability.tpl.php:87
-msgid "Balance 2020"
-msgstr "Bilancio 202"
-
-#: resources/templates/partials/content-sustainability.tpl.php:88
-msgid "Download report 2020"
-msgstr "Scarica il report 2020"
-
-#: resources/templates/partials/flowers.tpl.php:11
-msgid "Flowers"
-msgstr "Flowers"
-
-#: resources/templates/partials/flowers.tpl.php:13
-msgid ""
-"Romantic and timeless, the Pigna Flowers collections look like colorful "
-"bouquets that bloom every season, page after page."
-msgstr ""
-"Romantiche e intramontabili, le collezioni Pigna Flowers sembrano variopinti "
-"bouquet che sbocciano ogni stagione, pagina dopo pagina"
-
-#: resources/templates/partials/flowers.tpl.php:41
-msgid "Romantico"
-msgstr "Romantico"
-
-#: resources/templates/partials/flowers.tpl.php:43
-msgid ""
-"Pigna Flowers is a world full of life that blooms in every corner. A genuine "
-"tribute to the greatest teacher of creativity: Mother Nature."
-msgstr ""
-"Quello di Pigna Flowers è un mondo pieno di vita che fiorisce in ogni "
-"angolo. Un vero omaggio alla maestra di creatività più famosa: Madre Natura"
-
-#: resources/templates/partials/flowers.tpl.php:69
-msgid "Intramontabile"
-msgstr ""
-
-#: resources/templates/partials/flowers.tpl.php:71
-msgid ""
-"Between authentic colors and accurate details inspired by the most "
-"imaginative natural compositions, the refined Pigna Flowers collections "
-"never stop blooming"
-msgstr ""
-"Tra colori autentici e accurati dettagli ispirati alle più fantasiose "
-"composizioni naturali, le raffinate collezioni Pigna Flowers non smettono "
-"mai di fiorire"
-
-#: resources/templates/partials/monocromo-second.tpl.php:13
-msgid "Monocromo Diaries"
-msgstr "Monocromo diari"
-
-#: resources/templates/partials/monocromo-second.tpl.php:15
-msgid ""
-"Discover the new Monocromo #Mood diary 12 months fixed date. Each day "
-"different and full of surprises."
-msgstr ""
-"Scopri il nuovo diario Monocromo #Mood 12 mesi data fissa. Ogni giorno "
-"diverso e pieno di sorprese."
-
-#: resources/templates/partials/monocromo.tpl.php:13
-#: resources/templates/partials/monocromo.tpl.php:38
-#: resources/templates/partials/monocromo.tpl.php:59
-msgid "Copybooks"
-msgstr "Quaderni"
-
-#: resources/templates/partials/monocromo.tpl.php:15
-msgid ""
-"Learn, dream, tell, grow, have fun, express yourself. The important thing is "
-"to do it in color, in the company of the Monocromo collections by Pigna."
-msgstr ""
-"Imparare, sognare, raccontare, crescere, divertirsi, esprimersi. "
-"L’importante è farlo a colori, in compagnia delle collezioni Monocromo di "
-"Pigna."
-
-#: resources/templates/partials/monocromo.tpl.php:40
-msgid ""
-"An elegant and romantic touch, yet full of character. Browse all the more "
-"delicate shades in the Monocromo Pastel color palette."
-msgstr ""
-"Un tocco elegante e romantico, ma sempre di carattere.<br>Sfoglia tutte le "
-"sfumature più delicate nella tavolozza di colori Monocromo Pastel."
-
-#: resources/templates/partials/monocromo.tpl.php:61
-msgid ""
-"Discover all the colors of sustainability and tell a colorful future with "
-"the Monocromo Green collections by Pigna in 100% recycled paper."
-msgstr ""
-"Scopri tutti i colori della sostenibilità e racconta un futuro variopinto "
-"con le collezioni Monocromo Green di Pigna in carta 100% riciclata"
-
-#: resources/templates/partials/pages/company/content-company.tpl.php:21
-msgid ""
-"The company begins to expand its business to other categories in the school "
-"sector, so not only notebooks but also diaries, pencil cases and folders."
-msgstr ""
-"L'azienda inizia ad allargare il proprio business ad altre categorie nel "
-"mondo della scuola oltre i quaderni come diari, astucci e cartelle."
-
-#: resources/templates/partials/pages/company/content-company.tpl.php:33
-msgid ""
-"Creation of the Quablock branded ring binder, which soon becomes a national "
-"success."
-msgstr ""
-"Creazione del raccoglitore ad anelli a marchio Quablock che presto diventa "
-"un successo a livello nazionale."
-
-#: resources/templates/partials/pages/company/content-company.tpl.php:46
-msgid ""
-"Registration of the brand and launch of the iconic Monocromo paper "
-"converting product line."
-msgstr ""
-"Registrazione del marchio e lancio della iconica linea di cartotecnica "
-"Monocromo"
-
-#: resources/templates/partials/pages/company/content-company.tpl.php:58
-msgid ""
-"Entrepreneur Giorgio Jannone, from Bergamo, enters the share capital of "
-"Pigna and over the next few years becomes the sole shareholder. The company "
-"focuses on the development of paper converting products."
-msgstr ""
-"L'imprenditore bergamasco Giorgio Jannone entra nel capitale sociale di "
-"Pigna, diventando negli anni successivi l'unico azionista. L'azienda si "
-"concentra nello sviluppo di prodotti cartotecnici."
-
-#: resources/templates/partials/pages/company/content-company.tpl.php:71
-msgid ""
-"The new headquarters of Cartiere Paolo Pigna, also in Alzano Lombardo, are "
-"inaugurated."
-msgstr ""
-"Viene inaugurata la nuova sede di Cartiere Paolo Pigna sempre ad Alzano "
-"Lombardo."
-
-#: resources/templates/partials/pages/company/content-company.tpl.php:83
-msgid "Cartiere Paolo Pigna S.p.A. enters into a continuity arrangement."
-msgstr ""
-"Cartiere Paolo Pigna S.p.A. entra in procedura di concordato in continuità."
-
-#: resources/templates/partials/pages/company/content-company.tpl.php:96
-msgid ""
-"Through one of its funds, shareholder DeA Capital (De Agostini Group) joins "
-"Pigna's corporate structure with a 51&#37; share."
-msgstr ""
-"Attraverso uno dei suoi fondi entra nella compagine sociale di Pigna il "
-"socio DeA Capital (Gruppo De Agostini) al 51%."
+"Il mondo Barrow incontra Pigna per una nuova collezione davvero imperdibile."
 
 #: resources/templates/partials/pages/company/content-company.tpl.php:108
 msgid ""
@@ -792,49 +860,13 @@ msgstr ""
 "nominato Presidente del CdA e Amministratore delegato Massimo Fagioli "
 "(proveniente dal Gruppo De Agostini). "
 
-#: resources/templates/partials/pages/company/content-company.tpl.php:121
+#: resources/templates/partials/pages/company/content-company.tpl.php:21
 msgid ""
-"Cartiere Paolo Pigna S.p.A. exits the continuity arrangement two years in "
-"advance of the agreed plan. Pigna opens up to new markets beyond the school "
-"sector to enter the adult stationery market and also opens up to new "
-"channels such as e-commerce and foreign markets. The positioning of the "
-"Italian love brand is strengthened with international operations such as the "
-"collaboration with the MoMa Design Store in New York for the 180 th "
-"anniversary of the brand. The Buffetti Group acquires 100&#37; of the shares."
+"The company begins to expand its business to other categories in the school "
+"sector, so not only notebooks but also diaries, pencil cases and folders."
 msgstr ""
-"Cartiere Paolo Pigna S.p.A. esce dal concordato in continuità con due anni "
-"di anticipo rispetto al piano concordatario. Pigna si apre a nuovi mercati "
-"oltre la scuola, entrando nel mercato stationery per adulti, aprendosi anche "
-"a nuovi canali come e-commerce ed estero. Si rafforza il posizionamento di "
-"love brand italiano con operazioni di respiro internazionale come la "
-"collaborazione con il MoMa Design Store di New York in occasione dei 180 "
-"anni del brand. Il Gruppo Buffetti acquisisce il 100% delle quote azionarie."
-
-#: resources/templates/partials/pages/company/content-company.tpl.php:133
-msgid ""
-"For the first time in its history, Cartiere Paolo Pigna, with its "
-"headquarters in Alzano Lombardo, one of the Italian towns most affected by "
-"Covid-19 and a symbol of the emergency, is forced to close its plant for 40 "
-"days to respond to the emergency. The company reopens and quickly makes up "
-"the loss in production to close the worst year in the Italian economy with "
-"the best performance of its reference sector. The new brand \t&quot;P <i>di</"
-"i> Pigna\t&quot; is launched."
-msgstr ""
-"Per la prima volta nella sua storia, Cartiere Paolo Pigna, con la sua sede "
-"ad Alzano Lombardo, uno dei comuni italiani più colpiti e simbolo "
-"dell'emergenza, è costretta a chiudere per 40 giorni il suo stabilimento per "
-"rispondere all'emergenza da Covid-19. L'azienda ha riaperto recuperando in "
-"pochissimo tempo la produzione arretrata chiudendo l'anno peggiore "
-"dell'economia italiana con la performance migliore del proprio settore di "
-"riferimento. Viene lanciato il nuovo brand \"P <i>di</i> Pigna\". "
-
-#: resources/templates/partials/pages/company/content-company.tpl.php:148
-msgid ""
-"Pigna recognised as a historic brand of national interest by the Ministry of "
-"Economic Development"
-msgstr ""
-"Pigna riconosciuto come marchio storico di interesse nazionale dal Ministero "
-"dello Sviluppo Economico"
+"L'azienda inizia ad allargare il proprio business ad altre categorie nel "
+"mondo della scuola oltre i quaderni come diari, astucci e cartelle."
 
 #: resources/templates/partials/pages/company/content-company.tpl.php:151
 msgid ""
@@ -863,10 +895,6 @@ msgstr ""
 "garantire stabilità e sicurezza alle imprese italiane. A marzo 2021, i "
 "marchi riconosciuti come storici sono solo 119 in tutta Italia."
 
-#: resources/templates/partials/pdi.tpl.php:14
-msgid "Olimpia Zagnoli "
-msgstr ""
-
 #: resources/templates/partials/pdi.tpl.php:16
 msgid ""
 "The illustrator Olimpia Zagnoli interprets the Italian style with soft "
@@ -877,62 +905,13 @@ msgstr ""
 "morbide e colori camaleontici, disegnando due personaggi di fantasia, "
 "curiosi e irresistibili..."
 
-#: resources/templates/partials/pdi.tpl.php:38
-msgid "Gio Ponti"
-msgstr ""
-
-#: resources/templates/partials/pdi.tpl.php:40
+#: resources/templates/partials/pages/company/content-company.tpl.php:71
 msgid ""
-"Hypnotic fantasy and mathematical rigor. A collection dedicated to the great "
-"architect of beauty who brought the decoration of the ideal Italian home all "
-"over the world."
+"The new headquarters of Cartiere Paolo Pigna, also in Alzano Lombardo, are "
+"inaugurated."
 msgstr ""
-"Ipnotica fantasia e rigore matematico. Una collezione dedicata al grande "
-"architetto della bellezza che ha portato il decoro della casa ideale "
-"italiana in tutto il mondo."
-
-#: resources/templates/partials/pdi.tpl.php:62
-msgid "Bella Copia"
-msgstr ""
-
-#: resources/templates/partials/pdi.tpl.php:64
-msgid ""
-"Between lines and colors, a hymn to the more relaxed, playful, and joyful "
-"Dolce Vita that since 1952 tells the inimitable idea of the well-made in "
-"Italy."
-msgstr ""
-"Tra righe e colori, un inno alla Dolce Vita più rilassata, giocosa e gioiosa "
-"che dal 1952 racconta l’inimitabile idea del fatto bene in Italia"
-
-#: resources/templates/partials/pdi.tpl.php:85
-msgid "Enzo Mari"
-msgstr ""
-
-#: resources/templates/partials/pdi.tpl.php:87
-msgid ""
-"In search of the pure forms of nature through the essential and democratic "
-"approach of one of the greatest Italian artists and designers."
-msgstr ""
-"Alla ricerca delle forme pure della natura attraverso l’approccio essenziale "
-"e democratico di uno dei più grandi artisti e designer italiani."
-
-#: resources/templates/partials/pdi.tpl.php:107
-msgid "Lettera 22"
-msgstr ""
-
-#: resources/templates/partials/pdi.tpl.php:109
-msgid ""
-"Much more than just a typewriter. A tribute to the modern icon with which "
-"Olivetti has allowed millions of people to work and write with a real "
-"portable office."
-msgstr ""
-"Molto più di una semplice macchina da scrivere. Un omaggio all'icona moderna "
-"con cui Olivetti ha permesso a milioni di persone di lavorare e scrivere con "
-"un vero ufficio portatile."
-
-#: resources/templates/partials/pdi.tpl.php:129
-msgid "Nero Oriente"
-msgstr ""
+"Viene inaugurata la nuova sede di Cartiere Paolo Pigna sempre ad Alzano "
+"Lombardo."
 
 #: resources/templates/partials/pdi.tpl.php:131
 msgid ""
@@ -944,109 +923,84 @@ msgstr ""
 "tra mondi, una pietra miliare nella nostra tradizione, oggi rivisto con un "
 "tocco di ironia."
 
-#: resources/templates/partials/product/content.tpl.php:65
-#: resources/templates/partials/product/content.tpl.php:130
-msgid "Acquista ora"
+#: 404.php:26
+msgid "The page you are looking for no longer exists."
 msgstr ""
 
-#: resources/templates/partials/scrittura.tpl.php:12
-msgid "Colored Writing"
-msgstr "Scrittura colorata"
-
-#: resources/templates/partials/scrittura.tpl.php:14
-msgid "Discover all the Colored Writing products"
-msgstr "Scopri tutti i prodotti Scrittura Colorata"
-
-#: resources/templates/partials/searchform.tpl.php:8
-msgid "Searching for..."
-msgstr ""
-
-#: resources/templates/partials/sostenibilita.tpl.php:24
-#: resources/templates/partials/sostenibilita.tpl.php:47
-#: resources/templates/partials/sostenibilita.tpl.php:69
-msgid "Sostenibilità"
-msgstr "Sostenibilità"
-
-#: resources/templates/partials/sostenibilita.tpl.php:26
+#: resources/templates/partials/content-sustainability.tpl.php:16
 msgid ""
-"Made  in  Italy,  Patrimonio  storico,  Sostenibilità  e  Design.  Sono  "
-"questi  i  punti  cardine  su  cui  Pigna costruisce la propria evoluzione "
-"aziendale, intendendo la sostenibilità come modo di fare impresa e business  "
-"ogni  giorno:  un  percorso  in  continuo  divenire,  che  necessita  di  "
-"un  lavoro  intenso  e quotidiano."
+"The Pigna Sustainability Report aims to tell in a complete and transparent "
+"way what sustainability means for the company. A snapshot of the actions, "
+"results, approaches, and strategies with which Pigna wants to create lasting,"
+" widespread, and consistent value with the needs of all stakeholders and "
+"with ecological balances."
 msgstr ""
+"Il Rapporto di Sostenibilità di Pigna mira a raccontare in maniera completa "
+"e trasparente cosa significa sostenibilità per l’azienda. Una fotografia "
+"istantanea di azioni, risultati, approcci e strategie con cui Pigna vuole "
+"creare valore durevole, diffuso e coerente con le necessità di tutti gli "
+"stakeholder e con gli equilibri ecologici."
 
-#: resources/templates/partials/sostenibilita.tpl.php:49
+#: resources/templates/partials/pages/company/content-company.tpl.php:96
 msgid ""
-"Pigna  opera  all’interno  delle  linee  guida  internazionalmente  "
-"riconosciute  come  il  Global  Compact delle  Nazioni  Unite,  aderendo  "
-"all’Agenda  2030  e  agli  Obiettivi  di  Sviluppo  Sostenibile.  Oggi "
-"l’impegno  dell’azienda  per  la  sostenibilità  si  focalizza  sul  "
-"raggiungimento  di  6  dei  17  Obiettivi  di Sviluppo Sostenibile."
+"Through one of its funds, shareholder DeA Capital (De Agostini Group) joins "
+"Pigna's corporate structure with a 51&#37; share."
 msgstr ""
+"Attraverso uno dei suoi fondi entra nella compagine sociale di Pigna il "
+"socio DeA Capital (Gruppo De Agostini) al 51%."
 
-#: resources/templates/partials/sostenibilita.tpl.php:71
+#: index.php:27
 msgid ""
-"Il primo Rapporto di Sostenibilità di Pigna mira a raccontare in maniera "
-"completa e trasparente cosa significa sostenibilità per l’azienda. Una "
-"fotografia istantanea di azioni, risultati, approcci e strategie con cui "
-"Pigna vuole creare valore durevole, diffuso e coerente con le necessità di "
-"tutti gli stakeholder e con gli equilibri ecologici."
+"Tonik is a WordPress Starter Theme which aims to modernize, organize and "
+"enhance some aspects of WordPress theme development. Take a look at what is "
+"waiting for you."
 msgstr ""
 
-#: resources/templates/partials/zaini.php:13
-msgid "friend of colors"
-msgstr "amici del colore"
+#: index.php:26
+msgid "Tonik — WordPress Starter Theme"
+msgstr ""
 
-#: resources/templates/partials/zaini.php:15
-#: resources/templates/partials/zaini.tpl.php:14
+#: app/Structure/taxonomies.php:40
+msgid "Update Genre"
+msgstr ""
+
+#: resources/templates/partials/content-company.tpl.php:71
+#, fuzzy
+#| msgid ""
+#| "The new headquarters of Cartiere Paolo Pigna, also in Alzano Lombardo, "
+#| "are inaugurated."
 msgid ""
-"From school to free time, what matters is to give a unique nuance to your "
-"daily adventures in the company of Monochrome backpacks"
+"Viene inaugurata la nuova sede di Cartiere Paolo Pigna sempre ad Alzano "
+"Lombardo."
 msgstr ""
-"Dalla scuola al tempo libero, ciò che conta è dare una sfumatura unica alle "
-"tue avventure quotidiane in compagnia degli zaini Monochrome"
+"Viene inaugurata la nuova sede di Cartiere Paolo Pigna sempre ad Alzano "
+"Lombardo."
 
-#: resources/templates/partials/zaini.tpl.php:12
-msgid "Backpacks"
-msgstr "Zaini"
+#: resources/templates/partials/content-certificates.tpl.php:7
+#: resources/templates/partials/content-certificates.tpl.php:18
+#: resources/templates/partials/content-certificates.tpl.php:29
+#: resources/templates/partials/content-certificates.tpl.php:40
+#: resources/templates/partials/content-certificates.tpl.php:51
+#: resources/templates/partials/content-company-policies.tpl.php:7
+#: resources/templates/partials/content-company-policies.tpl.php:18
+#: resources/templates/partials/content-company-policies.tpl.php:29
+#: resources/templates/partials/content-company-policies.tpl.php:40
+#: resources/templates/partials/content-company-policies.tpl.php:51
+#: resources/templates/partials/content-documents.tpl.php:11
+#: resources/templates/partials/content-documents.tpl.php:13
+#: resources/templates/partials/content-documents.tpl.php:29
+#: resources/templates/partials/content-documents.tpl.php:31
+#: resources/templates/partials/content-documents.tpl.php:46
+#: resources/templates/partials/content-documents.tpl.php:48
+msgid "View Doc"
+msgstr "Visualizza Documento"
 
-#~ msgid "Cases"
-#~ msgstr "Astucci"
+#: bootstrap/compatibility.php:52
+msgid ""
+"We could not find <a href='//github.com/tonik/gin'><strong>tonik/gin</strong>"
+"</a> package. You have to install it before using this theme."
+msgstr ""
 
-#~ msgid "Find out more"
-#~ msgstr "Scopri di più"
-
-#~ msgid "Green"
-#~ msgstr "Green"
-
-#~ msgid ""
-#~ "I have read the information provided pursuant to art. 13 of the Reg. (EU "
-#~ "2016/679)"
-#~ msgstr ""
-#~ "Ho preso visione dell’informativa resa ai sensi dell’art. 13 del Reg. (UE "
-#~ "2016/679)"
-
-#~ msgid ""
-#~ "Made in Italy, Historical Heritage, Sustainability and Design. These are "
-#~ "the cornerstones on which Pigna builds its business evolution, "
-#~ "understanding sustainability as a way of doing business every day: a path "
-#~ "in continuous evolution, which requires intense and daily work."
-#~ msgstr ""
-#~ "Made in Italy, Patrimonio storico, Sostenibilità e Design. Sono questi i "
-#~ "punti cardine su cui Pigna costruisce la propria evoluzione aziendale, "
-#~ "intendendo la sostenibilità come modo di fare impresa e business ogni "
-#~ "giorno: un percorso in continuo divenire, che necessita di un lavoro "
-#~ "intenso e quotidiano."
-
-#~ msgid "Original"
-#~ msgstr "Original"
-
-#~ msgid "Pastel"
-#~ msgstr "Pastel"
-
-#~ msgid "Timeless"
-#~ msgstr "Intramontabile"
-
-#~ msgid "Watch the video"
-#~ msgstr "Guarda il video"
+#: app/Structure/sidebars.php:28
+msgid "Website sidebar"
+msgstr ""

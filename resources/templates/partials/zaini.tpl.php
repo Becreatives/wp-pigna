@@ -11,10 +11,10 @@
                             <div class="cell small-12 medium-12 large-5">
                                 <h1><?php _e('Backpacks', $textdomain); ?></h1>
                                 <p>
-                                    <?php _e('From school to free time, what matters is to give a unique nuance to your daily adventures in the company of Monochrome backpacks', $textdomain); ?>
+                                    <?php _e('From school to free time, what matters is to give a unique nuance to your daily adventures in the company of Monocromo backpacks', $textdomain); ?>
                                 </p>
                                 <div class='actionbox'>
-                                    <a href="zaini" target='_blank' class='btn' style="font-size:18px"><?php _e('SHOP NOW', $textdomain); ?></a>
+                                    <a href="zaini" target='_blank' class='btn' style="font-size:18px"><?php _e('DISCOVER MORE', $textdomain); ?></a>
                                 </div>
                             </div>
                             <div class="cell hide-for-small-only medium-6 large-5">
