@@ -4,7 +4,7 @@
             <h2><?php _e('PEFC ® certification', $textdomain); ?></h2>
         </div>
         <div class="cell small-12 medium-4 text-center">
-            <a class="btn" target="_blank" href="<?= get_stylesheet_directory_uri() ?>/public/images/PEFC1.pdf"><?php _e('View Doc', $textdomain); ?></a>
+            <a class="btn" target="_blank" href="<?= get_stylesheet_directory_uri() ?>/public/images/PEFC22.pdf"><?php _e('View Doc', $textdomain); ?></a>
         </div>
     </div>
 </div>
@@ -15,7 +15,7 @@
             <h2><?php _e('FSC® certification', $textdomain); ?></h2>
         </div>
         <div class="cell small-12 medium-4 text-center">
-            <a class="btn" target="_blank" href="<?= get_stylesheet_directory_uri() ?>/public/images/FSC2.pdf"><?php _e('View Doc', $textdomain); ?></a>
+            <a class="btn" target="_blank" href="<?= get_stylesheet_directory_uri() ?>/public/images/FSC22.pdf"><?php _e('View Doc', $textdomain); ?></a>
         </div>
     </div>
 </div>
