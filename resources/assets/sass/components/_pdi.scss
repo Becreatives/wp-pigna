@@ -184,7 +184,7 @@
       }
       &.slider-6 {
         background-image: url("../images/pdi-6.png");
-        @include breakpoint(small only) {
+        @include breakpoint(medium down) {
           background-image: url("../images/PdiPigna-6-mobile.png");
         }
       }
