@@ -31,6 +31,7 @@ function render_home()
     //template('partials/popup');
 
     //template('partials/bellacopia', ['textdomain' => $textdomain]);
+    template('partials/sinner', ['textdomain' => $textdomain]);
     template('partials/ferragni', ['textdomain' => $textdomain]);
     //template('partials/company', ['textdomain' => $textdomain]);
     //template('partials/sostenibilita', ['textdomain' => $textdomain]);

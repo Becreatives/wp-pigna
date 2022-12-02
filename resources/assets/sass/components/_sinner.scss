@@ -1,0 +1,172 @@
+.sinner {
+  position: relative;
+  .orbit-next,.orbit-previous {
+    svg {
+      path {
+        fill: #000 !important;
+      }
+    }
+  }
+  .orbit-bullets {
+
+    button {
+      &:last-child {
+        margin-right: 0;
+      }
+      margin-right: 15px;
+      background-color: transparent !important;
+      border: 2px solid #fff;
+      &.is-active {
+        background-color: #fff !important;
+      }
+    }
+  }
+  figure.text {
+    color: $white;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    h1 {
+      font-family: "Noto Serif";
+      font-weight: bold;
+      font-size: 48pt;
+      line-height: 48pt;
+    }
+
+    p {
+      font-size: 14pt;
+      line-height: 16.8pt;
+      max-width: 600px;
+    }
+  }
+
+  .cell {
+    padding: 0 $marginLeft;
+  }
+
+
+  .orbit-container {
+    height: $sectionHeight;
+
+    .orbit-slide,
+    .orbit-figure {
+      height: 100%;
+    }
+
+    figure {
+      @include breakpoint(small only) {
+        &.align-middle {
+          padding: 2rem 0 0;
+          -ms-flex-align: start;
+          align-items: flex-start;
+        }
+      }
+      color: $white;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+      .btn {
+        margin: 25px auto;
+        display: block;
+        text-align: center;
+        max-width: 200px;
+        padding: 10px;
+        background-color: rgb(210,253,87);
+        text-transform: uppercase;
+        color: #000;
+        border-radius: 250px;
+        font-weight: 700;
+        font-size: 18pt;
+        transition: all 0.2s ease-in-out;;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+
+      h1 {
+        font-family: 'Almarai',sans-serif !important;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        font-size: 50pt;
+        line-height: 50pt;
+        margin-bottom:25px;
+        max-width: 650px;
+        height: 80px;
+        @include breakpoint(small only){
+          font-size: 30pt;
+          line-height: 30pt;
+        }
+        &.--blue {
+          color: #0B7BBF;
+        }
+        &.--red {
+          color: #A21C3F;
+        }
+      }
+
+      p {
+        min-height: 80px;
+        text-align: center;
+        font-family: "Almarai",sans-serif;
+        color: #fff;
+        font-size: 16pt;
+        line-height: 18pt;
+        max-width: 650px;
+
+      }
+  
+      &.slider-1 {
+        background-image: url("../images/sinner.png");
+        @include breakpoint(small only) {
+          background-image: url("../images/sinner-mobile.png");
+        }
+      }
+    }
+
+    .cell {
+      padding: 0 $marginLeft;
+    }
+  }
+
+  .orbit-bullets {
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 1rem 0;
+    width: 100%;
+
+    button {
+      background-color: $grey;
+      cursor: pointer;
+      width: 10px;
+      height: 10px;
+
+      &.is-active {
+        background-color: $white;
+      }
+    }
+  }
+
+  .social {
+    position: absolute;
+    bottom: $marginTop;
+    left: $marginLeft;
+
+    h4 {
+      font-family: 'Barlow';
+      font-size: 16pt;
+      margin-bottom: 0;
+    }
+
+    a {
+      color: $white;
+      font-size: 14pt;
+      &:first-of-type {
+        margin-right: .2rem;
+      }
+    }
+  }
+}
