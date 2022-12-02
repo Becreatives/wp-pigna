@@ -9,7 +9,11 @@
               <div class="cell small-12 medium-12 large-4">
                 <img src="<?= get_stylesheet_directory_uri() ?>/public/images/sinner-logo.png">
                 <div class='actionbox'>
-                  <a href="https://www.amazon.it/stores/page/6E4A42B1-693A-4267-9060-EC9696B52202?ingress=0&visitId=607648a1-ee84-4a2d-96bf-2b94c7615669&ref_=ast_bln" target='_blank' class='btn'><?php _e('SHOP NOW', $textdomain); ?></a>
+                  <?php if (ICL_LANGUAGE_CODE == 'en') { ?>
+                    <a href="https://www.amazon.co.uk/stores/page/695EE3E0-AF06-44AD-86F7-ABCE63354D15?ingress=2&visitId=bd2192a3-c46e-4f8d-8388-e122f2bfce77&ref_=ast_bln" target='_blank' class='btn'><?php _e('SHOP NOW', $textdomain); ?></a>
+                  <?php } else { ?>
+                    <a href="https://www.amazon.it/stores/page/6E4A42B1-693A-4267-9060-EC9696B52202?ingress=0&visitId=607648a1-ee84-4a2d-96bf-2b94c7615669&ref_=ast_bln" target='_blank' class='btn'><?php _e('SHOP NOW', $textdomain); ?></a>
+                  <?php } ?>
                 </div>
               </div>
               <div class="cell hide-for-small-only medium-6 large-5"></div>
